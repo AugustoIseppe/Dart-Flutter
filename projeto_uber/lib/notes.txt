@@ -1,0 +1,14 @@
+Seção 19 - UBER
+
+AULA 209 -> configuração do projeto -> OK
+AULA 210 -> criando a interface de login -> OK
+AULA 211 -> criando inteface de cadastro -> OK
+AULA 212 -> configurações de rotas -> OK
+AULA 213 -> fazendo cadastro -> OK
+AULA 214 -> fazendo login e deslogando -> OK
+AULA 215 -> verificando usuário logado -> OK
+AULA 216 -> configurando e exibindo mapa -> OK
+AULA 217 -> exibindo local do usuário -> OK
+AULA 218 -> criando interface de viagem -> OK
+AULA 219 -> seleção automática de imagens -> OK, obs: não faz parte do contudo do projeto UBER (apenas aula demonstrativa)
+AULA 219 -> exibindo ícone de passageiro ->

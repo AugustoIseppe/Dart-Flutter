@@ -1,3 +1,7 @@
+
+
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class HomeApiWeather extends StatefulWidget {
@@ -21,9 +25,7 @@ class _HomeApiWeatherState extends State<HomeApiWeather> {
           IconButton(onPressed: (){}, icon: const Icon(Icons.refresh))
         ],
       ),
-      body: Container(
-        child: const Text('Hello API Weather'),
-      ),
+      body: const Text('Hello API Weather'),
     );
   }
 }

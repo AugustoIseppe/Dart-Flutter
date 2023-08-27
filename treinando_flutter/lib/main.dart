@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:treinando_flutter/jsonPlaceholder.dart';
+import 'package:treinando_flutter/POO/homePoo.dart';
 
 
 //coordenadas pirassununga = -22.0012278478714, -47.42619858643563
@@ -11,7 +11,7 @@ void main()  {
   // print(response.body);
   //
   runApp(const MaterialApp(
-    home: HomeJsonPlaceholder(),
+    home: HomePoo(),
   ));
 }
 

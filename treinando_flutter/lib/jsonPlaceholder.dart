@@ -65,7 +65,7 @@ class _HomeJsonPlaceholderState extends State<HomeJsonPlaceholder> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          Text(title, style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
+                          Text(title, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
                           ClipRRect(
                             borderRadius: BorderRadius.circular(20),
                             child: Expanded(

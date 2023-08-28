@@ -1,3 +1,6 @@
+
+
+
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
@@ -22,16 +25,16 @@ class _HomePooState extends State<HomePoo> {
     String nome = controllerNome.text;
     String email = controllerEmail.text;
     Usuario usuario = Usuario(
-      nome: nome,
-      email: email
+        nome = nome,
+        email = email
       );
 
       setState(() {
-        nomeUsuario = usuario.nome!;
-        emailUsuario = usuario.email!;
+        nomeUsuario = usuario.nome;
+        emailUsuario = usuario.email;
       });
-    print('nome:' + usuario.nome!);
-    print('email:' + usuario.email!);
+    print('nome:${usuario.nome}');
+    print('email:${usuario.email}');
     _clearFields();
   }
 
@@ -99,8 +102,8 @@ class _HomePooState extends State<HomePoo> {
                   style: TextStyle(color: Colors.black),
                 ),
               ),
-              Text('Nome : ' + nomeUsuario),
-              Text('Email : ' + emailUsuario),
+              Text('Nome : $nomeUsuario'),
+              Text('Email : $emailUsuario'),
               
             ],
           ),

@@ -11,30 +11,50 @@
 
 <body>
 
-    <?php session_start();
+    <?php
+    session_start();
     include 'conexao.php';
-    // include 'menu.php';
+    include 'menu.php';
     if (!empty($_GET['id'])) {
         $id_prod = $_GET['id'];
         $consulta = $conexao->query("SELECT * FROM local WHERE localid='$id_prod'");
         $exibir = $consulta->fetch(PDO::FETCH_ASSOC);
     }
+    $placeId = $exibir['place_id'];
+    $apiKey = 'AIzaSyDQbfbgz5ADPHQQ5JHwQrMXuuNHo5Yq1zs';
+    $apiUrl = "https://maps.googleapis.com/maps/api/place/details/json?place_id=$placeId&fields=opening_hours&key=$apiKey&language=pt-BR";
+    date_default_timezone_set('America/Sao_Paulo');
+    $apiResponse = file_get_contents($apiUrl);
+    $apiData = json_decode($apiResponse, true);
+    $status_abertura = "Fechado"; // Define um valor padrão
+    if ($apiResponse && isset($apiData['result']['opening_hours']['periods'])) {
+        $periodos = $apiData['result']['opening_hours']['periods'];
+        // Obtém o dia da semana atual (0 = domingo, 6 = sábado)
+        $dia_atual = date('w');
+        foreach ($periodos as $periodo) {
+            if ($periodo['open']['day'] == $dia_atual) {
+                $hora_abertura = substr($periodo['open']['time'], 0, 2);
+                $minuto_abertura = substr($periodo['open']['time'], 2, 2);
+                $hora_fechamento = substr($periodo['close']['time'], 0, 2);
+                $minuto_fechamento = substr($periodo['close']['time'], 2, 2);
+                $horario_atual = date('H:i');
+                $minutos_abertura = $hora_abertura * 60 + $minuto_abertura;
+                $minutos_fechamento = $hora_fechamento * 60 + $minuto_fechamento;
+                $minutos_atual = intval(substr($horario_atual, 0, 2)) * 60 + intval(substr($horario_atual, 3, 2));
+                if ($minutos_atual >= $minutos_abertura && $minutos_atual <= $minutos_fechamento) {
+                    $status_abertura = "Aberto";
+                    break;
+                }
+            }
+        }
+    }
     ?>
-
-
-
-
-
-
     <!--CONTAINER PRINCIPAL-->
     <div id="container-principal">
-
         <!--##############################################-->
-
-
         <!--CABEÇALHO-->
         <div class="cabecalho">
-            <h1>Casa Pé na Areia, Maresias</h1>
+            <h1 class="fontedetalhes"><?php echo $exibir['localnome']  ?></h1>
             <p>
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -42,53 +62,40 @@
                     </svg>
                     Pirassununga, São Paulo, Brasil
                 </span>
-
+                <p> <?php echo nl2br($exibir['localenderecodescricao']);?> </p>   
             </p>
         </div>
-
-
-
-        <!-- <hr style="color: black; height: 1px ; background-color: black;"> -->
-        <!--##############################################-->
-
-        <!-- IMAGENS -->
-        <!-- Container de imagens -->
-        <!-- Container de imagens -->
         <div class="image-container">
             <div class="main-image" style="background-color: cornflowerblue;">
                 <!-- Conteúdo da imagem à esquerda -->
-                <img src="detalhes/assets/apartamento.jpg" class="imagem-grid">
-
+                <img src="assets/apartamento.jpg" class="imagem-grid">
             </div>
             <div class="image" style="background-color: blueviolet;">
                 <!-- Conteúdo da outra imagem 1 -->
-                <img src="detalhes/assets/foto_header_hoteis.jpg" class="imagem-grid">
+                <img src="assets/foto_header_hoteis.jpg" class="imagem-grid">
             </div>
             <div class="image" class="imagem-grid">
-                <img src="detalhes/assets/hotel-fazenda.jpg" class="imagem-grid">
+                <img src="assets/hotel-fazenda.jpg" class="imagem-grid">
                 <!-- Conteúdo da outra imagem 2 -->
             </div>
             <div class="image" class="imagem-grid">
                 <!-- Conteúdo da outra imagem 3 -->
-                <img src="detalhes/assets/hotel-room-g680230bde_1280.jpg" class="imagem-grid">
-
+                <img src="assets/hotel-room-g680230bde_1280.jpg" class="imagem-grid">
             </div>
             <div class="image" class="imagem-grid">
-                <img src="detalhes/assets/motel.jpg" class="imagem-grid">
+                <img src="assets/motel.jpg" class="imagem-grid">
                 <!-- Conteúdo da outra imagem 4 -->
             </div>
         </div>
-
         <!--##############################################-->
-        <!-- <hr style="color: black; height: 1px ; background-color: black;"> -->
-
+        <div class="container-endereco">
+        </div>
+        <!--##############################################-->
         <div class="container-informacoes">
             <div class="infos-lugar">
                 <h2 style="text-align: start;">O que esse lugar oferece</h2>
-
                 <div class="conteudo-informacoes">
                     <div class="infos-local">
-
                         <!--###-->
                         <p>
                             <span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -124,11 +131,6 @@
                             </span> <span style="padding-left: 2%;">Jacuzzi</span>
                         </p>
                         <!--###-->
-
-                        <!--###-->
-
-
-
 
                     </div>
                     <div class="infos-local">
@@ -167,46 +169,39 @@
                                 </svg> </span> <span style="padding-left: 2%;">TV</span>
                         </p>
                         <!--###-->
-
-                        <!--###-->
-
-
-
-
                     </div>
-
                 </div>
-
-
             </div>
             <div class="infos-descricao">
                 <h2 style="text-align: start;">Descrição do Local</h2>
-                <p style="text-align: justify;">Maravilhosa casa em frente ao mar. Praia de Maresias.
-                    A casa conta com vários ambientes aconchegantes, amplas salas, área de jogos, piscina, área gourmet com churrasqueira,
-                    cozinha totalmente equipada. Uma casa com total interação e vista para o mar para lazer completo da família.
+                <p style="text-align: justify;">
+                <?php echo nl2br($exibir['localdescricao']);?>
                 </p>
             </div>
         </div>
-
-
         <!--##############################################-->
-        <div>
+        <div class="container-map">
             <h2>Localização</h2>
             <div id="map" class="column">
-                <h1>Localiação</h1>
+                <h1>Localização</h1>
             </div>
         </div>
-
-        
-
-        
         <div class="user-coments">
-
+            <h1>Comentarios dos Usuários</h1>
+            <?php 
+            include 'local_rating.php';
+            foreach ($reviews as $review) {
+                $authorProfilePhoto = $review['profile_photo_url'];
+                $authorName = $review['author_name'];
+                $reviewText = $review['text'];
+                $reviewRating = $review['rating'];
+                // Exiba a avaliação 
+                echo "<img src='$authorProfilePhoto' alt='$authorName' style='width: 50px; height: 50px; border-radius: 50%;'<p><b>$authorName</b> avaliou com $reviewRating estrelas:</p>";
+                echo "<p>$reviewText</p>";
+            } 
+            ?>
         </div>
-        
-        
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQbfbgz5ADPHQQ5JHwQrMXuuNHo5Yq1zs&libraries=places&callback=initMap"></script>
-
         <script>
             function initMap() {
                 var latitude = <?php echo $exibir['locallatitude']; ?>;
@@ -219,9 +214,7 @@
                     },
                     zoom: 15
                 };
-
                 var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
                 var marker = new google.maps.Marker({
                     position: {
                         lat: latitude,
@@ -235,5 +228,4 @@
     </div>
     <?php include 'rodape.html' ?>
 </body>
-
 </html>

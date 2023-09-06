@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/testehoteis.css">
+    <link rel="stylesheet" type="text/css" href="gerar_css.php">
+
+    <style>
+    .minha-classe {
+        background-image: url('assets/uploads/<?php echo $exibir['localfoto1']; ?>');
+    }
+</style>
 
 </head>
 
@@ -41,42 +48,40 @@
             <!--início card-->
             <ul>
 
-                <li class="booking-card" style="background-image: url(assets/uploads/048ebfaef28b2524ba490f2834c1419c.jpg); object-fit: fill;">
+                <li class="booking-card" style="background-image: url(assets/uploads/<?php echo $exibir ['localfoto1'];?>); ">
 
-                    <div class="book-container">
+                    <div class="book-container ">
 
                         <div class="content">
                             <!--botao mais informações-->
                             <!-- <a href="">Mais Informações</a> -->
                             <div class="box-3">
+                            <a href="detalhes.php?id=<?php echo $exibir ['localid'];?>">
                                 <div class="btn btn-three">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                         <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
                                     </svg>
-                                    <a href="detalhes.php">
                                         Detalhes
-                                    </a>
-
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                     </div>
                     <div class="informations-container">
 
-                        <h2 class="title"><?php echo $exibir['localnome']; ?></h2>
+                        <h2 class="title"><?php echo ucwords($exibir['localnome']) ?></h2>
 
                         <p class="sub-title">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="0.9em" style="color: gainsboro !important;" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="0.9em" style="color: gainsboro !important;" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
                             </svg>
 
                             <?php echo $exibir['localcidade']; ?>
                         </p>
-                        
-                        <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
-                        </svg>
+
+                        <p class="price" >
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>                            
                         <?php echo $exibir['localemail']; ?>
                         </p>
 
@@ -97,10 +102,13 @@
                                     <p><?php echo $exibir['localtelefone']; ?></p>
                                 </div>
                             </div>
-                            <p class="disclaimer">
-                                <!--DESCRIÇÃO DO LOCAL-->
-                                <?php echo substr($exibir['localdescricao'], 0, 100); ?>
-                            </p>
+                            <div class="area-disclaimer" style="overflow: auto; padding: 5px;">
+                                <p class="disclaimer" style="word-wrap: break-word;">
+                                    <!--DESCRIÇÃO DO LOCAL-->
+                                    <?php echo substr($exibir['localdescricao'], 0, 100) . "..."; ?>
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </li>

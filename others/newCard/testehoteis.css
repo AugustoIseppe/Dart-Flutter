@@ -26,9 +26,10 @@
     list-style: none;
     padding: 0;
   }
+  
   ul .booking-card {
     position: relative;
-    width:350px;
+    width: 400px;
     display: flex;
     flex: 0 0 350px;
     flex-direction: column;
@@ -39,10 +40,10 @@
     border-radius: 10px;
     overflow: hidden;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
     text-align: center;
     color: #0a4870;
-    transition: 0.3s;
+    transition: 1s;
   }
   ul .booking-card::before {
     content: "";
@@ -146,10 +147,12 @@
   }
   ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
     margin-bottom: 5px;
+    
   }
   ul .booking-card .informations-container .more-information .info-and-date-container .box.info {
     color: #0a4870;
     margin-right: 10px;
+
   }
   ul .booking-card .informations-container .more-information .disclaimer {
     margin-top: 20px;
@@ -241,3 +244,7 @@
     opacity: 1;
     transform: scale(1,1);
   }
+
+  .icon {
+    margin-right: 5px; /* Ajuste a margem conforme necessário */
+}

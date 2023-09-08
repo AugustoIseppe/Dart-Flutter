@@ -12,6 +12,7 @@ main() {
     print("$nome, Você está no peso ideal");
   } else {
     print("$nome, Você está obeso");
+    print("$nome, Você está obeso");
   }
 
 

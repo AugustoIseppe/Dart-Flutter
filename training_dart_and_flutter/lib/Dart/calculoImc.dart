@@ -14,8 +14,6 @@ main() {
     print("$nome, Você está obeso");
     print("$nome, Você está obeso");
   }
-
-
 }
 
 String pegarNome() {
@@ -37,6 +35,7 @@ double pegarPeso() {
     return double.parse(pesoString);
   }
 }
+
 double pegarAltura() {
   print("Informe sua altura");
   final String? alturaString = stdin.readLineSync();
@@ -47,12 +46,6 @@ double pegarAltura() {
   }
 }
 
-double calcularImc(double peso, double altura){
-  return peso / ( altura * altura);
+double calcularImc(double peso, double altura) {
+  return peso / (altura * altura);
 }
-
-
-
-
-
-

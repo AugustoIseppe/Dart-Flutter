@@ -11,8 +11,8 @@
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    margin-bottom: 10%;
     gap: 20px;
-  
   }
 
 
@@ -250,3 +250,6 @@
   .icon {
     margin-right: 5px; /* Ajuste a margem conforme necessário */
 }
+
+
+

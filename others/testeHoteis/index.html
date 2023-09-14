@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS para centralizar as imagens */
+        .slider {
+            text-align: center;
+            position: relative;
+        }
+
+        .slider img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* Estilo personalizado para os pontos */
+        .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            list-style: none;
+        }
+
+        .slick-dots li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        /* Estilo personalizado para as setas de navegação */
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .slick-prev {
+            left: 15px;
+            border-radius: 10px;
+        }
+
+        .slick-next {
+            right: 15px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 350px;
+        }
+
+        .slider {
+            width: 350px;
+        }
+    </style>
+    <title>Slider com 5 imagens</title>
+</head>
+
+<body>
+
+    <div class="slider">
+        <div><img src="premium1.jpg" alt="Imagem 1"></div>
+        <div><img src="premium2.jpg" alt="Imagem 2"></div>
+        <div><img src="premium3.jpg" alt="Imagem 3"></div>
+        <div><img src="premium4.jpg" alt="Imagem 4"></div>
+        <div><img src="premium5.jpg" alt="Imagem 5"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                autoplay: true, // Ativa o autoplay
+                autoplaySpeed: 5000, // Define o intervalo em milissegundos (5 segundos)
+                arrows: true,
+                dots: true,
+                prevArrow: '<div class="slick-prev">‹</div>',
+                nextArrow: '<div class="slick-next">›</div>'
+            });
+        });
+    </script>
+</body>
+
+</html>

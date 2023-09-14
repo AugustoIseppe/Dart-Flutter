@@ -16,6 +16,30 @@
 </head>
 
 <body>
+<?php
+    session_start();
+    include 'conexao.php';
+    include 'menu.php';
+    // Verifica se um ID foi passado pela URL
+    $id_prod = !empty($_GET['id']) ? $_GET['id'] : null;
+
+    // Monta a consulta SQL com base no valor de $id_prod
+    $sql = "SELECT * FROM `local` WHERE categoriaid=1";
+    if ($id_prod !== null) {
+        $sql .= " AND localid='$id_prod'";
+    }
+
+    // Executa a consulta
+    $consulta = $conexao->query($sql);
+    $locais_abertos = [];
+    $locais_fechados = [];
+
+    // Obtém o resultado da consulta (pode ser vazio se não houver ID)
+    $exibir = $consulta->fetch(PDO::FETCH_ASSOC);
+    ?>
+
+<?php while ($exibir = $consulta->fetch(PDO::FETCH_ASSOC)) {
+            include 'estabelecimento_estado.php' ?>
 
     <div id="main-container">
 
@@ -87,7 +111,7 @@
                 <button class="buy-button button">+ Informações</button>
             </div>
         </div>
-
+        <?php } ?>
 
         <!-- INICIO SCRIPT-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

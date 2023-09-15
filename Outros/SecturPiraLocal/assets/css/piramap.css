@@ -1,0 +1,28 @@
+        /*import das fontes*/
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap');
+
+
+        #cabecalho-imagem {
+            background-color: #3E4559;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            min-height: 250px;
+        }
+        
+        .infos-cabecalho {  
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+            width: 70%;
+            padding-left: 75px;
+            padding-top: 75px;
+            color: white;
+            font-family: 'Roboto';  
+            font-size: 1.5em;  
+            letter-spacing: 0.1em;   
+        }   
+
+        .container-full{
+            background-color:#e7e4e4;
+        }
+        

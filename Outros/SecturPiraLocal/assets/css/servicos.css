@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+.body-servicos {
+    margin: 50px 0;
+    text-align: center;
+    box-sizing: border-box;
+    font: 16px / 24px "Rubik", sans-serif !important;
+    color: #2b2d42;
+    /*background: #e5e5e5;*/
+}
+
+.container-servicos {
+    max-width: 1720px;
+    padding: 0 75px;
+    margin: 0 auto;
+}
+
+#title-servicos
+{
+    font-size: 32px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    filter: blur(0.55px);
+    line-height: 1.5;
+}
+
+.cards-servicos {
+    display: flex;
+    padding: 50px 0px;
+    height: 27.5rem;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card-servicos {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+}
+
+.card-servicos:not(:last-child) {
+    margin-right: 10px;
+}
+
+.card-servicos:hover {
+    color: #ffffff;
+    background: #992c4bd2; /* #ef233c */
+}
+
+.card-servicos .card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-servicos .card-content {
+    margin: 20px 0;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.card-servicos .card-link-wrapper {
+    margin-top: auto;
+}
+
+.card-servicos .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background: #992C4B; /* #ef233c */
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.card-servicos:hover .card-link {
+    font-weight: bold;
+    color: #992C4B;
+    background: #ffffff; /* #992C4B < #c00424 */
+}
+
+.cards-servicos::-webkit-scrollbar {
+    height: 12px;
+}
+
+.cards-servicos::-webkit-scrollbar-thumb,
+.cards-servicos::-webkit-scrollbar-track {
+    border-radius: 90px;
+}
+
+.cards-servicos::-webkit-scrollbar-thumb {
+    background: #992C4B; /* #ef233c */
+}
+
+.cards-servicos::-webkit-scrollbar-track {
+    background: #edf2f4;
+}
+
+.hr-title{
+	height:1px;
+	background-color:rgb(95, 94, 94);
+}
+
+@media (min-width: 500px) {
+    .card-servicos {
+        flex-basis: calc(50% - 10px);
+    }
+
+    .card-servicos:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .card-servicos {
+        flex-basis: calc(calc(100% / 3) - 20px);
+    }
+
+    .card-servicos:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .card-servicos {
+        flex-basis: calc(25% - 30px);
+    }
+
+    .card-servicos:not(:last-child) {
+        margin-right: 40px;
+    }
+}

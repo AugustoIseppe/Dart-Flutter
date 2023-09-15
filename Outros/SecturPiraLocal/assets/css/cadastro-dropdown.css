@@ -1,0 +1,94 @@
+/* --CÓDIGO ANTIGO--
+
+:root {
+    --theme-background: #992C4B; 
+    --drop-color-font: #180d0d;
+    --font-family: font-family: Georgia, serif;;
+    --background-dropdown: #f3f3f3;
+}
+
+#dropdownMenuButton {
+    background-color: #992C4B;
+    margin:0 ;
+    margin-left: 20%;
+    padding: 5%;
+    font-size: calc(0.9rem - 10%);
+    background-color: rgb(233, 172, 172);
+}
+.dropdown-menu{
+    overflow-x: hidden; 
+    background-color: var(--background-dropdown) !important;
+}
+    
+
+.dropdown-menu.show a{
+    margin: 1%;
+    font-size: 0.8rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    border-bottom: solid 0.1px;
+    color: var(--drop-color-font);
+    font-family: var(--font-family);
+    z-index: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.dropdown-menu.show a:hover {
+    background-color: var(--background-dropdown);
+    color: var(--drop-color-font);
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+*/
+
+#dropdownMenuButton {
+    background-color: #992C4B;
+    margin: 0;
+    margin-left: 20%;
+    padding: 5%;
+    font-size: calc(0.9rem - 10%);
+    background-color: rgb(233, 172, 172);
+    text-align: left;
+}
+.dropdown-menu{
+    /*max-height: 278px;*/
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    background-color: #f3f3f3 !important;
+}
+
+.dropdown-menu.show a {
+    background: #ffd8d8 !important;
+    padding: 10px !important;
+    margin: 0 auto !important;
+    width: 160px !important;
+    text-decoration: none !important;
+    justify-content: left !important;
+    font-size: 0.77em !important;
+    font-family: 'Inter', sans-serif !important;
+    color: #992C4B !important;
+    border-style: none !important;
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+    line-height: 0.9 !important;
+}
+
+.dropdown-menu.show a:hover {
+    margin: 0 !important;
+    color: #ffffff !important;
+    background: #eeb2c3 !important;
+    transition: ease 0.18s !important;
+    border: none !important;
+    font-size: 0.9em !important; 
+    padding: 13px !important;
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    display: none;
+}

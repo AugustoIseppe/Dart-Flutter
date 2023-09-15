@@ -1,0 +1,53 @@
+
+  
+  .balao1 {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+        margin-top: 1rem;
+    margin-right: 3rem;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Para ficar acima do overlay */
+  }
+
+  .balao2 {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Para ficar acima do overlay */
+  }
+  .balao3 {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+        margin-top: 1rem;
+    margin-right: 3rem;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Para ficar acima do overlay */
+  }
+
+  .balao4 {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+        margin-top: 1rem;
+    margin-right: 3rem;
+
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Para ficar acima do overlay */
+  }

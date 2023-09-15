@@ -1,0 +1,5 @@
+{
+    "require": {
+        "http_request2": "^2.4"
+    }
+}

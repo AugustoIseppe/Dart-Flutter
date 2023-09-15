@@ -1,0 +1,105 @@
+#container {
+    /* background-color: gainsboro; */
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.onde-comer {
+    width: 500px;
+    height: 420px;
+    border-radius: 15px;
+    background-image: url(agora-vai.png );
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 15px;
+    transition: transform .5s ease;
+}
+
+.onde-comer:hover {
+    transform: scale(1.05);
+}
+
+.o-que-fazer {
+    width: 500px;
+    height: 420px;
+    border-radius: 15px;
+    background-image: url(teatro.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 15px;
+    transition: transform .5s ease;
+}
+
+.o-que-fazer:hover {
+    transform: scale(1.05);
+}
+
+.onde-ficar {
+    width: 500px;
+    height: 420px;
+    border-radius: 15px;
+    background-image: url(hotel.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 15px;
+    transition: transform .5s ease;
+}
+
+.onde-ficar:hover {
+    transform: scale(1.05);
+}
+
+/* img {
+    opacity: 0.5;
+} */
+
+.p-nós-temos-a-dica {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #F6ECEC;
+}
+
+.p-onde-comer {
+    font-family: 'Merienda', cursive;
+    color: #F6ECEC;
+    margin-top: -20px;
+}
+
+.span-ondecomer-central {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    /* border: solid white 1px;
+    padding: 1%; */
+    /* position: absolute;  */
+    /* padding: 50%; */
+    align-items: center;
+    text-align: center;
+    color: #F6ECEC;
+    padding-top: 35%;
+    padding-left: -25%;
+}
+
+.text-title1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.hr-title2{   
+    border-width: 2px;  
+    margin-left: 5%;
+    width:90%;
+	height:0.2px;
+	background-color: rgb(95, 94, 94);
+}

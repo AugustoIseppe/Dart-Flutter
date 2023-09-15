@@ -1,0 +1,2679 @@
+[33mcommit d312ffa8530c160cbcec2f5843f2307870ec1d5f[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Merge: ba34c01 5f62a0e
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 28 13:36:28 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit ba34c017e91dd316f3f1da4d7b02f54f3dbc6eed[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 28 13:36:17 2023 -0300
+
+    fix
+
+[33mcommit 5f62a0e522f48b831d72f586e13d44771d1dbcd4[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 28 12:39:58 2023 -0300
+
+    new
+
+[33mcommit 6648253da619cb9154c6cdc4c9861f2463796d9d[m
+Merge: eda8a8d c3a3cf1
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 28 09:59:24 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit eda8a8d80b596ec87a2160579140c8de2a91231f[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 28 09:59:19 2023 -0300
+
+    fix
+
+[33mcommit c3a3cf10680ed54c210d85eca41e7936c2d49675[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 28 09:55:44 2023 -0300
+
+    upgrade favicon/icone-site
+
+[33mcommit 940801e1de86811e9f669b7c39c000edfdc684c2[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 28 09:43:27 2023 -0300
+
+    upgrade login background
+
+[33mcommit d7f45abff547396f860eb7c5d04bbdfe2d39d09b[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Aug 25 18:03:13 2023 -0300
+
+    new
+
+[33mcommit 90471bf2c811a9da156b7bb557722c6836dc90ba[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Aug 25 13:13:58 2023 -0300
+
+    Update
+
+[33mcommit 7aae2301ba6764bdec19a90a7dc97be88078c9c8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Aug 25 13:07:08 2023 -0300
+
+    new
+
+[33mcommit 19cf643554aa4909f43436a9763bac268c859f51[m
+Merge: bc46ae1 98b85ca
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 23 11:43:35 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit bc46ae123514e1e269585d77ad71851f05632e6a[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 23 11:43:30 2023 -0300
+
+    fix
+
+[33mcommit 98b85ca7ca83e0867509353163baf6e62feb6492[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Aug 21 13:44:21 2023 -0300
+
+    Update
+
+[33mcommit 7343c0a21e2247526fa9b34fbedd0d639f286be5[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Aug 18 10:11:38 2023 -0300
+
+    CSS Update: conhecer-mais
+
+[33mcommit 9e547c3cf689921979c4835eb9e01dd1742ffaad[m
+Merge: 6654f35 91cba0c
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Aug 18 10:10:57 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 6654f35b0fd7fbc9395bb1bc3527320d223b462e[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Aug 18 09:50:17 2023 -0300
+
+    Fix
+
+[33mcommit 91cba0c9602257e0f2500a84d2ee5813c3ed7947[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Aug 18 09:48:14 2023 -0300
+
+    fix
+
+[33mcommit 44f90354e42df37e777cc3f29d3ec6d86abb643a[m
+Merge: aa7739b 18b439f
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Aug 18 09:46:30 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 18b439f5274cf23e80c8b160f19a25e9922bb813[m
+Merge: be235dc 2bb4196
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Aug 18 09:40:53 2023 -0300
+
+    fix
+
+[33mcommit be235dca5d1fc923f9372c32c4e5b7d8bd55960b[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Aug 18 09:37:45 2023 -0300
+
+    fix
+
+[33mcommit 2bb419624d627778073d718803f6bb0d47db2416[m
+Merge: cda5b19 62ccea5
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Fri Aug 18 08:42:38 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit cda5b191fd66545c3a7c57f6b5877dac823b4f0c[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Fri Aug 18 08:40:58 2023 -0300
+
+    feature
+
+[33mcommit aa7739bed29fb53dd00f5fb16cf9ee3bafc0e8ea[m
+Merge: 27ee9e4 62ccea5
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 16 09:44:28 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 27ee9e4a06844adfc178801876d5e92f6aee727b[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 16 09:44:20 2023 -0300
+
+    Error Fix
+
+[33mcommit 62ccea50baa28d406570984f9ecd8660c180c4c3[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 15 17:44:54 2023 -0300
+
+    Up
+
+[33mcommit 851db5854406d669726f9545aac530acad32e82c[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 15 10:09:42 2023 -0300
+
+    CSS Fix: index
+
+[33mcommit 8e73629af342c013604efc0925f93829f304dc59[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 15 09:57:00 2023 -0300
+
+    CSS Fix: index | menu-dropdown button centralizado
+
+[33mcommit 7069881b9348d12382eb7ed4388f2e46ff666939[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Aug 14 13:56:32 2023 -0300
+
+    fix
+
+[33mcommit 31d379876297cce90a0695432a17b1524c7ada91[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Aug 14 10:11:47 2023 -0300
+
+    fix
+
+[33mcommit 42edcc0fe68b380f901098bc3f37c028c5692912[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 14 10:07:57 2023 -0300
+
+    Update about_pirasssunungax
+
+[33mcommit 4b282b69bac3c6890c30cf19623284f28dc9b70e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 14 09:56:26 2023 -0300
+
+    Upgrade about_pirassununga
+
+[33mcommit b15696298e2edecab0530e1a06dcd4697da8a640[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 14 09:43:54 2023 -0300
+
+    Update index.css
+
+[33mcommit 7a4573def46907c350772fa6c013a322974d11eb[m
+Merge: 49b7b7e b575630
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 14 09:39:36 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 49b7b7ee76cfb450035c0ce4a5366c9efbdf024c[m
+Merge: 2dacaa9 be74cf9
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 14 09:39:30 2023 -0300
+
+    x
+
+[33mcommit b5756303fa568fed0e252fe82f8274e5a414e35f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Aug 14 09:37:04 2023 -0300
+
+    text justify
+
+[33mcommit 2dacaa9736f46960fa35ff83b625950972ca1c92[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 14 09:32:33 2023 -0300
+
+    sla
+
+[33mcommit be74cf9aad8a4cbaa1562d73cd0f96a3ed1e964c[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Aug 12 17:29:32 2023 -0300
+
+    fix
+
+[33mcommit 177a6f741961269e968c6f524805a09b667f5279[m
+Merge: ffba1c5 a710146
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Aug 10 12:34:13 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit ffba1c512129cbbc0a3b1465d2b1ece39b93a012[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Aug 10 12:34:02 2023 -0300
+
+    update detalhes.php
+
+[33mcommit a710146eb87e8baa8b743943c87d6d77ec259e28[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 12:16:31 2023 -0300
+
+    Update piramap.php
+
+[33mcommit 3a3ed64ff68d3be454c76916d0228927768008f9[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 12:14:02 2023 -0300
+
+    Up
+
+[33mcommit aeb100d615d0bf4909e55ef0d87d8f33dbd96fe8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 12:03:33 2023 -0300
+
+    Upgrade
+
+[33mcommit 23ca49017bcf4b13ff7be6df26ce3c9dc4c68da9[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:46:37 2023 -0300
+
+    Upgrade
+
+[33mcommit 4c1e6bdb0baa2d8673c3ebc07d1aa2081c90fc19[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:43:55 2023 -0300
+
+    Upgrade
+
+[33mcommit 52ae35ff807284e0f4bc8aede78b148825cd7b83[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:41:31 2023 -0300
+
+    Upgrade
+
+[33mcommit db5cbe89d691575283b50a5b82ac83f72f686363[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:39:38 2023 -0300
+
+    Upgrade
+
+[33mcommit 4381b4d5542a8cbb70945c5ba530a9a9543b628f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:34:37 2023 -0300
+
+    Upgrade  <Li>OndeFicar/Position
+
+[33mcommit a0618292cf930887d95ec6379d34072c20ded198[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:24:58 2023 -0300
+
+    Upgrade Index.css
+
+[33mcommit e7e7349fec0b2e7dadb25891598fcda4b4b5bf52[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Aug 10 10:12:46 2023 -0300
+
+    Upgrade / Responsividade Backgound Imagem em navegadores com Favoritos
+
+[33mcommit ace27cfc37b72f768ddf3d34d69a49621b10260a[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 13:56:15 2023 -0300
+
+    fix
+
+[33mcommit 0e7b6b56fe1261e1786f26427fa1327889ee7d95[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 13:41:07 2023 -0300
+
+    CSS Fix
+
+[33mcommit aa36586a0cdda53d7cbbce7177b1ef2e332fa861[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 13:38:16 2023 -0300
+
+    CSS Fix
+
+[33mcommit 310db5552e4014cc6d705232ffa9468d5bb7703b[m
+Merge: 0c959f1 4d0a6bf
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 13:36:49 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 0c959f1e89a01ec5731bf36670ebbec2b82768e7[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 13:36:45 2023 -0300
+
+    fix
+
+[33mcommit 4d0a6bf9e7896c299e4b5d0c1a996e34d54cefb3[m
+Merge: 3998cc3 6037a23
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 13:24:18 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 3998cc3ce1b176c241e089acf2e1d30f0156c450[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 13:24:02 2023 -0300
+
+    fix
+
+[33mcommit 6037a23d31e2767c19fdd1e4945c6269f87b3aac[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 13:23:30 2023 -0300
+
+    Upgrade
+
+[33mcommit 9c466f8ab83fb8b0d7d3651284e87c127dc03022[m
+Merge: 89704d9 002d89b
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 12:51:23 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 89704d9b7b3a221a5c99957b8a6357d4856cc6f2[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 12:51:11 2023 -0300
+
+    fix
+
+[33mcommit 002d89be71e7ab2a8fd7ef7d9dbbf70c3d4044cd[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 12:37:52 2023 -0300
+
+    Update Gastronomia.html
+
+[33mcommit 396baa064fac486d8cd6e882bb40ccc712568857[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 10:47:30 2023 -0300
+
+    Update Modal
+
+[33mcommit 08849c3873e66cb19f226d26c9371050c276cc5a[m
+Merge: 5724ca7 9a30143
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 10:30:55 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 5724ca7a736f12f1dfc8d0413f54bc13a2de6a5a[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 10:30:47 2023 -0300
+
+    fix
+
+[33mcommit 9a301436a11a2a7a264a7072b95bc9ce8cf8cd1d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 09:56:04 2023 -0300
+
+    Upgrade auditoria .modal
+
+[33mcommit 6840ab96b9c3fb029a80e8e0d3481808f7fd98db[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 09:55:18 2023 -0300
+
+    CSS Fix: index
+
+[33mcommit afb997820bbc7516f0a195a28f4e988c6264d290[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 09:49:08 2023 -0300
+
+    Upgrade ConhcerMais .tittle
+
+[33mcommit 5637846c5fc53a11dd506289c2abcd3399822c6c[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 09:40:56 2023 -0300
+
+    Upgrade
+
+[33mcommit b9ffac6f5e826abd5efa1aa00858205b5fff8a68[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 9 09:24:57 2023 -0300
+
+    fix
+
+[33mcommit 6a44ad3dca44ad0c642bafa228c0148f1ebf605c[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Wed Aug 9 08:57:10 2023 -0300
+
+    fix
+
+[33mcommit c53837f2de834f1b8089df4d75694c514b4bc19e[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Wed Aug 9 08:42:08 2023 -0300
+
+    add deny
+
+[33mcommit 40999b9a30b23d779cb33ec328294bb36c6d1515[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:49:09 2023 -0300
+
+    CSS Fix: visualizar
+
+[33mcommit 351d79e556bd6527dcf3877de0c5bbfd6bcf2a6f[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:36:58 2023 -0300
+
+    CSS Update: visualizar_usuario
+
+[33mcommit 5c53554e5483d948638da9858d97fee5b2c0ea01[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:23:18 2023 -0300
+
+    CSS Update: visualizar_natureza
+
+[33mcommit 2bb3388a51df9a3ac7d79d5e359aff52945549b6[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:16:23 2023 -0300
+
+    CSS Update: visualizar_meioacesso
+
+[33mcommit 797250b969aa30c89fe0c78c583d334d5fabee52[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:06:23 2023 -0300
+
+    CSS Update: visualizar_meioacessibilidade
+
+[33mcommit 9ad1f827cbd58ab94a90b5f95e64cd67a6319591[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 05:00:04 2023 -0300
+
+    CSS Fix: visualizar_idioma
+
+[33mcommit d730c408150cafc9889ebb37bdd71b3dd494eafa[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:59:13 2023 -0300
+
+    CSS Update: visualizar_idioma
+
+[33mcommit 7377dee3bb96ca6c9f53b7624b6a4cebb0902041[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:54:01 2023 -0300
+
+    CSS Update: visualizar_gastronomia
+
+[33mcommit 4052a71fca74cce0f274ebb43a5bb30adb49a65e[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:48:33 2023 -0300
+
+    CSS Fix: visualizar_formasrecreacao
+
+[33mcommit 6d7f3d08f6411be8a2110ac2223d630350953375[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:47:19 2023 -0300
+
+    CSS Update: visualizar_formassinalizacao
+
+[33mcommit 72335f1b252e32d5ed252d18eb76b242f6062012[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:37:09 2023 -0300
+
+    visualizar_formasrecreacao
+
+[33mcommit 90b1d07dd930f29f6c5c5156557b09e7799f8ee6[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:31:03 2023 -0300
+
+    CSS Fix: visualizar_categoria
+
+[33mcommit f8e2f54670f1f068d64539e32977d6b1256f54c6[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Aug 9 04:27:18 2023 -0300
+
+    CSS Fix: visualizar_artesanato
+
+[33mcommit f6a6dab0dcdf4b5f9932857dca356fc2e8316d5e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 00:25:32 2023 -0300
+
+    teste rodape.html no Auditoria
+
+[33mcommit 4f48217e8bc3a1982e02698e570a2c9c7963cfb0[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 00:14:33 2023 -0300
+
+    Upgrade Conhece Mais
+
+[33mcommit 026078785c03811d95271b7f0884737325757710[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 00:08:05 2023 -0300
+
+    Up
+
+[33mcommit 9a1741cdd0c0d30a899c77557b33611b8698be5e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Aug 9 00:04:44 2023 -0300
+
+    Upgrade Andreia
+
+[33mcommit 592a9dd7aa47cb4e84f9584d941cbe37ea0efc90[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 23:34:38 2023 -0300
+
+    Update ConhecerMais
+
+[33mcommit dd6bc1ea29f067ee0b58f2242700040d88cac509[m
+Merge: d3056eb 272e7ac
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 8 13:54:26 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit d3056ebdd95d08c576201c46cc654f5abb3db742[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 8 13:54:21 2023 -0300
+
+    feature
+
+[33mcommit 272e7ac5782fdd7db3fcfb4669981f1196c70574[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 13:50:24 2023 -0300
+
+    CSS Update: visualizar_formapagto
+
+[33mcommit 776714d4fb79549f168f61d89028f478d10852b4[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 13:49:44 2023 -0300
+
+    CSS Fix: visualizar_categoria
+
+[33mcommit 41d294342a293b05ba666b1ecf972a9fa8638b5f[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 12:41:20 2023 -0300
+
+    CSS Fix: visualizar_artesanato
+
+[33mcommit 187dbabb3b6f146a00c9324cfeb06c9ef9e8590b[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 12:33:32 2023 -0300
+
+    CSS Update: visualizar_categoria
+
+[33mcommit b3d5e1f9efb3c56c8f3c3bddd522e3728efbc162[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 12:28:06 2023 -0300
+
+    CSS Update: visualizar_artesanato
+
+[33mcommit 4825cdf3a34dcda7686b38a345e82f992419f0de[m
+Merge: 284cdcc 7e138e1
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 12:21:21 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 284cdcceded14fa06fe37855149bd5e9da76ec0b[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 12:21:00 2023 -0300
+
+    CSS Fix: subcategoria
+
+[33mcommit 7e138e126f31d36023761fea57aa0cb93ee19433[m
+Merge: ea4b0d6 b4c4343
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 12:10:45 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit ea4b0d6083d1c66e7ff0d60d48c09213cca19ba5[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 12:10:12 2023 -0300
+
+    Update espaços listas.php
+
+[33mcommit b4c4343d43ab8f4caabbbaaa59447142eed46554[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 11:56:34 2023 -0300
+
+    CSS Fix: subcategoria
+
+[33mcommit 3824a52ddeae343822b27f0fbad6a74f5fc1be4f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 11:50:39 2023 -0300
+
+    update index.css
+
+[33mcommit 4bfc736aec851f441ebe511defdc15ed6a4a7b24[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 11:35:22 2023 -0300
+
+    Update
+
+[33mcommit 8b9f42733640ef1e9d9983fb3c40ecd453bcd9a1[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:54:35 2023 -0300
+
+    ¨troll
+
+[33mcommit 32cd0ccad68b71a3ff0168f036cf547e0f822a20[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:50:04 2023 -0300
+
+    Update index.css
+
+[33mcommit 7914a9332acca1db727c7649c2f8c1ac64f91311[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:43:59 2023 -0300
+
+    Update index.css
+
+[33mcommit 5f0e4eb1f0b61e84aaef4a633d987cb88fae95b4[m
+Merge: 8cdbe7c 4a31f8e
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 8 10:37:40 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 8cdbe7c241da828a0756b78525c22f76d0dda628[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 8 10:37:33 2023 -0300
+
+    feature
+
+[33mcommit 4a31f8e626bcec87abc68fd903016adc05a19725[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:27:17 2023 -0300
+
+    Update menu.php
+
+[33mcommit 7371c964c6dc496854bf704dd16a046042841d2a[m
+Merge: e7d6350 5ca6cf3
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:17:31 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit e7d6350f209479055ecf4d990ba3709228e52003[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 8 10:13:30 2023 -0300
+
+    Update index.php
+
+[33mcommit 5ca6cf3604cdd65e8a4d71fea23a1ca8379e8c55[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Aug 8 10:13:11 2023 -0300
+
+    HTML Fix: servicos
+
+[33mcommit 9af09125c0bc7eb345ec476f4d1b4b437ecbfb47[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 8 09:19:33 2023 -0300
+
+    fix
+
+[33mcommit 0eb9505698476d68407ec1722f1a7d4800889fb4[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Aug 7 13:24:38 2023 -0300
+
+    HTML/PHP Update: subcategoria
+
+[33mcommit 2e0af1bebf8e7341d329b330f29c9a847d301ced[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 7 13:11:45 2023 -0300
+
+    fix
+
+[33mcommit 2ecee42021ff5fc5cc19f9a58f36d5122e1d7d16[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Aug 7 12:30:21 2023 -0300
+
+    fix
+
+[33mcommit 927da5a19675b580c5f710631157f69ffbbb0c58[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Aug 5 18:56:20 2023 -0300
+
+    fix
+
+[33mcommit d5f919ff9904ba62a54d71e2a610d8e68d9c0686[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Aug 5 18:54:10 2023 -0300
+
+    Feature
+
+[33mcommit 7b6d1c6d0900ab62236e211dbe35751864fd2450[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Aug 3 09:25:37 2023 -0300
+
+    fix
+
+[33mcommit aa4a87ec9fd2fdf45418f1fca7bddd50896600f5[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Aug 2 12:47:08 2023 -0300
+
+    fix
+
+[33mcommit ff09d763a762ea7fff8ee159fed5bb3acea88cca[m
+Merge: 4e03553 54d2128
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 1 13:31:28 2023 -0300
+
+    fix
+
+[33mcommit 4e03553b025610520f10cce8c68d2424c95b5a54[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Aug 1 13:11:47 2023 -0300
+
+    fix
+
+[33mcommit 54d2128e550a4269c877888a5c9f6087737bea39[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 1 10:52:32 2023 -0300
+
+    update registro.php
+
+[33mcommit 99ef962f2c810bf1464dd0f9223c1eb952dda6e7[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 1 10:22:03 2023 -0300
+
+    Update rodape.css
+
+[33mcommit b99da293fe355b631dc98fe3b407582c2a91cc34[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Aug 1 09:49:39 2023 -0300
+
+    Update index.php (Dropdown)
+
+[33mcommit ce73845ac4245237cbdaccd463d3a90f09132b46[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jul 31 12:37:11 2023 -0300
+
+    Update index.php
+
+[33mcommit 626d7a91414aceaaafd6f5b7a900706f78a50d48[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jul 31 12:28:38 2023 -0300
+
+    Update menu.php
+
+[33mcommit 5dedec2ec2f9b4aac32e3522b55717fe0acd9475[m
+Merge: 4d93f4c 782e393
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 31 11:42:57 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 4d93f4c3d1c93f99f1e1b9501994d15f7b3fe320[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 31 11:42:49 2023 -0300
+
+    CSS Update: dropdown
+
+[33mcommit 782e3931a21cb83bf42d8b10188c556d0d155f37[m
+Merge: d0a002f a70b967
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Mon Jul 31 10:33:00 2023 -0300
+
+    update dropdown
+
+[33mcommit d0a002f34d30bf6e32e784cc8fcec7027892fd50[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Mon Jul 31 10:30:15 2023 -0300
+
+    update dropdown
+
+[33mcommit a70b967fb42ce9d4166174eb4f626afc7be5ee22[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Fri Jul 28 08:30:26 2023 -0300
+
+    CSS Update: dropdown-menu do admin/cnpj
+
+[33mcommit 1c2837568d8519ec7ccd4e5dafa63b5e52db074c[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Jul 26 13:13:20 2023 -0300
+
+    CSS Update
+
+[33mcommit 309013f1389899d8bfac3c1772a8ccfbc3bd1ac4[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Wed Jul 26 12:11:02 2023 -0300
+
+    CSS Update
+
+[33mcommit 1cfc1318a5fa54b36ab6b70e6aa1a5dd4dc4a1b6[m
+Author: Vini789 <vmalentaqui@hotmail.com>
+Date:   Mon Jul 24 14:24:48 2023 -0300
+
+    CSS Update
+
+[33mcommit 7fea4abe69b502250b992a8fb02449283aa1433a[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Sun Jul 23 17:00:54 2023 -0300
+
+    new
+
+[33mcommit e8955dc31404f9f31a38df6c9c8ff4e3607b993b[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Sat Jul 22 13:14:01 2023 -0300
+
+    new
+
+[33mcommit 7fc4ca6dee78195716ef7eaeec47b633665fe37d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Sat Jul 22 12:55:55 2023 -0300
+
+    Indentação Rodapé
+
+[33mcommit 05a468cfa2eab5b3388120cebeabc362b8a799ac[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Jul 21 13:54:56 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit 9b977664d5a4187f62ec9de9b811dd85f3f298de[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 20 10:36:51 2023 -0300
+
+    fix
+
+[33mcommit d4b39e27d082d8141d05614159fb00a386a7c0d0[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jul 20 10:11:36 2023 -0300
+
+    update dropdown ondeficar
+
+[33mcommit 42de64bda00105eda5fd8a0e824c8b4699169427[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 21:24:32 2023 -0300
+
+    new
+
+[33mcommit 949016663343466baf3ff06aca8e9819ec7e2bc0[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 21:20:36 2023 -0300
+
+    css menu (onde ficar)
+
+[33mcommit 5214f3d80d42fb40c8f667164d8c7b3aad8d3c64[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 14:51:27 2023 -0300
+
+    maps
+
+[33mcommit 7e8b390ce4fa33de8eeb3b96eb3f2c7bf175f3b1[m
+Merge: 33ddc3e 7042710
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jul 19 13:40:48 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 33ddc3e65b37223f6f07979dd3c545854cc80449[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jul 19 13:39:45 2023 -0300
+
+    update hospedagem
+
+[33mcommit 70427108743a72028996fc59ae442b9db3512092[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 13:38:01 2023 -0300
+
+    new
+
+[33mcommit 114341fd3e900ab3b0466f0c2274e3e916b00246[m
+Merge: d43c2aa bc87d73
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 12:56:21 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit d43c2aaba6280eb277b3c57ed7b8e43609137a46[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 12:55:53 2023 -0300
+
+    index color
+
+[33mcommit bc87d73b35a6e967e07106d35ebfa0d13d88fe12[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 19 12:41:11 2023 -0300
+
+    CSS Update
+
+[33mcommit a1640ca0b3c10c58c7635f588f61c093890c4138[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 12:32:18 2023 -0300
+
+    nova foto
+
+[33mcommit 4f424e3d33b18279d4d94f2eae2cc875f426d9cd[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jul 19 11:36:45 2023 -0300
+
+    update onde ficar
+
+[33mcommit c1608e3747fc5e1acb05c7c98739b564fbdca5b9[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jul 19 11:36:07 2023 -0300
+
+    update dropdown onde ficar
+
+[33mcommit 0c191e4daba6f4f9520bd28f6b033588fb6ad59f[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jul 19 10:59:43 2023 -0300
+
+    update hospedatem
+
+[33mcommit f30c2d21433a928bb524a5109bb175632ff87891[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 10:42:30 2023 -0300
+
+    login background
+
+[33mcommit 5615c7fe4264ee6bcd5c7a224a13a1cc4f7c11c3[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 10:33:16 2023 -0300
+
+    maps
+
+[33mcommit 9cbcad89929b1dd496af1122406c2d99bad1a6f3[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 19 10:29:44 2023 -0300
+
+    HTML Update
+
+[33mcommit de412317c1ea5ca575f814197c0de0c89d1562d9[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 10:23:41 2023 -0300
+
+    new
+
+[33mcommit fdc4c163925f2177a59c671e0b4d233d0f2e6f93[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 19 10:03:24 2023 -0300
+
+    HTML Update
+
+[33mcommit 852027716126c182dc2e515be326dd3724059411[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jul 19 09:45:07 2023 -0300
+
+    visualizar _local (tabela)
+
+[33mcommit 0cee4a1eca528c6c73c426d5b22ca2f821a96616[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Jul 18 13:42:49 2023 -0300
+
+    Updated
+
+[33mcommit 09514684111df2fea7507b0d11bb3df1fed50498[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 18 12:37:43 2023 -0300
+
+    update visualizar_auditoria
+    
+    zoom
+
+[33mcommit d32c114262ff8542c67d9f24cc5bdda6c9fa0a1f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 18 10:45:52 2023 -0300
+
+    no pictures!
+
+[33mcommit 190175a52a61f038feaad4fe6aecfed8aab3cba9[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 18 10:43:54 2023 -0300
+
+    teste?!
+
+[33mcommit a2c8de65592006df197877da8873c599c23883b8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 18 10:41:01 2023 -0300
+
+    visualizar_auditoria
+
+[33mcommit 19fc5965f02491fb1b763a055ed0ce4ca070ba9f[m
+Merge: 4ce15ec 1db53ed
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 17 12:50:32 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 4ce15ec12b2ac8daf6b96c4775b4468eb2184645[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 17 12:50:13 2023 -0300
+
+    JS Update (Alterar/Excluir Fix)
+
+[33mcommit 1db53ed744e86cd2326b551693f3891e43ec3324[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jul 17 12:03:46 2023 -0300
+
+    clean
+
+[33mcommit a5ca0b0e42dbf878390324ab56befb9185a74930[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 17 11:40:23 2023 -0300
+
+    html/css update
+
+[33mcommit 70cef3b9d3b2481c9dbe3697e52e5c289941f5a5[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Jul 14 13:48:56 2023 -0300
+
+    CSS Fix
+
+[33mcommit b3009c775dc2bf2c7dc822d5830e4f5fd358c437[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Fri Jul 14 13:28:14 2023 -0300
+
+    atualização pagina hoteis
+
+[33mcommit 843ea90f1ca56f4c6f0c69660780191d615db468[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 13 14:03:06 2023 -0300
+
+    CSS Fix
+
+[33mcommit 4eedf4aa38d5b5a232bab597c149fe3401a1d563[m
+Merge: b796246 cd57f13
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 13 14:01:45 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit b79624642687ce30521c86f069e5dfee6c052f4b[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 13 14:01:20 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit cd57f1330468bb6c868dd907c7d0a1c1b6c2300a[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jul 13 13:47:35 2023 -0300
+
+    add page hoteis
+
+[33mcommit b9454135c9cd80f4410cdcfeb9e3faa0d28d5957[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 13 12:55:33 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit f8f7bd46f01a819c0ba85857a844583688a033de[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 13 11:28:38 2023 -0300
+
+    CSS Update
+
+[33mcommit 1a7ba8e25962c1227e4d39946ae293c3a0c2c1db[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 13 09:58:29 2023 -0300
+
+    desfazendo_merda
+
+[33mcommit f050549ea3b0f99f491c936508d67d47c659bc45[m
+Merge: 984a548 8926971
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 13 09:46:17 2023 -0300
+
+    fix
+
+[33mcommit 984a54857cb4aa9dbbc345a73016b93cf2177f5e[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 13 09:41:46 2023 -0300
+
+    fix
+
+[33mcommit 61572c29b5d5c324e85d9bd499411b3294c904ff[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 13 09:28:52 2023 -0300
+
+    Fix local
+
+[33mcommit 8926971bf0b6d1f48273bd1d6e9cf72a1606e981[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 12 13:46:00 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit 79dc390d46ab0c15d6b2b77ef70d57d24cffe8d6[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 12 10:04:45 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit 28280238fd099a224a99a8b98e2442465d27d56a[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 12 09:44:41 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit 5479a56a1621c2aaf27509309c3f76a91036a69e[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Wed Jul 12 03:49:29 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit e3496de5e316dfb4f284103102455a86c5dd73c3[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Tue Jul 11 16:09:31 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit feffbaec81d7c19c26456a8188aace04cb263ff9[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Tue Jul 11 15:12:44 2023 -0300
+
+    HTML Fix
+
+[33mcommit 88eab80941269c15581e11bc80779c492127d702[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Jul 11 10:40:25 2023 -0300
+
+    fix
+
+[33mcommit fbfd9562ee1e09fdea5edcfb88e505f787588d57[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 11 10:29:04 2023 -0300
+
+    Update visualizar_auditoria.php
+
+[33mcommit b10fcc6c3425c805397a21452d69c789458c56f0[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Jul 11 10:28:03 2023 -0300
+
+    Size Update
+
+[33mcommit e8bc007733ab1ad078cdae148443a315275594c3[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Jul 11 10:08:41 2023 -0300
+
+    fix
+
+[33mcommit a6de76b00d71646ebe130a8ded04dcad2f8afa63[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 11 10:00:38 2023 -0300
+
+    update visualizar_auditoria,
+
+[33mcommit b717eb0de88ea50b23fb7b7137e7bece2ebe376d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jul 11 09:26:35 2023 -0300
+
+    new modal
+
+[33mcommit 1e458dc694272b8e2d15a91ac6aba847438ea862[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Jul 7 14:07:34 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit 1a7d661637c12653c176f60301644ee254b38ab9[m
+Merge: e57c068 59885e0
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jul 7 11:38:10 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit e57c0680421f23d7999cc5c0a88552c569731d81[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jul 7 11:38:05 2023 -0300
+
+    new
+
+[33mcommit 59885e073e0cf5b2500d1b62f4f3177aa8da5909[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Jul 7 10:45:12 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit 9cf39467f313846182a9e37d22517865e4184ba8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jul 7 10:39:15 2023 -0300
+
+    new
+
+[33mcommit ad542354d570a7317baafb7057ad556f8cdb99d1[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jul 7 10:32:43 2023 -0300
+
+    new
+
+[33mcommit efd62089860702c1f38356010a3d6675190a0139[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jul 7 10:24:46 2023 -0300
+
+    new
+
+[33mcommit b29919eeaffd9583495e1a39334077261a32d9f1[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 6 13:55:12 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit a6c14461c1871c895e0fc539dee6e92a85510454[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jul 6 13:47:36 2023 -0300
+
+    New Auditoria Table
+
+[33mcommit 175eaa7dc6fb2f2f0cf090bc0f37bb92c9246ef3[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 6 12:20:16 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit 2e483aa3b34c5dc1e474e20af9bed9941707bcd6[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 6 10:37:10 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit a8e83a531aaff02b64bce2a66161f7329a2b0114[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 6 09:59:38 2023 -0300
+
+    fix
+
+[33mcommit feff2bc2c9fd9622a9c3cf778ca2a01308ece4cd[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jul 6 09:59:06 2023 -0300
+
+    fix
+
+[33mcommit 6ae06234a46548d34673159069242510b7565ba5[m
+Merge: b30391f 31ed4d8
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 6 09:38:25 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit b30391fb9f2a96e88b0bb26aee2a2e0cbcda7b29[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Thu Jul 6 09:36:57 2023 -0300
+
+    HTML Update
+
+[33mcommit 31ed4d8d1c5ff13ef521af9f261c4b48f8c048fb[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jul 6 09:35:07 2023 -0300
+
+    new
+
+[33mcommit eccc5ea091c0699fa6fd43c5b2440789baf97a34[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Wed Jul 5 19:51:44 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit 48fcd98c34b326d2118b8a6d7218fea1da8bf9f1[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 5 13:38:35 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit e101fb5db466b7dd21f1169e3a39d2c031b73c7b[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 5 13:23:32 2023 -0300
+
+    HTML/CSS Update
+
+[33mcommit 2d2c37ddb9084972004c0998bfba856b10bdf711[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jul 5 09:52:51 2023 -0300
+
+    HTML/CSS Updated
+
+[33mcommit 91be7b1502c0543be0d05ef531684d8806d883d2[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Wed Jul 5 02:13:41 2023 -0300
+
+    HTML/CSS/Files Updated
+
+[33mcommit 7e2f144c85cc87aecaaeedbf534e6e324c273417[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Jul 4 13:50:27 2023 -0300
+
+    HTML/CSS/File Update
+
+[33mcommit a24cb59268de8a15cc01fa6394b4741d93ca86fd[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Jul 4 12:09:16 2023 -0300
+
+    JS File Update
+
+[33mcommit c4c747d747789f48e3009aa7571496e9bd69dea6[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 3 13:52:38 2023 -0300
+
+    File Updated
+
+[33mcommit 8a0ff4b1acd73293b791a5ab235054f96536e23c[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jul 3 10:57:55 2023 -0300
+
+    Update HTML/CSS/JS Fix
+
+[33mcommit 6ce1ce9799dfe764a56ba17cdbae1dc4639ff310[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Thu Jun 29 14:29:41 2023 -0300
+
+    HTML/JS Corrigido
+
+[33mcommit 4c37d6313b38e4148602144ecebae23571dcaa6c[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Wed Jun 28 11:52:43 2023 -0300
+
+    ...
+
+[33mcommit 27b6b78165b63944fb1cdd76ba47c1f9f8350520[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Mon Jun 26 15:29:12 2023 -0300
+
+    Html/Js Fix
+
+[33mcommit 3e1b838f1c6679558884422b38c3870d90d4ab41[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Mon Jun 26 11:53:30 2023 -0300
+
+    validação | em andamento...
+
+[33mcommit ed1c5d3f6607f97ca9c55fc3b47ac6591c2d5c03[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Mon Jun 26 01:58:48 2023 -0300
+
+    Fix
+
+[33mcommit ee7dff3e1a2fa3a571410319706cf2af46788080[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Fri Jun 23 13:50:46 2023 -0300
+
+    Update HTML/CSS
+
+[33mcommit 4e2198a9ecdb83417a93356d732d3eeeef650579[m
+Merge: 281bd7f e069791
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Jun 23 13:00:20 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 281bd7fd2307787e068d80ef1b612dced00fabca[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Jun 23 13:00:13 2023 -0300
+
+    fix
+
+[33mcommit e0697912b23c3b13c8567b75fd524deadae2055c[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 22 13:45:40 2023 -0300
+
+    new
+
+[33mcommit 46097b12007bf7dcdf64783acabe7f9e31c8e806[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 22 13:14:34 2023 -0300
+
+    modal
+
+[33mcommit 649ec3ccade32fd1f0907b5659b5419b386d5eaa[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 22 12:48:29 2023 -0300
+
+    new cadastro
+
+[33mcommit 1e094a9f64103909ae69d725db86c0ae89e73b2b[m
+Merge: 6142ae8 2a7e6a4
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 22 11:54:21 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 6142ae8e18a25dd44b3ba99ed0da44bb7d731e5b[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 22 11:54:16 2023 -0300
+
+    new
+
+[33mcommit 2a7e6a4645d9d50f5e7ec976d9e53c08e5cda507[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu Jun 22 11:50:26 2023 -0300
+
+    JS Update
+
+[33mcommit 25144a1475bb51cec127250fdc7589064c2d0800[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu Jun 22 11:49:54 2023 -0300
+
+    CSS Update
+
+[33mcommit 3ab67eee9f4a290bdec24eeaf3c2aa696c748ed8[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu Jun 22 11:49:08 2023 -0300
+
+    HTML Update
+
+[33mcommit b9c1c0b6f192cbf5d6c83334d9a5db7be39d0d9c[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 21 13:23:41 2023 -0300
+
+    fix
+
+[33mcommit aae5dc81d66e73c55d390c725b52ea03c9b0db61[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jun 21 13:18:46 2023 -0300
+
+    update cadastro dropdown
+
+[33mcommit 7724e70024fb9ec051f0a74bc483a17fcb812096[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jun 21 13:07:38 2023 -0300
+
+    .
+
+[33mcommit 7cba992d4149af956c9956aa84e98c53530a7aa5[m
+Merge: 332b608 0815199
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jun 21 13:05:18 2023 -0300
+
+    update dropdown
+
+[33mcommit 332b60852e96b96e904ae019b920e1fab1aaf266[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed Jun 21 13:02:38 2023 -0300
+
+    update dropdown
+
+[33mcommit 08151992f7d6c8b6b59f725f596bc49c3007464a[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 21 10:00:32 2023 -0300
+
+    fix
+
+[33mcommit ccd502f317c1b8890dc6a6e819e8d5cbbb12eee7[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 20 17:26:42 2023 -0300
+
+    rodape azul
+
+[33mcommit 3044a501beecd9fea29d273faa6e3789f8c9b2ec[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Jun 20 13:23:18 2023 -0300
+
+    fix
+
+[33mcommit 26a4321af74184fbe8cf21e24c0f20e7485fdf57[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue Jun 20 13:06:34 2023 -0300
+
+    update cadastro usuarioCNPJ
+
+[33mcommit 6fd988000b1709d9464fb7563458733b7758b0bb[m
+Author: Vinícius Oliveira Malentaqui <vmalentaqui@hotmail.com>
+Date:   Tue Jun 20 12:11:15 2023 -0300
+
+    menu.php updated
+
+[33mcommit 6036ed26d914fb6ab8151e9a644085862042982c[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 20 09:58:13 2023 -0300
+
+    new
+
+[33mcommit b38a05b69708ce79768c3d98b4a57a84992a0538[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 20 09:30:20 2023 -0300
+
+    Varchar(200)_usuariosenha
+
+[33mcommit e1b5bb7c49c322616b69a6ffb0a703edfd5737bc[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 19 17:20:24 2023 -0300
+
+    Update index.css
+
+[33mcommit 7042498c5ae9dfdb37e1984960844d45ec41533c[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 19 13:38:59 2023 -0300
+
+    fix
+
+[33mcommit 339767672ccd6c018ce3d05cb32022b8f03c43cc[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jun 16 17:35:11 2023 -0300
+
+    new
+
+[33mcommit 61ec1a7762f57d7cf9340ea7ca3bcdd70a053ee5[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jun 16 16:51:05 2023 -0300
+
+    new
+
+[33mcommit 6c00a6240ab9c4cee536d1cfce558dfd4fc5e34f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jun 16 16:35:48 2023 -0300
+
+    new
+
+[33mcommit 4def2836df32183c7f1d63680ece605949bece92[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jun 16 16:30:40 2023 -0300
+
+    new
+
+[33mcommit 2d814faafcffa7c7c1ac3288465354966b3a495d[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Fri Jun 16 11:41:31 2023 -0300
+
+    Update HTML
+
+[33mcommit d7c49de47aa00179f0c19479f6a715f586a6d111[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Fri Jun 16 11:40:03 2023 -0300
+
+    Update CSS
+
+[33mcommit d6d764b643868aa096dec54abb86600cfb5cee6f[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Fri Jun 16 11:39:20 2023 -0300
+
+    Update JS
+
+[33mcommit 2252e3480d146284e947ce756c90637d1adf1585[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Jun 16 11:23:37 2023 -0300
+
+    fix
+
+[33mcommit 71bb8ce18140e289acfa361e6d037ece4399777d[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Fri Jun 16 11:15:57 2023 -0300
+
+    correção bug dropdown
+
+[33mcommit 07b491d259b365916e2ddcc2eeb61f9189ab6e22[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Fri Jun 16 11:02:06 2023 -0300
+
+    update bug dropdown
+
+[33mcommit 6ff07be6256d695725189dde9a9064e0a1133082[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Fri Jun 16 10:46:31 2023 -0300
+
+    update css
+
+[33mcommit 7713298425e75e44ca33583aeb887322bbbe1572[m
+Merge: 7b1f304 0487fbc
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Jun 16 10:34:52 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 7b1f3045ec7506bb69e1806dbd8524168e516ba5[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri Jun 16 10:29:30 2023 -0300
+
+    foi krl
+
+[33mcommit 0487fbc62aa85321283b3667f342ca647684af68[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Fri Jun 16 09:58:19 2023 -0300
+
+    correção bug card
+
+[33mcommit 89c668a7bdc60488fd2a9599988281a2ae6bd686[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 15 15:00:12 2023 -0300
+
+    New
+
+[33mcommit 3a77631e2f1c4cae0c02e342b53bd224ba415a35[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 15 13:36:49 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 796235ef036b3f178adc4113d6eb71479cf9dd62[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 15 13:33:07 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 3374a7533cbb364775bf104615aca7d0b0c56b19[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 15 13:18:33 2023 -0300
+
+    new
+
+[33mcommit 668a97e5f8e8f3206992c46068fcce4128905f22[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 15 10:50:13 2023 -0300
+
+    update card
+
+[33mcommit ee1cdb4e6d07c1d6444f606d20f3b778f830bd8a[m
+Merge: 23a08b0 01ad033
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 15 10:47:06 2023 -0300
+
+     teste
+
+[33mcommit 23a08b0445f4777260466ffef017f9c8b7e71e46[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 15 10:36:52 2023 -0300
+
+    update servicos
+
+[33mcommit f6280f5ed0e18c230e80ddaa4cc7cb98a68a6fa2[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 15 10:26:05 2023 -0300
+
+    update card > atualização do css
+
+[33mcommit 01ad03305bcfb62506b5d4f5c781833861945bcf[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 14:30:47 2023 -0300
+
+    include de serviços
+
+[33mcommit 4cddd3b10665641824a9ed25d56a9c129b048961[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed Jun 14 13:31:02 2023 -0300
+
+    Fix
+
+[33mcommit b21d2272336dcf3fdd497c1a1cac173513d42313[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed Jun 14 13:30:14 2023 -0300
+
+    Fix
+
+[33mcommit f3778c5d7c5d0450804343ce296b44b6e1bc65a6[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed Jun 14 13:28:44 2023 -0300
+
+    HTML/CSS Fix
+
+[33mcommit 0af02c5f072559bd2cb3d5e2736da820bd034a84[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 13:05:37 2023 -0300
+
+    Delete o.html
+
+[33mcommit fb6e2811f3da7fbe8b6105f5bc50ba9318f75e00[m
+Merge: b1eb585 4602099
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 13:00:11 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit b1eb585041543b9792d5f59845351a16793da425[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 12:59:43 2023 -0300
+
+    fix
+
+[33mcommit 4602099cdf21c299a6f84f19a10ddef4669c835d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 12:32:32 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 62d5bbbaa257eb623f25616e21e4288341339501[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 12:31:14 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 9906d9d5e9ee6fbca79a48fe9436b0cf8b99262a[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 12:27:53 2023 -0300
+
+    Update rodape.html
+
+[33mcommit b14b44545f0a99345beb64fbae14b2b6a2586b50[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed Jun 14 12:23:32 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 5e3892179d5c4833d122794e84ba1cf55eef86d7[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 12:14:37 2023 -0300
+
+    fix
+
+[33mcommit 87af44d76d09ed8d389b918db08bf09b922e4163[m
+Merge: c494e52 0f4d1bb
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 12:11:04 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit c494e52340a39e3863c39a7d1278254e0ff523c0[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 12:10:47 2023 -0300
+
+    fix
+
+[33mcommit 23180aed683cf658cb8fa5c066c994a2f47cec15[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Jun 14 12:09:23 2023 -0300
+
+    fix
+
+[33mcommit 0f4d1bb355f6cdf4285d75d8ec51f85ec993a41b[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 13 22:30:38 2023 -0300
+
+    Update index.php
+
+[33mcommit b521383911b34b9ab626a8b6863e9d53b1d8b94e[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Jun 13 13:42:03 2023 -0300
+
+    new-feature
+
+[33mcommit fc916a7ea37f5202838f96d274ec26c2e8847692[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue Jun 13 13:38:12 2023 -0300
+
+    Update Form Alterar
+
+[33mcommit 2585c2c881f2b60a6e38b606379b800a3ae2546b[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue Jun 13 13:31:12 2023 -0300
+
+    Update Form
+
+[33mcommit 1e37181c364e1db75c713c05ae615af31b50214f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 13 10:23:02 2023 -0300
+
+    Rename crebas.sql to secturpira.sql
+
+[33mcommit 46a9f0164c335b9ef81e387fce7f3cf0c900d6c3[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 12 13:30:26 2023 -0300
+
+    fix
+
+[33mcommit e9e9da299616bbf3b2042ca995c1d5cdaf5dd16e[m
+Author: Suporte <vmalentaqui@hotmail.com>
+Date:   Mon Jun 12 13:17:26 2023 -0300
+
+    Design Update
+
+[33mcommit 814b79e18eceef9237655238bd3dba7cef56461e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 12 10:32:49 2023 -0300
+
+    Update rodape.css
+
+[33mcommit addbc30e9eeb770a34ce5c0c377b1021a92eec58[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Sun Jun 11 10:46:00 2023 -0300
+
+    Html update
+
+[33mcommit d9fa1af7d21867c1b0322842212f0546c2e2bb16[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Wed Jun 7 21:35:41 2023 -0300
+
+    HTML/CSS Updated
+
+[33mcommit 7fe90ffdafcb5491ec49a7adfb6c55445d4799fb[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Wed Jun 7 18:30:29 2023 -0300
+
+    fix
+
+[33mcommit 4d4ee64b79e0d27f9357c3785d1a37f2827fe2e8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 6 18:26:04 2023 -0300
+
+    Delete rodape.css
+
+[33mcommit 3c629e54baa5a8ac5eb3c983a2a9ec6229b8afa8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Tue Jun 6 18:22:29 2023 -0300
+
+    Delete index.html
+
+[33mcommit 55eb035d95cb9add6026d73c2ee609ab459b8212[m
+Author: Suporte <vmalentaqui@hotmail.com>
+Date:   Tue Jun 6 13:10:39 2023 -0300
+
+    Updated
+
+[33mcommit 3ae0ca9806b5bf07838ee30f908c09fe05a99a74[m
+Merge: a75f7fc 390f487
+Author: Suporte <vmalentaqui@hotmail.com>
+Date:   Tue Jun 6 12:36:29 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit a75f7fccc5cf6fe0e1ab8fc003b3dbe46843b8de[m
+Author: Suporte <vmalentaqui@hotmail.com>
+Date:   Tue Jun 6 12:35:57 2023 -0300
+
+    Updated
+
+[33mcommit 390f487375b4c24f663f07ed667a380296f08ce7[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Jun 6 12:22:30 2023 -0300
+
+    fix
+
+[33mcommit 09b972c53783e24466c914a8be78f779d6f9c342[m
+Merge: 5eba31a e83edf2
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue Jun 6 12:17:09 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 5eba31a9f22b96c19058fa7b3cb2334d409fad84[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue Jun 6 12:10:44 2023 -0300
+
+    v.1.1
+
+[33mcommit e83edf24a020cbfddff57a3c307022d3f8f9132f[m
+Author: Suporte <vmalentaqui@hotmail.com>
+Date:   Tue Jun 6 12:05:46 2023 -0300
+
+    local
+
+[33mcommit 880d65f3943675db65d83dc728b63622b7b86ab7[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue Jun 6 12:00:57 2023 -0300
+
+    v1.0
+
+[33mcommit bf2151d374076aa6e5977070f4b9aba69cd17d0a[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 23:12:20 2023 -0300
+
+    Update rodape.css
+
+[33mcommit 6a89418d7b944bfc8611a2bb44c0da8b7c75480d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 23:09:08 2023 -0300
+
+    Delete rodape.css
+
+[33mcommit 741948b5e5f8d4f2cce66524d5bedc8819dfa27d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 23:08:32 2023 -0300
+
+    Update rodape.html
+
+[33mcommit bb1d394922a00df6742d5117a58cc4dd2a577a9f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 22:45:56 2023 -0300
+
+    Update index.css
+
+[33mcommit caf82bc528969d81ceaf942c852599fe7d4ff9a8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 22:34:13 2023 -0300
+
+    Update index.css
+
+[33mcommit cf85e8bead9912fbe5c56eb397fba8335ed204b2[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 22:29:23 2023 -0300
+
+    Update index.php
+
+[33mcommit 816bc7f52709e87235d0f6ecdc23f0f7bc6810f5[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 22:23:38 2023 -0300
+
+    Update conexao.php
+
+[33mcommit 45aca08bc3cf234854b3fb729e6af6a02dd5ce39[m
+Merge: 6c29b70 4a8055d
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 13:50:29 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 6c29b70bad6984b1d96fc01952cf4968b771af27[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 13:49:52 2023 -0300
+
+    fix
+
+[33mcommit 4a8055d5252f3deb809d09c702a7b62262eeceed[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 12:06:56 2023 -0300
+
+    Update index.css
+
+[33mcommit 183f0fcbd68a1ef44de31708b614e9b4aa169c34[m
+Merge: 9367012 22e77ab
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 11:53:44 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 9367012455f31815b8206dbab498109444e07dbc[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 11:53:38 2023 -0300
+
+    fix
+
+[33mcommit 22e77abe07b53d90595fec5222bbe19485b99df8[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 11:46:36 2023 -0300
+
+    Update index.css
+
+[33mcommit 786c039a269f2c6151376faa6de13a0c15794157[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Mon Jun 5 11:45:53 2023 -0300
+
+    Delete index.html
+
+[33mcommit 9bd320047f4b552d58f3d590bb82b1315061c22c[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 10:31:37 2023 -0300
+
+    fix
+
+[33mcommit f848775f40732c253a329bf6721f428fb208ddc3[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 10:30:14 2023 -0300
+
+    fix
+
+[33mcommit fdb2d9f9ba8073f3a2d4ac41872693bcd025b278[m
+Merge: f7c1f5b dbe11b0
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 10:29:01 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit f7c1f5b271dadedc03c7c2010da37448b8a2f0fd[m
+Merge: a59b3ea 2312711
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 10:25:59 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit dbe11b0d17d8dce4ed051dcacc4e6b852b84ba9e[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Mon Jun 5 10:25:55 2023 -0300
+
+    update serviços
+
+[33mcommit a59b3eab37e33bb0f7ba6ca3b0802e2bd0ef545d[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon Jun 5 09:56:26 2023 -0300
+
+    Fix
+
+[33mcommit 2312711760683bd3104deaf7b63bdfd50aaf09a0[m
+Merge: a775c7d 476732d
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon Jun 5 08:37:38 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit a775c7d8f6f52fce44c24e144ec164edfcc9abaa[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon Jun 5 08:37:19 2023 -0300
+
+    Fix Index
+
+[33mcommit 476732dd57094c553fe53cbe2d33c5c98fe7808e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Fri Jun 2 14:00:42 2023 -0300
+
+    Update alterarUsuario.php
+
+[33mcommit 0a833bc656d88e0073df3b27ad99dc164ab62c81[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Fri Jun 2 13:31:24 2023 -0300
+
+    v2.0 Update - Fix Bootstrap
+
+[33mcommit 9d39aa2b0c70e6409351708972f354cff2ea15de[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Fri Jun 2 05:18:39 2023 -0300
+
+    Update Fix
+
+[33mcommit 82d4dde462a0de39bc37cc892256885349733e48[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 1 13:56:01 2023 -0300
+
+    v1.1
+
+[33mcommit 64225c9bc70238bca4543fc2655cfbe4583ae93e[m
+Merge: 63d761b f5e630a
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jun 1 13:35:00 2023 -0300
+
+    alou
+
+[33mcommit 63d761bde4e885487781f9d4461781342bd07ad6[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Jun 1 12:52:09 2023 -0300
+
+    Modificaçao e adiçao de login
+
+[33mcommit f5e630af7a725422efcde913ecffe5baed3f482e[m
+Merge: 97a4cf8 bccef51
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 1 11:49:08 2023 -0300
+
+    foi
+
+[33mcommit bccef51fcd10cf565df36fc99dd59c1ea0afe90e[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 1 10:53:30 2023 -0300
+
+    Delete servicos directory
+
+[33mcommit 97a4cf84f2c86f6bc20fce428ca58d0fee769a37[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu Jun 1 10:51:28 2023 -0300
+
+    v1.3
+
+[33mcommit 0e80226f28b81c24c4c82ceaeffc8a7496307722[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 1 09:41:21 2023 -0300
+
+    Delete index.html
+
+[33mcommit 3e82ae0c1104b9581fbcce91deb85249c8d49bf6[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu Jun 1 09:30:57 2023 -0300
+
+    Update rodape.html
+
+[33mcommit 934aa253487dad7cd0562667ca41b3c6d80ff1bf[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed May 31 13:27:51 2023 -0300
+
+    new version
+
+[33mcommit e718cc7cb4dd4d797437e997fad49fd9eee6dd23[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 31 11:29:52 2023 -0300
+
+    Updated
+
+[33mcommit 785e9857c28d15b14e7f8dc62ecb77cb64fc7654[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed May 31 11:21:37 2023 -0300
+
+    v1.0
+
+[33mcommit 137aec734d0241f2307c3a2a6c6370712be8c070[m
+Merge: 6f1716b 793d263
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed May 31 10:48:20 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit 6f1716b2d1610c4c548147dcb3b3ca1376c752fc[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed May 31 10:43:52 2023 -0300
+
+    v1.0
+
+[33mcommit 793d263eee36a1c2f03709b70ea209087e99e5a0[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed May 31 10:13:39 2023 -0300
+
+    v 1.9
+
+[33mcommit 74941ed8bad6ac2c5ef5ecc8a2bfda751be77f1d[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed May 31 09:40:57 2023 -0300
+
+    Update alterarUsuario.php
+
+[33mcommit f693c8800f47ed6137b3d1febeddb47e7aff35c0[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Wed May 31 09:37:43 2023 -0300
+
+    Update incluiUsuario.php
+
+[33mcommit eb9799702ef76fd6d1c398090e3f46a273f728d7[m
+Author: AugustoIseppe <augusto.iseppe@outlook.com>
+Date:   Tue May 30 16:11:19 2023 -0300
+
+    v1.0
+
+[33mcommit d1ac00ad18c42f0a8e523766f2d2cab9ac5ff814[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue May 30 13:35:35 2023 -0300
+
+    v1.2
+
+[33mcommit ee589eb8d1a2e2a26f98c7500cb3b2aca75c5d1c[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Tue May 30 13:29:21 2023 -0300
+
+    v1.2
+
+[33mcommit a2bb18700a98e1dc016b9023d16f347f3842b158[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue May 30 13:14:44 2023 -0300
+
+    1.6
+
+[33mcommit 3ebda8cd75adf1f6503fc4ba39b08f84e0e2189c[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue May 30 13:05:14 2023 -0300
+
+    1.1
+
+[33mcommit 85c1891a0ed25c1f36940312ba671ecb93ea4582[m
+Merge: a6300de d17aee7
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu May 25 13:36:38 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit a6300de1004cfa31e5c9d0fc2a72cd82dbe4cd50[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu May 25 13:35:36 2023 -0300
+
+    .
+
+[33mcommit d17aee7825e18c73f232d9a6034fa28768792842[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 13:13:33 2023 -0300
+
+    v1.5 Update - Correção PHP
+
+[33mcommit b314998af7022e8dbbf2b7106e1f80e83d7162cc[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 13:11:49 2023 -0300
+
+    v1.5 Update - Correção PHP
+
+[33mcommit 2884bc98a7910df995474ca1edf682e573bc3ff5[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 13:10:38 2023 -0300
+
+    v1.5 Update - Correção PHP
+
+[33mcommit 705054db2055a81a8688951d722e767134086762[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 13:08:43 2023 -0300
+
+    v1.5 Update - Correção PHP
+
+[33mcommit 99737ab9000809ee205b749cd6bc5937d09faee1[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 13:03:15 2023 -0300
+
+    v1.5 Update - Correção CSS
+
+[33mcommit 5d3391c62c8e92aa9da855f279f9c3aedcaa91ca[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:52:02 2023 -0300
+
+    v1.5 Update - Correção PHP
+
+[33mcommit 6a1023f16328fac1b2a84c3d71cf4316acf7d75c[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:45:57 2023 -0300
+
+    v1.5 Update - Correção CSS
+
+[33mcommit b76d99dae680448450408559c3accab912d7463c[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:35:30 2023 -0300
+
+    v1.5 Update - Correção CSS
+
+[33mcommit 6e41c0adff23af1e2b4445cf0d123ab21d118b90[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:25:21 2023 -0300
+
+    Update visualizarUsuarios.php
+
+[33mcommit fd898328315695e26a48c67ec3e81cbda4ab522f[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:23:23 2023 -0300
+
+    Update visualizarIdioma.php
+    
+    2.0
+
+[33mcommit c4b11b19a01152041e50da38b8a80eaca0ca19d2[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:20:11 2023 -0300
+
+    Update incluiUsuario.php
+    
+    2.0
+
+[33mcommit f5beb1ef01fc85a0c9e777a0d9715c344461c490[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:19:15 2023 -0300
+
+    Update incluiIdioma.php
+    
+    2.0
+
+[33mcommit 20714b555d979b95f058a5138c0628338a679eeb[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:17:17 2023 -0300
+
+    Update formAlterarUsuario.php
+    
+    2.0
+
+[33mcommit 84d4c51b13704a0921ef2a140a06d654419b2056[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:14:27 2023 -0300
+
+    Update formAlterarIdioma.php
+    
+    2.0
+
+[33mcommit 16c5a21d27b2505d1ca93ca25b3f374284c0ea11[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:11:42 2023 -0300
+
+    v1.4 Update - CSS adicionado
+
+[33mcommit 7024823702c04241b1bfc7d547c3ff35ddb98198[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:11:31 2023 -0300
+
+    Update excluirUsuario.php
+    
+    2.0
+
+[33mcommit 54ea1feb6b4126a707701d8eb23b5d4228937621[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:10:29 2023 -0300
+
+    v1.4 Update - CSS adicionado
+
+[33mcommit 10f3122003de136d8741c590d173589e10f61d57[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 12:08:46 2023 -0300
+
+    v1.3 Update - CSS adicionado
+
+[33mcommit f6dafb30e5cfb18d8677dff5b7d028458b6f7f32[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:08:31 2023 -0300
+
+    Update excluirIdioma.php
+    
+    2.0
+
+[33mcommit 7987cd30b0ed116633588ab42d87c4a672757130[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:07:12 2023 -0300
+
+    Update alterarUsuario.php
+    
+    2.0
+
+[33mcommit ca4eff40c9c24c7250c47cc095aa38bc80c48416[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:04:56 2023 -0300
+
+    Update alterarUsuario.php
+    
+    2.0
+
+[33mcommit 45d9c9455ef9f5069ce37b8d97f46cab50be2b14[m
+Author: TGC <117994288+TGCodinhoto@users.noreply.github.com>
+Date:   Thu May 25 12:03:13 2023 -0300
+
+    Update alterarIdioma.php
+    
+    2.0
+
+[33mcommit 05e8051d022ee338b466cdb26297a8228d50254f[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 11:01:14 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 929ba857b84ca6bffcd5c3736da03d1cb807b0b3[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:58:18 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 90ebb7790051267b1b450dc2155b0d943eb36ac0[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:56:03 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 0561f36cfe7a3a602bc54305863365510e9b20b1[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:54:01 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 87b5d475f99c37f41d40f8417792c8f929898850[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:51:38 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 02d150eaeb67205d885ae9c8d0e6e5974e86f24a[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:46:53 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 68b8a5b39886076258f201492d6bb2a8f0b2957f[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Thu May 25 10:43:41 2023 -0300
+
+    v1.3 Update - PHPs renomeados
+
+[33mcommit 586b9b5d30ed1aebf1c51053bd33085d3c80bdd9[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:41:06 2023 -0300
+
+    v1.2
+
+[33mcommit 0135bb85fdb1b1ead25e0566a65f4d283d2f632e[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:37:06 2023 -0300
+
+    v1.2
+
+[33mcommit 715d3ff7eb5f70c4063664a06c468e74bc7ab331[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:34:49 2023 -0300
+
+    v1.2
+
+[33mcommit 4775757acf1354149c8271af2b3b68b7f7b25f8a[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:31:25 2023 -0300
+
+    v1.2
+
+[33mcommit cb70420232a7ca051bf2eb6878ad277866e30e22[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:29:22 2023 -0300
+
+    v1.2
+
+[33mcommit 7bf11d81f0acea36c0a2a331f77cea4c17785935[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:17:07 2023 -0300
+
+    v1.2
+
+[33mcommit e312baca0295d00370f2f6a1c3bc9b30f824796a[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:09:25 2023 -0300
+
+    v1.2
+
+[33mcommit a51235f0d7b0ccce0a72818c7a0d31ea3b1af773[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:06:33 2023 -0300
+
+    v1.2
+
+[33mcommit 86f126659e5c19fc967e2326e49e3d6877586546[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 02:01:26 2023 -0300
+
+    v1.2
+
+[33mcommit 4df423ff8dc165175ce1a06955b8d6f1bdb12961[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 01:57:42 2023 -0300
+
+    v1.2
+
+[33mcommit d91046db59bfc23b5a9ee4c1c19600f338231391[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Wed May 24 01:56:06 2023 -0300
+
+    v1.2
+
+[33mcommit 7c2d13c2c39202f4cc79b5ae7151bd05fd90bc14[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Tue May 23 18:09:46 2023 -0300
+
+    serviços
+
+[33mcommit 57d5e76965164e7c6945a2e4574ceaddc7900f57[m
+Merge: cbb7c94 222164d
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Tue May 23 18:07:40 2023 -0300
+
+    Merge branch 'dev' of https://github.com/Dhestor/SecturPira into dev
+
+[33mcommit cbb7c9430c39eaed185bc2c511742d41fc6cbaa7[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Tue May 23 18:05:10 2023 -0300
+
+    Index
+
+[33mcommit 222164d380a66e13c8e6ad75c59132b530d753bb[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue May 23 02:24:18 2023 -0300
+
+    1.1
+
+[33mcommit 2287543b0e60cdbd0292bca48755c46cb3c76101[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue May 23 02:19:55 2023 -0300
+
+    1.1
+
+[33mcommit dc64f89cb7e77e8cfda864fae72a2b8e4de2b863[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue May 23 02:18:48 2023 -0300
+
+    1.1
+
+[33mcommit f5d583d1f962ea871f89d416f9f81b67f84360f4[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue May 23 02:10:39 2023 -0300
+
+    1.1
+
+[33mcommit 35056b48a2db928c8d80bbf7e7ce49183f089353[m
+Author: Vinícius Oliveira Malentaqui <110803642+Vini789@users.noreply.github.com>
+Date:   Tue May 23 02:02:31 2023 -0300
+
+    1.1
+
+[33mcommit f59795b6c5ade0b0a8c897de580fecdba7c55aca[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon May 22 23:45:33 2023 -0300
+
+    Version 1.6
+
+[33mcommit caeca8412890ef56f818b7cbc906ca10032915d0[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon May 22 23:44:16 2023 -0300
+
+    Version 1.6
+
+[33mcommit 7d7ce4ef1dc8e8250604314aea65fbd7a3874c56[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon May 22 22:48:48 2023 -0300
+
+    Version-1.6
+
+[33mcommit 0ff9500612ffc125370a767dbb86abc9b9738e7c[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Mon May 22 22:46:32 2023 -0300
+
+    version-1.5
+
+[33mcommit e0c31fa2ed571957d974e5d8c9af5e68fda4f89e[m
+Merge: cdddb10 28b07b9
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Mon May 22 17:29:26 2023 -0300
+
+    Merge pull request #12 from Dhestor/Sinalizacao/Categoria
+    
+    1.0
+
+[33mcommit 28b07b9ae7b46b7a12fdbe5f50fcfb4078a0dc30[m
+Author: unknown <vmalentaqui@hotmail.com>
+Date:   Sat May 20 21:01:01 2023 -0300
+
+    1.0
+
+[33mcommit cdddb10cc72aa5a329ddfcab266aa1cdc29604ce[m
+Merge: 75b2ef5 1ef623e
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Sat May 20 18:14:02 2023 -0300
+
+    Merge pull request #11 from Dhestor/SubCATEGORIA/Pagmto
+    
+    Sub Categoria, Pagamento
+
+[33mcommit 1ef623ee154af57bf43b226babe70fab3df9efd2[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat May 20 18:10:28 2023 -0300
+
+    Sub Categoria, Pagamento
+
+[33mcommit 75b2ef51a13a44226505fd1c4a191ea8fff27475[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat May 20 18:03:15 2023 -0300
+
+    v1.1
+
+[33mcommit d3ba8cc88990782e111b79691c217328e01d9529[m
+Merge: 4d07912 4646a11
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Sat May 20 15:26:41 2023 -0300
+
+    Merge pull request #10 from Dhestor/Acessibilidade/Natureza
+    
+    v1.0 - Acessibilidade-Natureza
+
+[33mcommit 4646a1194e243c20cc41cbdc42b9b9d974f2fb04[m
+Author: AugustoIseppe <augusto.iseppe@outlook.com>
+Date:   Sat May 20 14:51:22 2023 -0300
+
+    v1.0
+
+[33mcommit 4d07912ad99fc98c61bbb4ada4468c5c0d3e1122[m
+Merge: 108654d 599d77e
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Sat May 20 13:28:47 2023 -0300
+
+    Merge pull request #8 from Dhestor/NovoIndex
+    
+    Novo index
+
+[33mcommit 599d77eb90e954da6f6c61f1a92e8efbc4ff743e[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat May 20 13:26:02 2023 -0300
+
+    NovoIndex
+
+[33mcommit 00976d9e29004458db9d0afd9c1b3d147d7d0dc8[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat May 20 13:21:52 2023 -0300
+
+    excluido
+
+[33mcommit 108654d690ba7aab01f8c3774dd9e6e5b54592d7[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Fri May 5 13:16:36 2023 -0300
+
+    Hoteis 2.0
+
+[33mcommit 274154a77aaebb699b31755f8bc5585cc655da78[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu May 4 11:52:50 2023 -0300
+
+    atualização da responsividade das imagens
+
+[33mcommit e3ff97b4facf5aee48d2aca8d1dea2fc5116a5d9[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Thu May 4 11:49:19 2023 -0300
+
+    atualizaçõa da responsividade das imagens
+
+[33mcommit 057b0b4939e208937af43c874db484e7c62bf288[m
+Author: Augusto Iseppe <129420176+AugustoIseppe@users.noreply.github.com>
+Date:   Wed May 3 13:32:59 2023 -0300
+
+    atualização da responsividade
+
+[33mcommit cc544bd17721e1be346542bdb8323030a86274ce[m
+Merge: 0b8c659 2517b63
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 18:53:04 2023 -0300
+
+    Merge branch 'dev' of github.com:Dhestor/SecturPira into dev
+
+[33mcommit 0b8c6599c17973f28503dc1ef24fb08ec4a486f6[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 18:51:45 2023 -0300
+
+    Alteraçao ola.dart
+
+[33mcommit 2517b6321746f0c0094614cb5ab62b56fe69d7ca[m
+Merge: a4804de 395b9d2
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Sat Apr 22 18:21:10 2023 -0300
+
+    Merge branch 'staging' into dev
+
+[33mcommit a4804de6251a1e45a50d4cf252823500c290ccc7[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 18:16:27 2023 -0300
+
+    teste conflito dev
+
+[33mcommit 395b9d2bd82b247cfafc96b35a3139f700944c60[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 18:15:53 2023 -0300
+
+    simulando conflito
+
+[33mcommit d3f0cbf5f973bf81ef1cb313e5311f8624149989[m
+Merge: 4b5d357 791fe5d
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Sat Apr 22 18:09:13 2023 -0300
+
+    Merge pull request #2 from Dhestor/dev
+    
+    Dev to Staging
+
+[33mcommit 791fe5dd370f2c58e125d65941edcd3d66809610[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 18:02:10 2023 -0300
+
+    Update readme
+
+[33mcommit a6267b92784739121a90a6371c5a05cbc9e73a9e[m
+Author: Dhestor <Dhestor@hotmail.com>
+Date:   Sat Apr 22 17:52:01 2023 -0300
+
+    Read me
+
+[33mcommit 4b5d3571b9c13e509115cc6a3d336bca5a78bf1d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Apr 20 13:33:47 2023 -0300
+
+    Arquivos Backup 2/3
+
+[33mcommit 7c35eaad440eb40dad1569185f35707b84586217[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Thu Apr 20 13:32:52 2023 -0300
+
+    Arquivos Backup 1/3
+    
+    20/04/2023
+
+[33mcommit b7b09dad37815d1e1ac7ca2c847abd5688b9cb11[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Wed Apr 12 09:56:14 2023 -0300
+
+    Create ola.dart
+    
+    sim
+
+[33mcommit bcdeddbe9bbac2242612aba3088ca0992d07b969[m
+Author: Matheus Vinicius <68595221+Dhestor@users.noreply.github.com>
+Date:   Tue Apr 11 16:23:03 2023 -0300
+
+    teste
+    
+    teste

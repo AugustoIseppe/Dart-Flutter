@@ -1,0 +1,45 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+#button {
+    margin: 10px;
+    background-image: linear-gradient(to right, #0043AE 0%, #008FFF 51%, #0043AE 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 50px 50px 0px 0px;
+    display: block;
+}
+
+#button:hover {
+    transform: scale(1.015);
+}
+
+#button2 {
+    margin: 10px;
+    background-image: linear-gradient(to right, #0043AE 0%, #008FFF 51%, #0043AE 100%);
+    padding: 15px 0px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 0px 0px 50px 50px;
+    display: block;
+}
+#button2:hover {
+    transform: scale(1.015);
+}
+
+#button a:visited {
+    text-decoration: none;
+}
+
+#button a:hover {
+    text-decoration: none;
+}

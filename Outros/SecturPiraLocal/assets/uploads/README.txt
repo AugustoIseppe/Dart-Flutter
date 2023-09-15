@@ -1,0 +1,1 @@
+// Esta pasta serve exclusivamente para armazenar uploads de fotos enviadas através do formulário dedicado a cadastro de locais/pontos turísticos. !

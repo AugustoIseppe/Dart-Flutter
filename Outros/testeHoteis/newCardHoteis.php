@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
@@ -45,11 +45,16 @@
                 <div class="image-container">
 
                     <div class="slider">
-                        <div><img src="assets/uploads/<?php echo $exibir['localfoto1']; ?>" alt="Imagem 1"></div>
-                        <div><img src="assets/uploads/<?php echo $exibir['localfoto2']; ?>" alt="Imagem 2"></div>
-                        <div><img src="assets/uploads/<?php echo $exibir['localfoto3']; ?>" alt="Imagem 3"></div>
-                        <div><img src="assets/uploads/<?php echo $exibir['localfoto4']; ?>" alt="Imagem 4"></div>
-                        <div><img src="assets/uploads/<?php echo $exibir['localfoto5']; ?>" alt="Imagem 5"></div>
+                        <div><img src="https://source.unsplash.com/500x500/?wolf
+" alt="Imagem 1"></div>
+                        <div><img src="https://source.unsplash.com/500x500/?lion
+" alt="Imagem 2"></div>
+                        <div><img src="https://source.unsplash.com/500x500/?bird
+" alt="Imagem 3"></div>
+                        <div><img src="https://source.unsplash.com/500x500/?cat
+" alt="Imagem 4"></div>
+                        <div><img src="https://source.unsplash.com/500x500/?dog
+" alt="Imagem 5"></div>
                     </div>
 
                 </div>
@@ -69,8 +74,8 @@
 
                     <!--LOCAL DESCRIÇÃO-->
                     <div class="color-size-container">
-                        <?php
-                        echo substr($exibir['localdescricao'], 0, 150) . "..."
+                    <?php
+                        echo substr($exibir['localdescricao'], 0, 80) . "..."
                         ?>
                     </div>
                     <!-- FIM LOCAL DESCRIÇÃO-->
@@ -116,13 +121,13 @@
                     autoplaySpeed: 2000, // Define o intervalo em milissegundos (5 segundos)
                     arrows: true, //insere as flechas laterais
                     dots: false,
-                    prevArrow: '<div class="slick-prev">‹</div>',
-                    nextArrow: '<div class="slick-next">›</div>'
+                    prevArrow: '<div class="slick-prev"></div>',
+                    nextArrow: '<div class="slick-next"></div>'
                 });
             });
         </script>
         <!-- FIM SCRIPT-->
-
+                
     </div>
 
     <?php include 'rodape.html'; ?>

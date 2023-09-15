@@ -6,13 +6,11 @@
 
 #main-container {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1rem;
   margin-top: 8%;
-  justify-content: center;
-  /* align-items: center; */
 }
 
 /* CSS para centralizar as imagens */
@@ -29,7 +27,7 @@
 /* Estilo personalizado para os pontos */
 .slick-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 5%;
   width: 100%;
   text-align: center;
   padding: 0;
@@ -49,7 +47,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-  font-size: 24px;
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -67,28 +65,29 @@
 .card {
   --accent-color: #eca2a2;
   position: relative;
-  width: 240px;
-  /* height: auto; */
+  /* width: 320px; */
   background: white;
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 5px 5px 30px 2.5px;
   transition: all 0.5s ease-in-out;
   border: 1px solid gainsboro;
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 3%;
 }
 
 .card .image-container {
   position: relative;
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   border-radius: 0.7rem;
   /* border-top-right-radius: 4rem; */
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 
 .card .image-container img {
   width: 100%;
-  height: 200px;
+  height: 15.625em;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: inherit;
@@ -102,10 +101,10 @@
 
 .card .favorite {
   position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 20px;
-  right: 20px;
+  width: 1.875rem;
+  height: 1.875rem;
+  top: 1.25rem;
+  right: 1.25rem;
   cursor: pointer;
 }
 
@@ -263,20 +262,20 @@
   font-size: 0.6rem;
   font-weight: 700;
   display: flex;
-  align-items: last baseline;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   gap: 0.5rem;
 }
 .rating {
   justify-content: center;
   position: absolute;
-  bottom: 10%; /* Define a distância desejada entre as estrelas e o botão */
+  bottom: 12%; /* Define a distância desejada entre as estrelas e o botão */
   /* left: 20%;: */
   /* right: 0; Ocupa toda a largura do cartão */
 }
 
 .card .content .rating svg {
-  height: 13px;
+  height: 0.8rem;
 }
 
 .card .button-container {
@@ -296,7 +295,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 4% 6%;
+  margin: 4% 25%;
 }
 
 .card .button-container .button:hover {
@@ -314,11 +313,11 @@
 .card .button-container .cart-button {
   display: grid;
   place-content: center;
-  width: 50px;
+  width: 3.125rem;
 }
 
 .card .button-container .cart-button svg {
-  width: 15px;
+  width: 0.938rem;
   fill: white;
 }
 
@@ -343,5 +342,11 @@
 
   75% {
     transform: scale(1.5, 2.05);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-basis: calc(25% - 20px); /* 25% é aproximadamente 100% dividido por 4 (4 cartões por linha) */
   }
 }

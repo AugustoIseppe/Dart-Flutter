@@ -168,7 +168,7 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
           _toDoList.removeAt(index);
           _saveData();
 
-          final snack = SnackBar(
+          final snack = SnackBar( //MENSAGEM DE QUANDO REMOVER ALGUM ITEM DA LISTA
             content: Text(
                 'Tarefa \"${_lastRemoved!["title"]}\" removida com sucesso'),
             action: SnackBarAction(

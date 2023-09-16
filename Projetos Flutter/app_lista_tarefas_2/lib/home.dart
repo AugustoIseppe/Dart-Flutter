@@ -19,8 +19,8 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
   //controlador para capturar o texto do TextField
   final controller = TextEditingController();
 
-  Map<String, dynamic>?
-      _lastRemoved; //map criado para armazenar o ultimo item da lista removido
+ /* MAP CRIADO PARA ARAMAZENAR O ULTIMO ITEM REMOVIDO */
+  Map<String, dynamic>? _lastRemoved; //map criado para armazenar o ultimo item da lista removido
   int? _lastRemovedPos; //qual posição o item foi removido
 
   @override
@@ -163,8 +163,7 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
       ),
       onDismissed: (direction) {
         setState(() {
-          _lastRemoved = Map.from(_toDoList[
-              index]); //map criado para armazenar o ultimo item da lista removido
+          _lastRemoved = Map.from(_toDoList[index]); //map criado para armazenar o ultimo item da lista removido
           _lastRemovedPos = index;
           _toDoList.removeAt(index);
           _saveData();

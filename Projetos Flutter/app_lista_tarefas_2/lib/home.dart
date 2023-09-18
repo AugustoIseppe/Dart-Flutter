@@ -191,9 +191,8 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
   //FUNCAO QUE IRÁ RETORNAR O ARQUIVO PARA SALVAR
   Future<File> _getFile() async {
     //armazenará o diretório onde os documentos do aplicativo serão armazenados
-    final directory = await getApplicationDocumentsDirectory();
-    return File(
-        "${directory.path}/data.json"); // Esta linha cria um objeto File que representa um arquivo no sistema de arquivos.
+     Directory directory = await getApplicationDocumentsDirectory();
+    return File("${directory.path}/data.json"); // Esta linha cria um objeto File que representa um arquivo no sistema de arquivos.
   }
 
   //FUNCAO QUE IRÁ SALVAR OS DADOS

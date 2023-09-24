@@ -11,7 +11,7 @@ const String emailColumn = "emailColumn";
 const String phoneColumn = "phoneColumn";
 const String imgColumn = "imgColumn";
 
-class ContactHelper {
+class ContactHelper { //Padrao Singletown
   static final ContactHelper _instance = ContactHelper.internal();
 
   factory ContactHelper() => _instance;

@@ -1,5 +1,5 @@
-import 'package:app_testes/CosumoDeDados/02_post.dart';
-import 'package:app_testes/CosumoDeDados/03_remote_services.dart';
+import 'package:app_testes/CosumoDeDados01/02_post.dart';
+import 'package:app_testes/CosumoDeDados01/03_remote_services.dart';
 import 'package:flutter/material.dart';
 
 class ConsumoDeDadosHTTP extends StatefulWidget {

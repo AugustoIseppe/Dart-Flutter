@@ -63,7 +63,7 @@ class _HomePage02State extends State<HomePage02> {
                               itemBuilder: (context, index) {
                                 String nome = snapshot.data![index]["name"];
                                 String body = snapshot.data![index]["body"];
-                                // int id = snapshot.data![index]["id"];
+                                int id = snapshot.data![index]["id"];
                                 return Card(
                                   elevation: 5,
                                   child: Padding(
@@ -74,8 +74,7 @@ class _HomePage02State extends State<HomePage02> {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          nome.toUpperCase(),
+                                        Text('ID: ${id.toString()} -  Título:${nome.toUpperCase()}',
                                           textAlign: TextAlign.start,
                                           style: TextStyle(
                                             color: Colors.blueAccent[400],

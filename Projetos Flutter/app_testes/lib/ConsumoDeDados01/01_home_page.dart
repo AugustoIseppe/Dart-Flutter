@@ -1,5 +1,7 @@
-import 'package:app_testes/CosumoDeDados01/02_post.dart';
-import 'package:app_testes/CosumoDeDados01/03_remote_services.dart';
+// ignore_for_file: file_names
+
+import 'package:app_testes/ConsumoDeDados01/02_post.dart';
+import 'package:app_testes/ConsumoDeDados01/03_remote_services.dart';
 import 'package:flutter/material.dart';
 
 class ConsumoDeDadosHTTP extends StatefulWidget {
@@ -31,9 +33,10 @@ class _ConsumoDeDadosHTTPState extends State<ConsumoDeDadosHTTP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Consumo de Dados com HTTP'), centerTitle: true,),
+      appBar: AppBar(title: const Text('Consumo de Dados com HTTP'), centerTitle: true,),
       body: Visibility(
         visible: isLoaded,
+          replacement: const Center(child: CircularProgressIndicator(),),
         child: ListView.builder(
           itemCount: posts?.length,
           itemBuilder: (context, index) {
@@ -50,12 +53,12 @@ class _ConsumoDeDadosHTTPState extends State<ConsumoDeDadosHTTP> {
                       color: Colors.grey[400],
                       
                     ),
-                    child: Text('${index}', style: TextStyle(fontSize: 20),
+                    child: Text('$index', style: const TextStyle(fontSize: 20),
                     textAlign: TextAlign.center,
                     )
                     ,
                   ),
-                  SizedBox(width: 16,),
+                  const SizedBox(width: 16,),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -64,7 +67,7 @@ class _ConsumoDeDadosHTTPState extends State<ConsumoDeDadosHTTP> {
                           posts![index].title,
                           overflow: TextOverflow.ellipsis,
                           maxLines: 2,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold
                           ),
@@ -81,7 +84,6 @@ class _ConsumoDeDadosHTTPState extends State<ConsumoDeDadosHTTP> {
               ));
           },
           ),
-          replacement: const Center(child: CircularProgressIndicator(),),
       ),
     );
   }

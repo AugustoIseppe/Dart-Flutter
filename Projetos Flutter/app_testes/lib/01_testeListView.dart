@@ -66,33 +66,33 @@ class _TesteListViewState extends State<TesteListView> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Text(
-                              'Nome: ' + nome,
-                              style: TextStyle(
+                              'Nome: $nome',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                             Text(
-                              'Email: ' + email,
-                              style: TextStyle(
+                              'Email: $email',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                             Text(
-                              'Username: ' + username,
-                              style: TextStyle(
+                              'Username: $username',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                             Text(
-                              'Endereço: ' + address,
-                              style: TextStyle(
+                              'Endereço: $address',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                             Text(
-                              'Cidade: ' + cidade,
-                              style: TextStyle(
+                              'Cidade: $cidade',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                             Text(
-                              'CEP: ' + zipcode,
-                              style: TextStyle(
+                              'CEP: $zipcode',
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w700),
                             ),
                           ],

@@ -1,4 +1,6 @@
-import 'package:app_testes/CosumoDeDados01/02_post.dart';
+// ignore_for_file: file_names
+
+import 'package:app_testes/ConsumoDeDados01/02_post.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 

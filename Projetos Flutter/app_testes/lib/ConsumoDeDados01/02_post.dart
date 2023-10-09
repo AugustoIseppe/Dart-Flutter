@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'dart:convert';
 
 List<Post> postFromJson(String str) => List<Post>.from(jsonDecode(str).map((x) => Post.fromJson(x)));

@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class ContadorPessoas extends StatefulWidget {
@@ -44,7 +46,7 @@ bool get isEmpty => contador == 0;
           children: [
             Text(
               isFull ? "Fechado" : "Aberto",
-              style: TextStyle(fontSize: 50),
+              style: const TextStyle(fontSize: 50),
             ),
             Text(
               contador.toString(),

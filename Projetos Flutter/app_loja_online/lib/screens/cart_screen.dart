@@ -35,7 +35,7 @@ class _CartScreenState extends State<CartScreen> {
               builder: (context, child, model) {
                 int p = model.products.length;
                 return Text(
-                  "${p} ${p == 1 ? "Item" : "Itens"}",
+                  "$p ${p == 1 ? "Item" : "Itens"}",
                   style: const TextStyle(color: Colors.white),
                 );
               },
@@ -43,12 +43,12 @@ class _CartScreenState extends State<CartScreen> {
           )
         ],
       ),
-      floatingActionButton: CartButton(),
+      floatingActionButton: const CartButton(),
       body: ScopedModelDescendant<CartModel>(
         builder: (context, child, model) {
           if (model.isLoading && UserModel.of(context).isLoggedIn()) {
             /* Enquanto carrega os itens com o CircularProgressIndicator estará ativo */
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           } else if (!UserModel.of(context).isLoggedIn()) {
@@ -75,7 +75,7 @@ class _CartScreenState extends State<CartScreen> {
                   ),
                   TextButton(
                     onPressed: () {
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen(),));
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const LoginScreen(),));
                     },
                     child: Text(
                       "Entrar",
@@ -87,9 +87,9 @@ class _CartScreenState extends State<CartScreen> {
                 ],
               ),
             );
-          } else if ( model.products.length == 0) {
+          } else if ( model.products.isEmpty) {
             /* Se o carrinho estiver vazio, este código será executado */
-            return  Center(
+            return  const Center(
               child: Text('Carrinho vazio',style:  TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
             );
           } else {
@@ -100,11 +100,12 @@ class _CartScreenState extends State<CartScreen> {
                     return CartTile(product);
                   }).toList()
                 ),
-                DiscountCard(),
-                FreteCard(),
+                const DiscountCard(),
+                const FreteCard(),
                 CartPrice(() async {
                   String? orderId = await model.finishOrder();
-                  if (orderId!=null) Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => OrderScreen(orderId),));;
+                  // ignore: use_build_context_synchronously
+                  if (orderId!=null) Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => OrderScreen(orderId),));
                 }),
               ],
             );

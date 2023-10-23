@@ -67,6 +67,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       ),
                       validator: (text) {
                         if (text!.isEmpty || !text.contains('@'))
+                          // ignore: curly_braces_in_flow_control_structures
                           return "Email inválido";
                         return null;
                       },
@@ -98,6 +99,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       ),
                       validator: (text) {
                         if (text!.isEmpty || text.length < 6)
+                          // ignore: curly_braces_in_flow_control_structures
                           return "Senha inválida";
                         return null;
                       },

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class PlaceTile extends StatelessWidget {
   final DocumentSnapshot snapshot;
-  PlaceTile(this.snapshot);
+  const PlaceTile(this.snapshot, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class PlaceTile extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                Text(snapshot['title'], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                Text(snapshot['title'], style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                 Text(snapshot["address"])
               ],
             ),
@@ -38,13 +38,13 @@ class PlaceTile extends StatelessWidget {
                 onPressed: (){
                   // launchUrl(Uri.parse("https://www.google.com/maps/search/?api=`&query$"));
                 }, 
-                child: Text("Ver no mapa")),
-              SizedBox(width: 5,),
+                child: const Text("Ver no mapa")),
+              const SizedBox(width: 5,),
               FilledButton(
                 style: FilledButton.styleFrom(
                   backgroundColor: Theme.of(context).primaryColor
                 ),
-                onPressed: (){}, child: Text("Ligar")),
+                onPressed: (){}, child: const Text("Ligar")),
             ],
           )
         ],

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class CategoryTile extends StatelessWidget {
 
   final DocumentSnapshot snapshot;
-  CategoryTile(this.snapshot);
+  const CategoryTile(this.snapshot, {super.key});
 
   @override
   Widget build(BuildContext context) {

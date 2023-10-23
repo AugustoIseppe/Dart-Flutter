@@ -8,6 +8,7 @@ class CartModel extends Model {
   UserModel? user;
   List<CartProduct> products = [];
   String? couponCode;
+  // ignore: prefer_typing_uninitialized_variables
   var discountPercentage;
   final _firebaseFirestore = FirebaseFirestore.instance;
 
@@ -78,6 +79,7 @@ class CartModel extends Model {
     double price = 0.0;
     for (CartProduct c in products) {
       if (c.productData != null) 
+        // ignore: curly_braces_in_flow_control_structures
         price += c.quantity! * c.productData!.price!;
     }
     return price;

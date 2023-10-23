@@ -10,9 +10,10 @@ import 'package:carousel_slider/carousel_slider.dart';
 
 class ProductScreen extends StatefulWidget {
   final ProductData product;
-  ProductScreen(this.product);
+  const ProductScreen(this.product, {super.key});
 
   @override
+  // ignore: no_logic_in_create_state
   State<ProductScreen> createState() => _ProductScreenState(product);
 }
 
@@ -29,7 +30,7 @@ class _ProductScreenState extends State<ProductScreen> {
         appBar: AppBar(
           title: Text(
             product.title!,
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+            style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
           ),
           centerTitle: true,
           backgroundColor: Theme.of(context).primaryColor,
@@ -105,7 +106,7 @@ class _ProductScreenState extends State<ProductScreen> {
                   ),
                   Text(
                     "R\$ ${product.price!.toStringAsFixed(2)}",
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.black,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
@@ -113,16 +114,16 @@ class _ProductScreenState extends State<ProductScreen> {
                   Text(
                     product.description!,
                     textAlign: TextAlign.justify,
-                    style: TextStyle(color: Colors.black, fontSize: 15),
+                    style: const TextStyle(color: Colors.black, fontSize: 15),
                   ),
                   const SizedBox(height: 20),
                   const Text("Tamanhos", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
                   SizedBox(
                     height: 34.0,
                     child: GridView(
-                      padding: EdgeInsets.symmetric(vertical: 4.0),
+                      padding: const EdgeInsets.symmetric(vertical: 4.0),
                       scrollDirection: Axis.horizontal,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 1,
                         childAspectRatio: 0.5,
                         mainAxisSpacing: 8.0,
@@ -137,7 +138,7 @@ class _ProductScreenState extends State<ProductScreen> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: sizes == selectedSize? Theme.of(context).primaryColor : Colors.white,
-                                borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                                borderRadius: const BorderRadius.all(Radius.circular(4.0)),
                                 border: Border.all(color: sizes == selectedSize ? Theme.of(context).primaryColor : Colors.grey , width: 1)
                               ),
                               alignment: Alignment.center,
@@ -171,9 +172,9 @@ class _ProductScreenState extends State<ProductScreen> {
                                     cartProduct.category = product.category;
                                     cartProduct.productData = product;
                                     CartModel.of(context).addCartItem(cartProduct);
-                                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => CartScreen(),));
+                                     Navigator.of(context).push(MaterialPageRoute(builder: (context) => const CartScreen(),));
                                   } else {
-                                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen(),));
+                                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => const LoginScreen(),));
                                   }
                                 } 
                                 : 
@@ -196,7 +197,7 @@ class _ProductScreenState extends State<ProductScreen> {
             
           ],
         ),
-        floatingActionButton: CartButton(),
+        floatingActionButton: const CartButton(),
         );
   }
 }

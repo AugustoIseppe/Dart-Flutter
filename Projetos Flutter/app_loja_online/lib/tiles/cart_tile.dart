@@ -6,15 +6,16 @@ import 'package:flutter/material.dart';
 
 class CartTile extends StatelessWidget {
   final CartProduct cartProduct;
-  CartTile(this.cartProduct);
+  const CartTile(this.cartProduct, {super.key});
 
   @override
   Widget build(BuildContext context) {
+    // ignore: no_leading_underscores_for_local_identifiers
     Widget _buildContent() {
       CartModel.of(context).updatePrices();
       return Row(
         children: [
-          Container(
+          SizedBox(
             width: 120,
             child: Image.network(
               cartProduct.productData!.images![0],
@@ -95,8 +96,8 @@ class CartTile extends StatelessWidget {
                   } else {
                     return Container(
                       height: 70,
-                      child: CircularProgressIndicator(),
                       alignment: Alignment.center,
+                      child: const CircularProgressIndicator(),
                     );
                   }
                 },

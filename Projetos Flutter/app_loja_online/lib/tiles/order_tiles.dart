@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class OrderTile extends StatelessWidget {
   final String? orderId;
-  const OrderTile(this.orderId);
+  const OrderTile(this.orderId, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -112,7 +112,7 @@ class OrderTile extends StatelessWidget {
       );
     } else {
       backColor = Colors.green;
-      child = Icon(Icons.check);
+      child = const Icon(Icons.check);
     }
 
     return Padding(

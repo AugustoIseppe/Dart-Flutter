@@ -48,23 +48,25 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
 
 
   //MÉTODO PARA ORDERNAR A LISTA CONFORME FOR DADO O CHECKBOX
-    Future<Null> _refresh() async {
+    Future<void> _refresh() async {
     await Future.delayed(
-        Duration(seconds: 1)); // espera 1s para executar a função
+        const Duration(seconds: 1)); // espera 1s para executar a função
     setState(() {
       _toDoList.sort(
         (a, b) {
-          if (a["ok"] && !b["ok"])
+          if (a["ok"] && !b["ok"]) {
             return 1;
-          else if (!a["ok"] && b["ok"])
+          } else if (!a["ok"] && b["ok"])
+            // ignore: curly_braces_in_flow_control_structures
             return -1;
           else
+            // ignore: curly_braces_in_flow_control_structures
             return 0;
         },
       );
       _saveData();
     });
-    return null;
+    return;
   }
 
   @override
@@ -144,7 +146,7 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
           .toString()), //necessario para gerar uma chave aleatoria que para que a chave nao se repita
       background: Container(
         color: Colors.red,
-        child: Align(
+        child: const Align(
           alignment: Alignment(-0.9, 0.0),
           child: Icon(
             Icons.delete,
@@ -176,16 +178,16 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
           final snack = SnackBar(
             //MENSAGEM DE QUANDO REMOVER ALGUM ITEM DA LISTA
             content: Text(
-                'Tarefa \"${_lastRemoved!["title"]}\" removida com sucesso'),
+                'Tarefa "${_lastRemoved!["title"]}" removida com sucesso'),
             action: SnackBarAction(
                 label: "Desfazer",
                 onPressed: () {
                   setState(() {
-                    _toDoList.insert(_lastRemovedPos!, _lastRemoved);
+                    _toDoList.insert(_lastRemovedPos!, _lastRemoved!);
                     _saveData();
                   });
                 }),
-            duration: Duration(seconds: 1),
+            duration: const Duration(seconds: 1),
           );
           // Scaffold.of(context).showSnackBar(snack);
           ScaffoldMessenger.of(context).showSnackBar(snack);
@@ -198,8 +200,7 @@ class _App_ListaTarefas2State extends State<App_ListaTarefas2> {
   Future<File> _getFile() async {
     //armazenará o diretório onde os documentos do aplicativo serão armazenados
     Directory directory = await getApplicationDocumentsDirectory();
-    return File(
-        "${directory.path}/data.json"); // Esta linha cria um objeto File que representa um arquivo no sistema de arquivos.
+    return File("${directory.path}/data.json"); // Esta linha cria um objeto File que representa um arquivo no sistema de arquivos.
   }
 
   //FUNCAO QUE IRÁ SALVAR OS DADOS

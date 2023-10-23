@@ -6,12 +6,13 @@ import 'package:scoped_model/scoped_model.dart';
 
 class CustomDrawer extends StatelessWidget {
   final PageController pageController;
-  CustomDrawer(this.pageController);
+  const CustomDrawer(this.pageController, {super.key});
 
   @override
   Widget build(BuildContext context) {
     /* MENU LATERAL */
     //função para criar o background da tela
+    // ignore: no_leading_underscores_for_local_identifiers
     Widget _buildDrawerBack() => Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(colors: [
@@ -56,7 +57,7 @@ class CustomDrawer extends StatelessWidget {
                         children: [
                           Text(
                             'Olá, ${!model.isLoggedIn() ? "" : model.userData["name"]}',
-                            style: TextStyle(
+                            style: const TextStyle(
                                 color: Colors.black ,fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           GestureDetector(
@@ -70,7 +71,7 @@ class CustomDrawer extends StatelessWidget {
                             onTap: () {
                               if(!model.isLoggedIn()) {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => LoginScreen(),
+                                builder: (context) => const LoginScreen(),
                               ));
                               } else {
                                 // model.signOut();
@@ -91,8 +92,7 @@ class CustomDrawer extends StatelessWidget {
               DrawerTile(Icons.home, "Início", pageController, 0),
               DrawerTile(Icons.list, "Produtos", pageController, 1),
               DrawerTile(Icons.location_on, "Lojas", pageController, 2),
-              DrawerTile(
-                  Icons.playlist_add_check, "Meus Pedidos", pageController, 3),
+              DrawerTile(Icons.playlist_add_check, "Meus Pedidos", pageController, 3),
             ],
           )
         ],

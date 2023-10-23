@@ -6,7 +6,7 @@ import 'package:scoped_model/scoped_model.dart';
 
 class UserModel extends Model {
   /* FirebaseAuth auth -> pegar a instancia do firebase */
-  FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
+  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
   /* UserCredential -> será o usuário que estiver logado no momento */
   /* se não tiver nenhum usuário logado o userCredential será null */
@@ -88,6 +88,7 @@ class UserModel extends Model {
   /* Função para deslogar usuário */
   void signOut() async {
     await _firebaseAuth.signOut(); //deslogar usuário
+    // ignore: prefer_collection_literals
     userData = Map(); //resetando os dados do usuário
     firebaseUser = null; //indica que não tem ninguem logado
     notifyListeners();

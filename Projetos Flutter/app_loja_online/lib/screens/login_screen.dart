@@ -35,10 +35,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SignupScreen(),
+                      builder: (context) => const SignupScreen(),
                     ));
               },
-              child: Text(
+              child: const Text(
                 'Criar Conta',
                 style: TextStyle(color: Colors.white),
               ),
@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
         body: ScopedModelDescendant<UserModel>(
           builder: (context, child, model) {
             if (model.isLoading) {
-              return Center(
+              return const Center(
                 child: CircularProgressIndicator(),
               );
             } else {
@@ -69,6 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         keyboardType: TextInputType.emailAddress,
                         validator: (text) {
                           if (text!.isEmpty || !text.contains("@"))
+                            // ignore: curly_braces_in_flow_control_structures
                             return "E-mail inválido";
                           return null;
                         },
@@ -84,6 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         validator: (text) {
                           if (text!.isEmpty || text.length < 6)
+                            // ignore: curly_braces_in_flow_control_structures
                             return "Senha inválida";
                           return null;
                         },
@@ -102,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 .showSnackBar(SnackBar(
                               content: Text('Link para recuperação enviado para o e-mail ${_emailController.text}'),
                               backgroundColor: Theme.of(context).primaryColor,
-                              duration: Duration(seconds: 5),
+                              duration: const Duration(seconds: 5),
                             ));
                           }
                         } ,

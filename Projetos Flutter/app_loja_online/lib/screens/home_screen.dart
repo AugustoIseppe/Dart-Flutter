@@ -22,7 +22,6 @@ class _HomeScreenState extends State<HomeScreen> {
       controller: _pageController,
       physics: const NeverScrollableScrollPhysics(),
       children:  <Widget>[
-
         /* Scaffold -> Página inicial com as imagens */
         Scaffold(
           body: const HomeTab(),

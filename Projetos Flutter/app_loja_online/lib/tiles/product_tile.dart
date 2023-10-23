@@ -6,7 +6,7 @@ class ProductTile extends StatelessWidget {
   final String type;
   final ProductData product;
 
-  ProductTile(this.type, this.product);
+  const ProductTile(this.type, this.product, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class ProductTile extends StatelessWidget {
                       children: [
                         Text(
                           product.title!,
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: const TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text(
                           "R\$ ${product.price!.toStringAsFixed(2)}",
@@ -76,7 +76,7 @@ class ProductTile extends StatelessWidget {
                             Text(
                               product.title!,
                               textAlign: TextAlign.start,
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                               ),
                             ),

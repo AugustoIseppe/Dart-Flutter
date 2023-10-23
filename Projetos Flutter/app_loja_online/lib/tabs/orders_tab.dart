@@ -58,7 +58,7 @@ class OrdersTab extends StatelessWidget {
                   ),
                   TextButton(
                     onPressed: () {
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen(),));
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const LoginScreen(),));
                     },
                     child: Text(
                       "Entrar",

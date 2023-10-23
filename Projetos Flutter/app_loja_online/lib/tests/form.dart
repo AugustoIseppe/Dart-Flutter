@@ -2,6 +2,8 @@ import 'package:app_loja_online/tests/form_model.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationForm extends StatefulWidget {
+  const RegistrationForm({super.key});
+
   @override
   State<RegistrationForm> createState() => _RegistrationFormState();
 }
@@ -16,11 +18,11 @@ class _RegistrationFormState extends State<RegistrationForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Teste"),
+        title: const Text("Teste"),
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(20.0),
         child: Center(
           child: Column(
             children: [

@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 class CategoryScreen extends StatelessWidget {
   final DocumentSnapshot snapshot;
-  CategoryScreen(this.snapshot);
+  const CategoryScreen(this.snapshot, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,17 +34,17 @@ class CategoryScreen extends StatelessWidget {
                 .get(),
             builder: (context, snapshot) {
               if (!snapshot.hasData) {
-                return Center(
+                return const Center(
                   child: CircularProgressIndicator(),
                 );
               } else {
                 return TabBarView(
-                    physics: NeverScrollableScrollPhysics(),
+                    physics: const NeverScrollableScrollPhysics(),
                     children: [
                       /* Exibição dos produtos em formato Grid */
                       GridView.builder(
-                        padding: EdgeInsets.all(4.0),
-                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        padding: const EdgeInsets.all(4.0),
+                        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
                             mainAxisSpacing: 4.0,
                             crossAxisSpacing: 4.0,
@@ -58,7 +58,7 @@ class CategoryScreen extends StatelessWidget {
                       ),
                       /* Exibição dos produtos em formato List */
                       ListView.builder(
-                        padding: EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(4.0),
                         itemCount: snapshot.data!.docs.length,
                         itemBuilder: (context, index) {
                           ProductData data = ProductData.fromDocument(snapshot.data!.docs[index]);

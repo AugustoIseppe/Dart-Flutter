@@ -24,7 +24,9 @@ class ProductGrid extends StatelessWidget {
             borderRadius: BorderRadius.circular(8),
             child: Container(
               color: Colors.amber,
-              child: Center(child: ProductItem()),
+              child: Center(
+                child: ProductItem(),
+                ),
             ),
           ),
         );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import '../utils/app_routes.dart';
 
 class LoginPage extends StatefulWidget {
@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 300,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
-                color: Colors.white.withOpacity(0.8),
+                color: Colors.blue.withOpacity(0.7),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(18.0),
@@ -52,6 +52,8 @@ class _LoginPageState extends State<LoginPage> {
                               child: TextFormField(
                                 controller: _emailController,
                                 decoration: const InputDecoration(
+                                  filled: true,
+                                  fillColor: Colors.white,
                                   contentPadding: EdgeInsets.symmetric(
                                       horizontal: 15, vertical: 10),
                                   border: OutlineInputBorder(),
@@ -83,6 +85,8 @@ class _LoginPageState extends State<LoginPage> {
                                 keyboardType: TextInputType.number,
                                 controller: _passwordController,
                                 decoration: const InputDecoration(
+                                  filled: true,
+                                  fillColor: Colors.white,
                                   contentPadding: EdgeInsets.symmetric(
                                       horizontal: 15, vertical: 10),
                                   border: OutlineInputBorder(),
@@ -104,33 +108,39 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ],
                         )),
-                    TextButton(
-                      onPressed: () {
-                        if (_formKey.currentState!.validate()) {
-                          Navigator.of(context).pushNamedAndRemoveUntil(
-                              AppRoutes.HOME_PAGE, (route) => false);
-                        }
-                      },
-                      style: FilledButton.styleFrom(
-                        backgroundColor: Colors.blue,
-                      ),
-                      child: const Text(
-                        "Entrar",
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.bold),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8.0),
+                      child: TextButton(
+                        onPressed: () {
+                          if (_formKey.currentState!.validate()) {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                AppRoutes.HOME_PAGE, (route) => false);
+                          }
+                        },
+                        style: TextButton.styleFrom(
+                            backgroundColor: Colors.blue[800],
+                            elevation: 30,
+                            fixedSize: Size(120, 50)),
+                        child: Text("Entrar", style: GoogleFonts.lato(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold)),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20),
+                      child: Text("Esqueci minha senha!", style: GoogleFonts.lato(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900),),
+                    )
                   ],
                 ),
               ),
             ),
           ),
           Positioned(
-            bottom: 50,
+            bottom: 10,
             right: 50,
             left: 50,
             child: Image.asset(
               "images/logo_fatece.png",
+              filterQuality: FilterQuality.high,
+              fit: BoxFit.cover,
               width: 100,
             ),
           ),

@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:projeto_uber/telas/Login.dart';
 
 void main() async {
+  //Método para inicializar o FireBase
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,

@@ -13,12 +13,15 @@ class Usuario {
 
   /*------------------------------------*/
 
-  Map<String, dynamic> toMap() { //método toMap() -> função que retorna um unico Map<String, dynamic>
+  Map<String, dynamic> toMap() { 
+    //método toMap() -> função que retorna um unico Map<String, dynamic>
+
     Map<String, dynamic> map = { //map -> usado para armazenar os dados
       "nome" : this.nome,
       "email" : this.email,
       "tipoUsuario" : this.tipoUsuario
     };
+
     return map;
   }
   /*------------------------------------*/

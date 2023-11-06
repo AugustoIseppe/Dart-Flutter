@@ -29,7 +29,7 @@ class _CadastroState extends State<Cadastro> {
     if (nome.isNotEmpty) {
       if (email.isNotEmpty && email.contains('@')) {
         if (senha.isNotEmpty && senha.length >= 6) {
-          //ao entra dentro desse ultimo if, quer dizer que já pode salvar os dados do usuario
+          //ao entrar dentro desse ultimo if, quer dizer que já pode salvar os dados do usuario
           //olhar a classe Usuario criada em Usuario.dart
           Usuario usuario = Usuario();
           usuario.nome = nome;

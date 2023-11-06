@@ -84,6 +84,17 @@ class ContactHelper {
   }
   /* fim do método para obter os dados do contato */
 
+    //FUNÇÃO PARA OBTER TODOS OS CONTATOS
+  Future<List> getAllContacts() async {
+    Database dbContact = await db;
+    List listMap = await dbContact.rawQuery("SELECT * FROM $contactTable");
+    List<Contact> listContact = [];
+    for (Map m in listMap) {
+      listContact.add(Contact.fromMap(m));
+    }
+    return listContact;
+  }
+
 
   /* FUNÇÃO PARA DELETAR UM CONTATO */
   Future<int> deleteContact(int id) async {
@@ -103,20 +114,11 @@ class ContactHelper {
   /* fim do método de atualizar contato */
 
 
-  //FUNÇÃO PARA OBTER TODOS OS CONTATOS
-  Future<List> getAllContacts() async {
-    Database dbContact = await db;
-    List listMap = await dbContact.rawQuery("SELECT * FROM $contactTable");
-    List<Contact> listContact = [];
-    for (Map m in listMap) {
-      listContact.add(Contact.fromMap(m));
-    }
-    return listContact;
-  }
+
 }
 
 /*
-  A classe Contact tem a responsabilidade de definir a estrutura de dados
+  A class Contact tem a responsabilidade de definir a estrutura de dados
   de um contato e fornecer métodos para converter entre o formato de objeto e mapa.
   Ela não precisa saber nada sobre como os contatos são armazenados em um banco de dados.
 */

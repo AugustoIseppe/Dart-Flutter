@@ -5,7 +5,10 @@ import 'package:app_agenda_de_contatos/ui/02_contact_page.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-enum OrderOptions {orderaz, orderza} //ordernar a lista por ordem alfabética
+enum OrderOptions {
+  orderaz, 
+  orderza,
+  } //ordernar a lista por ordem alfabética
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

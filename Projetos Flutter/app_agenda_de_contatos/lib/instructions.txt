@@ -1,2 +1,1 @@
-COMO PASSAR OS DADOS DE UMA TELA PARA OUTRA??
-1 - criar um construtor (geralmente com o nome da classe que foi criada (Widget))
+AGENDA DE CONTATOS - UTILIZANDO O SQFLITE

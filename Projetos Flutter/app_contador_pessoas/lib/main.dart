@@ -1,7 +1,8 @@
+import 'package:app_contador_pessoas/contador.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MaterialApp(
-      home: AppSorveteria(),
+      home: Contador(),
     ));
 
 class AppSorveteria extends StatefulWidget {

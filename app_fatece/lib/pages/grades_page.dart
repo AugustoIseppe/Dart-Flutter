@@ -1,4 +1,9 @@
+import 'package:app_fatece/pages/frequency_page.dart';
 import 'package:flutter/material.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
+
+import '../utils/app_routes.dart';
+import 'home_page.dart';
 // import 'package:google_nav_bar/google_nav_bar.dart';
 
 class GradesPage extends StatefulWidget {
@@ -9,6 +14,7 @@ class GradesPage extends StatefulWidget {
 }
 
 class _GradesPageState extends State<GradesPage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +24,7 @@ class _GradesPageState extends State<GradesPage> {
           style: TextStyle(fontWeight: FontWeight.w900),
         ),
         centerTitle: true,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.blue,
         elevation: 0,
         foregroundColor: Colors.black,
         actions: [
@@ -1401,25 +1407,33 @@ class _GradesPageState extends State<GradesPage> {
           ],
         ),
       ),
-      // bottomNavigationBar: Container(
-      //   color: Colors.blue,
-      //   child: const Padding(
-      //     padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-      //     child: GNav(
-      //       backgroundColor: Colors.blue,
-      //       color: Colors.white,
-      //       activeColor: Colors.black,
-      //       tabBackgroundColor: Colors.lightBlueAccent,
-      //       padding: EdgeInsets.all(20),
-      //       gap: 8,
-      //       tabs: [
-      //       GButton(icon: Icons.home, text: "Página Inicial",),
-      //       GButton(icon: Icons.search, text: "Frequência",),
-      //       GButton(icon: Icons.favorite_border, text: "Meus Dados",),
-      //     ]),
-      //   ),
-      // )
-     
-    );
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.blue,
+            borderRadius: BorderRadius.circular(15)
+          ),
+          child: const Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+            child: GNav(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              backgroundColor: Colors.blue,
+              color: Colors.white,
+              activeColor: Colors.black,
+              tabBackgroundColor: Colors.lightBlueAccent,
+              padding: EdgeInsets.all(10),
+              tabs: [
+              GButton(icon: Icons.home),
+              GButton(icon: Icons.border_color_outlined),
+              GButton(icon: Icons.auto_stories_sharp),
+              GButton(icon: Icons.timeline_outlined),
+              GButton(icon: Icons.monetization_on),
+            ]),
+          ),
+        ),
+      )
+
+     );
   }
 }

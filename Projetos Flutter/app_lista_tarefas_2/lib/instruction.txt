@@ -1,0 +1,7 @@
+1 - baixar e isntalar o path provider
+2 - criar as funcoes getFile(), saveData() e readData()
+    - reponsaveis por pegar o caminho onde serao salvos os arquivos, salvar os dados e por ultimo ler os dados
+3 = criar o textfield e o textbutton
+4 - criar o ListView.builder e a função para adicioncar os itens na lista
+5 - logo após isso deve-se chamar a função de salvar a lista permanentemente _saveData()
+    nos locais corretos

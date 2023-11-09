@@ -1,2 +1,0 @@
-Como utilizar um requisição HTTP
-revisado em 06/11/2023

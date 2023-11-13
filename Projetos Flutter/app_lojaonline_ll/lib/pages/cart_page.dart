@@ -1,6 +1,6 @@
 // import 'package:app_loja_online2/models/cart_item.dart';
 import 'package:app_lojaonline_ll/models/cart.dart';
-import 'package:app_lojaonline_ll/models/order_lista.dart';
+import 'package:app_lojaonline_ll/models/order_list.dart';
 import 'package:app_lojaonline_ll/widgets/cart_item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

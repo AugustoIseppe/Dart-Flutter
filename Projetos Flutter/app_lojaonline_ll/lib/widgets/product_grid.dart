@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../models/product.dart';
 import '../models/product_list.dart';
-import 'product_item.dart';
+import 'product_grid_item.dart';
 
 class ProductGrid extends StatelessWidget {
   @override
@@ -26,7 +26,7 @@ class ProductGrid extends StatelessWidget {
             child: Container(
               color: Colors.amber,
               child: Center(
-                child: ProductItem(),
+                child: ProductGridItem(),
                 ),
             ),
           ),

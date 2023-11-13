@@ -27,6 +27,10 @@ class ProductList with ChangeNotifier { //ChangeNotifier -> usado no gerenciamen
     notifyListeners();
   }
 
+  int get itemsCount {
+    return _items.length;
+  }
+
   void addProduct(Product product) {
     //adicionar um produto
     _items.add(product);

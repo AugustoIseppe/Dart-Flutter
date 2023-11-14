@@ -42,7 +42,8 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         InkWell(
                           onTap: () {
-                            Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
+                            Navigator.of(context)
+                                .pushNamed(AppRoutes.GRADES_PAGE);
                           },
                           child: Card(
                             elevation: 30,
@@ -71,29 +72,35 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                         ),
-                        Card(
-                          elevation: 30,
-                          child: Container(
-                            decoration: const BoxDecoration(),
-                            width: 140,
-                            height: 120,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Icon(
-                                  Icons.monetization_on,
-                                  color: Colors.blue,
-                                  size: 60,
-                                ),
-                                Text(
-                                  "Visualizar \nParcelas",
-                                  style: GoogleFonts.lato(
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ],
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context)
+                                .pushNamed(AppRoutes.FINANCIAL_PAGE);
+                          },
+                          child: Card(
+                            elevation: 30,
+                            child: Container(
+                              decoration: const BoxDecoration(),
+                              width: 140,
+                              height: 120,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  const Icon(
+                                    Icons.monetization_on,
+                                    color: Colors.blue,
+                                    size: 60,
+                                  ),
+                                  Text(
+                                    "Visualizar \nParcelas",
+                                    style: GoogleFonts.lato(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -129,29 +136,35 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                         ),
-                        Card(
-                          elevation: 30,
-                          child: Container(
-                            decoration: const BoxDecoration(),
-                           width: 140,
-                            height: 120,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Icon(
-                                  Icons.timeline_outlined,
-                                  color: Colors.blue,
-                                  size: 60,
-                                ),
-                                Text(
-                                  "Frequência",
-                                  style: GoogleFonts.lato(
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ],
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context)
+                                .pushNamed(AppRoutes.FREQUENCY_PAGE);
+                          },
+                          child: Card(
+                            elevation: 30,
+                            child: Container(
+                              decoration: const BoxDecoration(),
+                              width: 140,
+                              height: 120,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  const Icon(
+                                    Icons.timeline_outlined,
+                                    color: Colors.blue,
+                                    size: 60,
+                                  ),
+                                  Text(
+                                    "Frequência",
+                                    style: GoogleFonts.lato(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -167,9 +180,9 @@ class _HomePageState extends State<HomePage> {
             left: 46,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.blue[100],
-                borderRadius: BorderRadius.vertical(top: Radius.circular(20))
-              ),
+                  color: Colors.blue[100],
+                  borderRadius:
+                      const BorderRadius.vertical(top: Radius.circular(20))),
               width: 300,
               height: 70,
               child: FittedBox(

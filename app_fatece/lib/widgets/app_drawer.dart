@@ -1,5 +1,6 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
+import 'package:app_fatece/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -50,29 +51,39 @@ class _AppDrawerState extends State<AppDrawer> {
               Material(
                 color: Colors.transparent,
                 child: InkWell(
+                  onTap: () {
+                    Navigator.of(context).pushNamed(AppRoutes.PERSONALDATA_PAGE);
+                  },
                   child: SizedBox(
                     height: 50,
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20),
-                      child: Row(
-                        children: [
-                          const Icon(Icons.person),
-                          const SizedBox(
-                            width: 8,
-                          ),
-                          Text("Perfil",
-                              style: GoogleFonts.anuphan(
-                                  fontSize: 19, fontWeight: FontWeight.w600))
-                        ],
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed(AppRoutes.PERSONALDATA_PAGE);
+                        },
+                        child: Row(
+                          children: [
+                            const Icon(Icons.person),
+                            const SizedBox(
+                              width: 8,
+                            ),
+                            Text("Perfil",
+                                style: GoogleFonts.anuphan(
+                                    fontSize: 19, fontWeight: FontWeight.w600))
+                          ],
+                        ),
                       ),
                     ),
                   ),
                 ),
               ),
-              
               Material(
                 color: Colors.transparent,
                 child: InkWell(
+                  onTap: () {
+                          Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                        },
                   child: SizedBox(
                     height: 50,
                     child: Padding(

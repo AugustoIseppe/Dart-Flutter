@@ -120,7 +120,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextButton.styleFrom(
                             backgroundColor: Colors.blue[800],
                             elevation: 30,
-                            fixedSize: Size(120, 50)),
+                            fixedSize: const Size(120, 50)),
                         child: Text("Entrar", style: GoogleFonts.lato(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold)),
                       ),
                     ),

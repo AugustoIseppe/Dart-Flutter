@@ -1,9 +1,7 @@
-import 'package:app_fatece/pages/frequency_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 import '../utils/app_routes.dart';
-import 'home_page.dart';
 // import 'package:google_nav_bar/google_nav_bar.dart';
 
 class GradesPage extends StatefulWidget {
@@ -1414,21 +1412,26 @@ class _GradesPageState extends State<GradesPage> {
             color: Colors.blue,
             borderRadius: BorderRadius.circular(15)
           ),
-          child: const Padding(
+          child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
             child: GNav(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               backgroundColor: Colors.blue,
               color: Colors.white,
-              activeColor: Colors.black,
-              tabBackgroundColor: Colors.lightBlueAccent,
-              padding: EdgeInsets.all(10),
+              activeColor: Colors.white,
+              // tabBackgroundColor: Colors.lightBlueAccent,
+              padding: const EdgeInsets.all(10),
               tabs: [
-              GButton(icon: Icons.home),
-              GButton(icon: Icons.border_color_outlined),
-              GButton(icon: Icons.auto_stories_sharp),
-              GButton(icon: Icons.timeline_outlined),
-              GButton(icon: Icons.monetization_on),
+              GButton(icon: Icons.home, onPressed: (){
+                          Navigator.of(context).pushNamed(AppRoutes.HOME_PAGE);
+                        }),
+              const GButton(icon: Icons.auto_stories_sharp),
+              GButton(icon: Icons.timeline_outlined, onPressed: (){
+                          Navigator.of(context).pushNamed(AppRoutes.FREQUENCY_PAGE);
+                        }),
+              GButton(icon: Icons.monetization_on, onPressed: (){
+                          Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                        }),
             ]),
           ),
         ),

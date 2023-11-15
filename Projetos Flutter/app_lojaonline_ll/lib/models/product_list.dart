@@ -1,4 +1,6 @@
 
+import 'dart:math';
+
 import 'package:app_lojaonline_ll/data/dummy_data.dart';
 import 'package:app_lojaonline_ll/models/product.dart';
 import 'package:flutter/material.dart';
@@ -36,5 +38,40 @@ class ProductList with ChangeNotifier { //ChangeNotifier -> usado no gerenciamen
     _items.add(product);
     //notificar as mudanças para o gerenciamento de estado
     notifyListeners();
+  }
+  void saveProduct(Map<String, Object> data) {
+
+    bool hasId = data["id"] != null;
+    //adicionar um produto
+    final product = Product(
+      id: hasId ? data["id"] as String: Random().nextDouble().toString(),
+      title: data["name"] as String,
+      description: data["description"] as String,
+      price: data["price"] as double,
+      imageUrl: data["urlImage"] as String,
+    );
+
+    if (hasId) {
+      updateProduct(product);
+    } else {
+      addProduct(product);
+    }
+    
+    //notificar as mudanças para o gerenciamento de estado
+  }
+
+  void updateProduct(Product product) {
+    int index = _items.indexWhere((element) => element.id == product.id);
+    if(index >= 0 ) {
+      _items[index] = product;
+      notifyListeners();
+    }
+  }
+  void removeProduct(Product product) {
+    int index = _items.indexWhere((element) => element.id == product.id);
+    if(index >= 0 ) {
+      _items.removeWhere((element) => element.id == product.id);
+      notifyListeners();
+    }
   }
 }

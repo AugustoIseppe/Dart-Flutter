@@ -1,8 +1,9 @@
-import 'dart:math';
-
-import 'package:app_lojaonline_ll/models/product.dart';
+import 'package:app_lojaonline_ll/models/product_list.dart';
 import 'package:app_lojaonline_ll/widgets/app_drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../models/product.dart';
 
 class ProductFormPage extends StatefulWidget {
   const ProductFormPage({super.key});
@@ -21,6 +22,24 @@ class _ProductFormPageState extends State<ProductFormPage> {
   void initState() {
     super.initState();
     _imagemUrlFocus.addListener(updateImage);
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if(_formData.isEmpty) {
+      final arg = ModalRoute.of(context)?.settings.arguments;
+
+      if(arg != null) {
+        final product = arg as Product;
+        _formData["id"] = product.id!;
+        _formData["title"] = product.title!;
+        _formData["price"] = product.price!;
+        _formData["description"] = product.description!;
+        _formData["imageUrl"] = product.imageUrl!;
+        _imagemUrl.text = product.imageUrl!;
+      }
+    }
   }
 
   @override
@@ -47,30 +66,27 @@ class _ProductFormPageState extends State<ProductFormPage> {
       return;
     }
     _formKey.currentState?.save();
-    final newProduct = Product(
-      id: Random().nextDouble().toString(),
-      title: _formData["name"] as String,
-      description: _formData["description"] as String,
-      price: _formData["price"] as double,
-      imageUrl: _formData["urlImage"] as String,
-    );
+
+    //o listen:false na linha 60, deve ser inserido, pois o provider está fora do método build!
+    Provider.of<ProductList>(context, listen: false).saveProduct(_formData);
+    Navigator.of(context).pop();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Formulário de Produto"),
+        title: const Text("Formulário de Produto"),
         centerTitle: true,
         actions: [
           IconButton(
               onPressed: () {
                 _submitForm();
               },
-              icon: Icon(Icons.save))
+              icon: const Icon(Icons.save))
         ],
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Form(
@@ -78,7 +94,8 @@ class _ProductFormPageState extends State<ProductFormPage> {
             child: ListView(
               children: [
                 TextFormField(
-                  decoration: InputDecoration(
+                  initialValue: _formData["title"].toString(),
+                  decoration: const InputDecoration(
                     labelText: "Nome",
                   ),
                   textInputAction: TextInputAction.next,
@@ -94,7 +111,8 @@ class _ProductFormPageState extends State<ProductFormPage> {
                   },
                 ),
                 TextFormField(
-                  decoration: InputDecoration(
+                  initialValue: _formData["price"].toString(),
+                  decoration: const InputDecoration(
                     labelText: "Preço",
                   ),
                   textInputAction: TextInputAction.next,
@@ -111,7 +129,8 @@ class _ProductFormPageState extends State<ProductFormPage> {
                       },
                 ),
                 TextFormField(
-                  decoration: InputDecoration(
+                  initialValue: _formData["description"].toString(),
+                  decoration: const InputDecoration(
                     labelText: "Descrição",
                   ),
                   keyboardType: TextInputType.multiline,
@@ -134,7 +153,7 @@ class _ProductFormPageState extends State<ProductFormPage> {
                   children: [
                     Expanded(
                       child: TextFormField(
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           labelText: "URL da Imagem",
                         ),
                         keyboardType: TextInputType.url,
@@ -156,18 +175,18 @@ class _ProductFormPageState extends State<ProductFormPage> {
                       width: 10,
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 20),
+                      padding: const EdgeInsets.only(top: 20),
                       child: Container(
                         width: 100,
                         height: 100,
                         decoration: BoxDecoration(
                             color: Colors.grey[100],
                             borderRadius:
-                                BorderRadius.all(Radius.circular(10))),
+                                const BorderRadius.all(Radius.circular(10))),
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(10),
                             child: _imagemUrl.text.isEmpty
-                                ? Center(
+                                ? const Center(
                                     child: Text(
                                     "Informe a URL da imagem",
                                     textAlign: TextAlign.center,

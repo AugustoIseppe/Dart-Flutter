@@ -110,29 +110,34 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Card(
-                          elevation: 30,
-                          child: Container(
-                            decoration: const BoxDecoration(),
-                            width: 140,
-                            height: 120,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                const Icon(
-                                  Icons.auto_stories_sharp,
-                                  color: Colors.blue,
-                                  size: 60,
-                                ),
-                                Text(
-                                  "Matérias",
-                                  style: GoogleFonts.lato(
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ],
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
+                          },
+                          child: Card(
+                            elevation: 30,
+                            child: Container(
+                              decoration: const BoxDecoration(),
+                              width: 140,
+                              height: 120,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  const Icon(
+                                    Icons.auto_stories_sharp,
+                                    color: Colors.blue,
+                                    size: 60,
+                                  ),
+                                  Text(
+                                    "Matérias",
+                                    style: GoogleFonts.lato(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),

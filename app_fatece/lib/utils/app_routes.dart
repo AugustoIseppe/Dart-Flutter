@@ -7,4 +7,7 @@ class AppRoutes {
   static const FREQUENCY_PAGE = "/frequency-page";
   static const PERSONALDATA_PAGE = "/personaldata-page";
   static const FINANCIAL_PAGE = "/financial-page";
+  static const MATERIAL_CLASSROOM_PAGE = "/material-classroom-page";
+  static const CONTENT_CLASSROOM_PAGE = "/content-classroom-page";
+  static const TESTEPDF_CLASSROOM_PAGE = "/testepdf-page";
 }

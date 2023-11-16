@@ -1,10 +1,13 @@
+import 'package:app_fatece/pages/content_classroom.dart';
 import 'package:app_fatece/pages/grades_page.dart';
 import 'package:app_fatece/pages/login_page.dart';
+import 'package:app_fatece/pages/testePdf.dart';
 import 'package:app_fatece/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'pages/financial_page.dart';
 import 'pages/frequency_page.dart';
 import 'pages/home_page.dart';
+import 'pages/material_classroom.dart';
 import 'pages/personal_data.dart';
 
 void main() {
@@ -30,6 +33,9 @@ class MyApp extends StatelessWidget {
         AppRoutes.FREQUENCY_PAGE:(context) => const FrequencyPage(),
         AppRoutes.PERSONALDATA_PAGE:(context) => const PersonalData(),
         AppRoutes.FINANCIAL_PAGE:(context) => const FinancialPage(),
+        AppRoutes.MATERIAL_CLASSROOM_PAGE:(context) => const ClassMaterial(),
+        AppRoutes.CONTENT_CLASSROOM_PAGE:(context) => const ContentClassRoom(),
+        AppRoutes.TESTEPDF_CLASSROOM_PAGE:(context) => const TestePdf(),
       },
     );
   }

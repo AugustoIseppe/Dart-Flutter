@@ -182,13 +182,13 @@ class FinancialPageState extends State<FinancialPage> {
                                           children: [
                                             Card(
                                               elevation: 0,
-                                              margin: EdgeInsets.all(1),
+                                              margin: const EdgeInsets.all(1),
                                               color: Colors.white54,
                                               child: ListTile(
                                                 title: Text(
                                                   itemParcelas[index],
                                                   style:
-                                                      TextStyle(fontSize: 14),
+                                                      const TextStyle(fontSize: 14),
                                                 ),
                                                 trailing: IconButton(
                                                   onPressed: () {

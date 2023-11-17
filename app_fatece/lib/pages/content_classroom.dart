@@ -11,14 +11,16 @@ class ContentClassRoom extends StatefulWidget {
 
 class _ContentClassRoomState extends State<ContentClassRoom> {
   final Set<int> _expandedIndices = {};
-  final List<String> contentMaterial = [
-    "Aula 00 - Retomando Funções",
-    "Aula 01 - Álgebra Linear",
-    "Aula 02 - Cálculo Diferencial e Integral",
-    "Aula 03 - Teoria dos Números",
+  bool mostrarDiferentes = false;
+  final List<String> title = [
+    "Aula 00 - Funções",
+    "Aula 01 - Funções Quadráticas",
+    "Aula 02 - Estatística e Probabilidade",
+    "Aula 03 - Métodos Numéricos",
     "Aula 04 - Lógica Matemática",
-    "Aula 05 - Probabilidade e Estatística",
+    "Aula 05 - Álgebra Linear",
   ];
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,9 +34,9 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: List.generate(contentMaterial.length, (index) {
+          children: List.generate(title.length, (index) {
             bool isExpanded = _expandedIndices.contains(index);
-            return Padding(
+                      return Padding(
               padding: const EdgeInsets.all(8.0),
               child: Card(
                 color: Colors.blue[200],
@@ -42,7 +44,7 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(contentMaterial[index]),
+                      title: Text(title[index]),
                       trailing: IconButton(
                           onPressed: () {
                             setState(() {

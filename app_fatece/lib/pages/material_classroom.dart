@@ -10,33 +10,6 @@ class ClassMaterial extends StatefulWidget {
 }
 
 class _ClassMaterialState extends State<ClassMaterial> {
-  final List<Color> backgroundColor = [
-    Colors.yellow,
-    Colors.green,
-    Colors.blue,
-    Colors.grey,
-    Colors.pink,
-    Colors.cyan,
-  ];
-
-  final List<String> contentMaterial = [
-    "Tópicos de Matemática \nAplicada.2023.2",
-    "Interface \nHomem-Máquina.2023.2",
-    "Comportamento \nOrganizacional.2023.2",
-    "Arquitetura e Organização \nde Computadores.2023.2",
-    "Ordenação e Pesquisa \n de Dados.2023.2",
-    " Eletiva IV. \n(Gestão do conhecimento).\n2023.2"
-  ];
-
-  final List<String> teachers = [
-    "Julyette Priscila Redling",
-    "Stefane Vieira Menezes",
-    "José Carlos Pereira da Cruz Júnior",
-    "Alessandro Viola Pizzoleto",
-    "Giuliano Lacerda Dall Armellina",
-    "Julia Cintra Terra",
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,73 +19,380 @@ class _ClassMaterialState extends State<ClassMaterial> {
         backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: List.generate(contentMaterial.length, (index) {
-            return Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 4),
-              child: SizedBox(
-                width: double.infinity,
-                height: 130,
-                child: InkWell(
-                  onTap: () {
-                    Navigator.of(context)
-                        .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
-                  },
-                  child: Card(
-                    color: backgroundColor[index].withOpacity(0.2),
-                    child: Stack(children: [
-                      Positioned(
-                        right: 0,
-                        bottom: 10,
-                        left: 250,
-                        top: 10,
-                        child: Opacity(
-                            opacity: 0.8,
-                            child: ClipRRect(
-                                borderRadius: BorderRadius.circular(12),
-                                child: CircleAvatar(
-                                    maxRadius: 6,
-                                    minRadius: 3,
-                                    backgroundImage: AssetImage(
-                                        "images/imagem${index + 1}.jpg"),
-                                    child: const Text("")))),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(top: 10, left: 15),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              contentMaterial[index],
-                              style: const TextStyle(
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.w900,
-                                  color: Colors.black),
-                            ),
-                            Padding(
-                              padding:
-                                  const EdgeInsets.only(bottom: 10, left: 3),
-                              child: Text(
-                                "Docente: ${teachers[index]}",
-                                style: const TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w900,
-                                    color: Colors.black,
-                                    fontStyle: FontStyle.italic),
-                              ),
-                            )
-                          ],
+          child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.yellow.withOpacity(0.7),
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                        opacity: 0.8,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: const CircleAvatar(
+                            maxRadius: 6,
+                            minRadius: 3,
+                            backgroundImage: AssetImage("images/imagem1.jpg"),
+                            child: Text(""),
+                          ),
                         ),
                       ),
-                    ]),
-                  ),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Tópicos de Matemática \nAplicada.2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: Julyette Priscila Redling",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
                 ),
               ),
-            );
-          }),
-        ),
-      ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.blue.withOpacity(0.7),
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                        opacity: 0.8,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: const CircleAvatar(
+                            maxRadius: 6,
+                            minRadius: 3,
+                            backgroundImage: AssetImage("images/imagem2.jpg"),
+                            child: Text(""),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Interface \nHomem-Máquina.2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: Stefane Vieira Menezes",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.grey.withOpacity(0.7),
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                          opacity: 0.8,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: const CircleAvatar(
+                                  maxRadius: 6,
+                                  minRadius: 3,
+                                  backgroundImage:
+                                      AssetImage("images/imagem3.jpg"),
+                                  child: Text("")))),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Comportamento \nOrganizacional.2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: José Carlos Pereira da Cruz Júnior",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.cyan,
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                          opacity: 0.8,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: const CircleAvatar(
+                                  maxRadius: 6,
+                                  minRadius: 3,
+                                  backgroundImage:
+                                      AssetImage("images/imagem4.jpg"),
+                                  child: Text("")))),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Arquitetura e Organização\nde Computadores.2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: Alessandro Viola Pizzoleto",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.green.withOpacity(0.7),
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                          opacity: 0.8,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: const CircleAvatar(
+                                  maxRadius: 6,
+                                  minRadius: 3,
+                                  backgroundImage:
+                                      AssetImage("images/imagem5.jpg"),
+                                  child: Text("")))),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Ordenação e Pesquisa\nde Dados.2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: Giuliano Lacerda Dall Armellina",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: SizedBox(
+              width: double.infinity,
+              height: 130,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context)
+                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                },
+                child: Card(
+                  color: Colors.red.withOpacity(0.7),
+                  child: Stack(children: [
+                    Positioned(
+                      right: 0,
+                      bottom: 10,
+                      left: 250,
+                      top: 10,
+                      child: Opacity(
+                          opacity: 0.8,
+                          child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: const CircleAvatar(
+                                  maxRadius: 6,
+                                  minRadius: 3,
+                                  backgroundImage:
+                                      AssetImage("images/imagem6.jpg"),
+                                  child: Text("")))),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 10, left: 15),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Eletiva IV.\n(Gestão do conhecimento)\n2023.2",
+                            style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.black),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 10, left: 3),
+                            child: Text(
+                              "Docente: Julia Cintra Terra",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.black,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ]),
+                ),
+              ),
+            ),
+          ),
+        ],
+      )),
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Container(

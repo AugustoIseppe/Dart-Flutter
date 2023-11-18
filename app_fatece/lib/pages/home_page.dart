@@ -16,13 +16,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        foregroundColor: Colors.white,
-        title: const Text(
+        foregroundColor: Colors.blue[900],
+        title: Text(
           "Página Inicial",
-          style: TextStyle(fontWeight: FontWeight.w900),
+          style: TextStyle(fontWeight: FontWeight.w900, color: Colors.blue[800]),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blue[100],
+        backgroundColor: Colors.blue[200],
+        elevation: 10,
       ),
       drawer: const AppDrawer(),
       body: Stack(
@@ -46,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.GRADES_PAGE);
                           },
                           child: Card(
-                            elevation: 30,
+                            elevation: 15,
                             child: Container(
                               decoration: const BoxDecoration(),
                               width: 140,
@@ -55,16 +56,16 @@ class _HomePageState extends State<HomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
-                                  const Icon(
+                                  Icon(
                                     Icons.border_color_outlined,
-                                    color: Colors.blue,
+                                    color: Colors.blue[900],
                                     size: 60,
                                   ),
                                   Text(
                                     "Boletim \nEscolar",
                                     style: GoogleFonts.lato(
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold),
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w900),
                                     textAlign: TextAlign.center,
                                   ),
                                 ],
@@ -78,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.FINANCIAL_PAGE);
                           },
                           child: Card(
-                            elevation: 30,
+                            elevation: 15,
                             child: Container(
                               decoration: const BoxDecoration(),
                               width: 140,
@@ -87,16 +88,16 @@ class _HomePageState extends State<HomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
-                                  const Icon(
+                                  Icon(
                                     Icons.monetization_on,
-                                    color: Colors.blue,
+                                    color: Colors.blue[900],
                                     size: 60,
                                   ),
                                   Text(
                                     "Visualizar \nParcelas",
                                     style: GoogleFonts.lato(
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold),
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w900),
                                     textAlign: TextAlign.center,
                                   ),
                                 ],
@@ -115,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                             Navigator.of(context).pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
                           },
                           child: Card(
-                            elevation: 30,
+                            elevation: 15,
                             child: Container(
                               decoration: const BoxDecoration(),
                               width: 140,
@@ -124,16 +125,16 @@ class _HomePageState extends State<HomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
-                                  const Icon(
+                                  Icon(
                                     Icons.auto_stories_sharp,
-                                    color: Colors.blue,
+                                    color: Colors.blue[900],
                                     size: 60,
                                   ),
                                   Text(
                                     "Matérias",
                                     style: GoogleFonts.lato(
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold),
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w900),
                                     textAlign: TextAlign.center,
                                   ),
                                 ],
@@ -147,7 +148,7 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.FREQUENCY_PAGE);
                           },
                           child: Card(
-                            elevation: 30,
+                            elevation: 15,
                             child: Container(
                               decoration: const BoxDecoration(),
                               width: 140,
@@ -156,16 +157,16 @@ class _HomePageState extends State<HomePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
-                                  const Icon(
+                                  Icon(
                                     Icons.timeline_outlined,
-                                    color: Colors.blue,
+                                    color: Colors.blue[900],
                                     size: 60,
                                   ),
                                   Text(
                                     "Frequência",
                                     style: GoogleFonts.lato(
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold),
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w900),
                                     textAlign: TextAlign.center,
                                   ),
                                 ],
@@ -185,7 +186,7 @@ class _HomePageState extends State<HomePage> {
             left: 46,
             child: Container(
               decoration: BoxDecoration(
-                  color: Colors.blue[100],
+                  color: Colors.blue[500],
                   borderRadius:
                       const BorderRadius.vertical(top: Radius.circular(20))),
               width: 300,
@@ -206,7 +207,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const CircleAvatar(
-                  backgroundImage: AssetImage("images/graduated.png"),
+                  backgroundImage: AssetImage("assets/images/profile.png"),
                   backgroundColor: Colors.white,
                   maxRadius: 50,
                   minRadius: 50,
@@ -218,12 +219,12 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Augusto Iseppe Balan",
-                        style: GoogleFonts.lato(fontSize: 17)),
+                    Text("Amanda Silva",
+                        style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
                     Text("Ciência da Computação",
-                        style: GoogleFonts.lato(fontSize: 17)),
-                    Text("4º Semestre", style: GoogleFonts.lato(fontSize: 17)),
-                    Text("RA: 153876", style: GoogleFonts.lato(fontSize: 17))
+                        style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
+                    Text("4º Semestre", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
+                    Text("RA: 153876", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold))
                   ],
                 )
               ],

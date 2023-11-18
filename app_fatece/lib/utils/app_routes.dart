@@ -9,5 +9,12 @@ class AppRoutes {
   static const FINANCIAL_PAGE = "/financial-page";
   static const MATERIAL_CLASSROOM_PAGE = "/material-classroom-page";
   static const CONTENT_CLASSROOM_PAGE = "/content-classroom-page";
-  static const TESTEPDF_CLASSROOM_PAGE = "/testepdf-page";
+  static const ARQUITETURA_PAGE = "/arquitetura-page";
+  static const COMPORTAMENTO_PAGE = "/comportamento-page";
+  static const ELETIVA_PAGE = "/eletiva-page";
+  static const INTERFACE_PAGE = "/interface-page";
+  static const MATEMATICA_PAGE = "/matematica-page";
+  static const ORDENACAO_PAGE = "/ordenacao-page";
+  
+
 }

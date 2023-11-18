@@ -28,8 +28,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.MATEMATICA_PAGE);
                 },
                 child: Card(
                   color: Colors.yellow.withOpacity(0.7),
@@ -91,8 +90,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.INTERFACE_PAGE);
                 },
                 child: Card(
                   color: Colors.blue.withOpacity(0.7),
@@ -154,8 +152,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.COMPORTAMENTO_PAGE);
                 },
                 child: Card(
                   color: Colors.grey.withOpacity(0.7),
@@ -215,8 +212,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.ARQUITETURA_PAGE);
                 },
                 child: Card(
                   color: Colors.cyan,
@@ -276,8 +272,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.ORDENACAO_PAGE);
                 },
                 child: Card(
                   color: Colors.green.withOpacity(0.7),
@@ -337,8 +332,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
               height: 130,
               child: InkWell(
                 onTap: () {
-                  Navigator.of(context)
-                      .pushNamed(AppRoutes.CONTENT_CLASSROOM_PAGE);
+                  Navigator.of(context).pushNamed(AppRoutes.ELETIVA_PAGE);
                 },
                 child: Card(
                   color: Colors.red.withOpacity(0.7),
@@ -401,32 +395,33 @@ class _ClassMaterialState extends State<ClassMaterial> {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
             child: GNav(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                backgroundColor: Colors.blue,
-                color: Colors.white,
-                activeColor: Colors.white,
-                // tabBackgroundColor: Colors.lightBlueAccent,
-                padding: const EdgeInsets.all(10),
-                tabs: [
-                  GButton(
-                      icon: Icons.home,
-                      onPressed: () {
-                        Navigator.of(context).pushNamed(AppRoutes.HOME_PAGE);
-                      }),
-                  GButton(
-                      icon: Icons.border_color_outlined,
-                      onPressed: () {
-                        Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
-                      }),
-                  const GButton(icon: Icons.auto_stories_sharp),
-                  GButton(
-                    icon: Icons.timeline_outlined,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              backgroundColor: Colors.blue,
+              color: Colors.white,
+              activeColor: Colors.white,
+              // tabBackgroundColor: Colors.lightBlueAccent,
+              padding: const EdgeInsets.all(10),
+              tabs: [
+                GButton(
+                    icon: Icons.home,
                     onPressed: () {
-                      Navigator.of(context).pushNamed(AppRoutes.FREQUENCY_PAGE);
-                    },
-                  ),
-                  // const GButton(icon: Icons.monetization_on),
-                ]),
+                      Navigator.of(context).pushNamed(AppRoutes.HOME_PAGE);
+                    }),
+                GButton(
+                    icon: Icons.border_color_outlined,
+                    onPressed: () {
+                      Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
+                    }),
+                const GButton(icon: Icons.auto_stories_sharp),
+                GButton(
+                  icon: Icons.timeline_outlined,
+                  onPressed: () {
+                    Navigator.of(context).pushNamed(AppRoutes.FREQUENCY_PAGE);
+                  },
+                ),
+                // const GButton(icon: Icons.monetization_on),
+              ],
+            ),
           ),
         ),
       ),

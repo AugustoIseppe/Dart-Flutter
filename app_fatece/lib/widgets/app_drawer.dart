@@ -16,13 +16,12 @@ class _AppDrawerState extends State<AppDrawer> {
   Widget build(BuildContext context) {
     Widget _buildCreateBackground() => Container(
           decoration: const BoxDecoration(
-            gradient: LinearGradient(colors: [
-              Color.fromARGB(255, 202, 225, 245),
-              Color.fromARGB(255, 202, 225, 245),
-              Color.fromARGB(255, 202, 225, 245),
-              Color.fromARGB(255, 202, 225, 245),
-            ])
-          ),
+              gradient: LinearGradient(colors: [
+            Color.fromARGB(255, 202, 225, 245),
+            Color.fromARGB(255, 202, 225, 245),
+            Color.fromARGB(255, 202, 225, 245),
+            Color.fromARGB(255, 202, 225, 245),
+          ])),
         );
 
     return Drawer(
@@ -35,32 +34,35 @@ class _AppDrawerState extends State<AppDrawer> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   AppBar(
-                    toolbarHeight: 100,
+                    toolbarHeight: 70,
                     automaticallyImplyLeading: false,
                     title: Text(
-                      "Bem vindo, Augusto!",
-                      style: GoogleFonts.cabin(fontSize: 25),
+                      "Bem vinda, Amanda!",
+                      style: GoogleFonts.cabin(
+                          fontSize: 25, fontWeight: FontWeight.w600),
                     ),
                     centerTitle: true,
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Colors.blue[200],
+                    elevation: 10,
                   ),
-                  
                 ],
               ),
-              const Divider(),
+              // const Divider(height: 5,),
               Material(
                 color: Colors.transparent,
                 child: InkWell(
                   onTap: () {
-                    Navigator.of(context).pushNamed(AppRoutes.PERSONALDATA_PAGE);
+                    Navigator.of(context)
+                        .pushNamed(AppRoutes.PERSONALDATA_PAGE);
                   },
                   child: SizedBox(
                     height: 50,
                     child: Padding(
-                      padding: const EdgeInsets.only(left: 20),
+                      padding: const EdgeInsets.only(left: 20, top: 5),
                       child: InkWell(
                         onTap: () {
-                          Navigator.of(context).pushNamed(AppRoutes.PERSONALDATA_PAGE);
+                          Navigator.of(context)
+                              .pushNamed(AppRoutes.PERSONALDATA_PAGE);
                         },
                         child: Row(
                           children: [
@@ -70,7 +72,7 @@ class _AppDrawerState extends State<AppDrawer> {
                             ),
                             Text("Perfil",
                                 style: GoogleFonts.anuphan(
-                                    fontSize: 19, fontWeight: FontWeight.w600))
+                                    fontSize: 19, fontWeight: FontWeight.w800))
                           ],
                         ),
                       ),
@@ -78,12 +80,17 @@ class _AppDrawerState extends State<AppDrawer> {
                   ),
                 ),
               ),
+              Divider(
+                indent: 10,
+                endIndent: 10,
+                color: Colors.grey[500],
+              ),
               Material(
                 color: Colors.transparent,
                 child: InkWell(
                   onTap: () {
-                          Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
-                        },
+                    Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                  },
                   child: SizedBox(
                     height: 50,
                     child: Padding(
@@ -97,7 +104,7 @@ class _AppDrawerState extends State<AppDrawer> {
                           Text(
                             "Financeiro",
                             style: GoogleFonts.anuphan(
-                                fontSize: 19, fontWeight: FontWeight.w600),
+                                fontSize: 19, fontWeight: FontWeight.w800),
                             textAlign: TextAlign.center,
                           )
                         ],
@@ -105,6 +112,11 @@ class _AppDrawerState extends State<AppDrawer> {
                     ),
                   ),
                 ),
+              ),
+              Divider(
+                indent: 10,
+                endIndent: 10,
+                color: Colors.grey[500],
               ),
               Material(
                 color: Colors.transparent,
@@ -119,17 +131,39 @@ class _AppDrawerState extends State<AppDrawer> {
                           const SizedBox(
                             width: 8,
                           ),
-                          Text(
-                            "Avisos",
-                            style: GoogleFonts.anuphan(
-                                fontSize: 19, fontWeight: FontWeight.w600),
-                            textAlign: TextAlign.center,
-                          )
+                          Stack(
+                            children: [
+                              Text(
+                                "Avisos  ",
+                                style: GoogleFonts.anuphan(
+                                    fontSize: 19, fontWeight: FontWeight.w800),
+                                textAlign: TextAlign.left,
+                              ),
+                              Positioned(
+                                right:0,
+                                top:0,
+                                child: Container(
+                                  width: 15,
+                                  height: 15,
+                                  decoration: BoxDecoration(
+                                    color: Colors.red,
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: const Text("2", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 11), textAlign: TextAlign.center,),
+                                ),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                   ),
                 ),
+              ),
+              Divider(
+                indent: 10,
+                endIndent: 10,
+                color: Colors.grey[500],
               ),
               Material(
                 color: Colors.transparent,
@@ -147,7 +181,37 @@ class _AppDrawerState extends State<AppDrawer> {
                           Text(
                             "Solitações",
                             style: GoogleFonts.anuphan(
-                                fontSize: 19, fontWeight: FontWeight.w600),
+                                fontSize: 19, fontWeight: FontWeight.w800),
+                            textAlign: TextAlign.center,
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Divider(
+                indent: 10,
+                endIndent: 10,
+                color: Colors.grey[500],
+              ),
+              Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  child: SizedBox(
+                    height: 50,
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 20),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.event),
+                          const SizedBox(
+                            width: 8,
+                          ),
+                          Text(
+                            "Eventos",
+                            style: GoogleFonts.anuphan(
+                                fontSize: 19, fontWeight: FontWeight.w800),
                             textAlign: TextAlign.center,
                           )
                         ],
@@ -160,7 +224,7 @@ class _AppDrawerState extends State<AppDrawer> {
           ),
           Positioned(
             bottom: 10,
-            left: 35,
+            left: 30,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
@@ -168,7 +232,9 @@ class _AppDrawerState extends State<AppDrawer> {
                   Text(
                     "® 2023 Todos os direitos reservados.",
                     style: GoogleFonts.anuphan(
-                                fontSize: 13, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),
+                        fontSize: 13,
+                        fontWeight: FontWeight.w800,
+                        fontStyle: FontStyle.italic),
                   ),
                   SizedBox(
                     width: 120,

@@ -98,7 +98,6 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
                                   const Text("Visualizar",style: TextStyle(fontWeight: FontWeight.bold),),
                                   IconButton(
                                       onPressed: () {
-                                        Navigator.of(context).pushNamed(AppRoutes.TESTEPDF_CLASSROOM_PAGE);
                                       },
                                       icon: Container(
                                         height: 30,

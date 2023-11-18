@@ -23,6 +23,15 @@ class _PersonalDataState extends State<PersonalData> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
+        actions: [
+          const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
+        ],
       ),
       body: SingleChildScrollView(
       child: Column(
@@ -51,12 +60,12 @@ class _PersonalDataState extends State<PersonalData> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("Amanda Silva",
-                        style: GoogleFonts.lato(fontSize: 17)),
+                        style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
                     Text("Ciência da Computação",
-                        style: GoogleFonts.lato(fontSize: 17)),
+                        style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
                     Text("4º Semestre",
-                        style: GoogleFonts.lato(fontSize: 17)),
-                    Text("RA: 153876", style: GoogleFonts.lato(fontSize: 17))
+                        style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold)),
+                    Text("RA: 153876", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.bold))
                   ],
                 )
               ],
@@ -124,7 +133,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("CPF:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("CPF: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("123.456.789-09", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -134,7 +143,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("RG:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("RG: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("13.456.789-09 / SSP-SP", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -144,7 +153,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Data de Nascimento:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Data de Nascimento: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("13/02/2005", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -154,7 +163,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Cor:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Cor: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Branca", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -164,7 +173,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Sexo:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Sexo: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Feminino", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -174,7 +183,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Nacionalidade:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Nacionalidade: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Brasileira Nata", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -184,7 +193,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("País de Origem:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("País de Origem: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Brasil", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -194,7 +203,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Estado de Nascimento:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Estado de Nascimento: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("São Paulo", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -204,7 +213,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Cidade:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Cidade: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Pirassununga", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -214,7 +223,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("E-mail:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("E-mail: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("amanda.silva@gmail.com", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -224,8 +233,8 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Celular:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
-                                      Text("(19) 9-9090-8792", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
+                                      Text("Celular: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("(19) 99090-8792", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
                                 ],
@@ -299,7 +308,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Bairro:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Bairro: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Jardim América", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -309,7 +318,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("CEP:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("CEP: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("13.456-09", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -319,7 +328,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Complemento:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Complemento: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("-", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),
@@ -329,7 +338,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Cidade:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Cidade: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("Pirassununga", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),)
                                     ],
                                   ),
@@ -338,7 +347,7 @@ class _PersonalDataState extends State<PersonalData> {
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
-                                    children: [Text("País:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),), Text("Brasil", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),)],
+                                    children: [Text("País: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),), Text("Brasil", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),)],
                                   ),
                                 ],
                               ),
@@ -411,7 +420,7 @@ class _PersonalDataState extends State<PersonalData> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.start,
                                     children: [
-                                      Text("Pai:",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
+                                      Text("Pai: ",style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w900),),
                                       Text("João Américo Pederneiras", style: GoogleFonts.lato(fontSize: 17, fontWeight: FontWeight.w400),),
                                     ],
                                   ),

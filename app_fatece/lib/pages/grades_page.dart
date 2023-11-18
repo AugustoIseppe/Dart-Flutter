@@ -29,6 +29,13 @@ class _GradesPageState extends State<GradesPage> {
               onPressed: () {},
               icon: const Icon(Icons.refresh, color: Colors.white),
             ),
+            const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
           ],
         ),
         body: Padding(

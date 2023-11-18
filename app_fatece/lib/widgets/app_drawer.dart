@@ -83,7 +83,7 @@ class _AppDrawerState extends State<AppDrawer> {
               Divider(
                 indent: 10,
                 endIndent: 10,
-                color: Colors.grey[500],
+                color: Colors.white,
               ),
               Material(
                 color: Colors.transparent,
@@ -116,7 +116,7 @@ class _AppDrawerState extends State<AppDrawer> {
               Divider(
                 indent: 10,
                 endIndent: 10,
-                color: Colors.grey[500],
+                color: Colors.white,
               ),
               Material(
                 color: Colors.transparent,
@@ -163,7 +163,7 @@ class _AppDrawerState extends State<AppDrawer> {
               Divider(
                 indent: 10,
                 endIndent: 10,
-                color: Colors.grey[500],
+                color: Colors.white,
               ),
               Material(
                 color: Colors.transparent,
@@ -193,7 +193,7 @@ class _AppDrawerState extends State<AppDrawer> {
               Divider(
                 indent: 10,
                 endIndent: 10,
-                color: Colors.grey[500],
+                color: Colors.white,
               ),
               Material(
                 color: Colors.transparent,
@@ -219,6 +219,11 @@ class _AppDrawerState extends State<AppDrawer> {
                     ),
                   ),
                 ),
+              ),
+              Divider(
+                indent: 10,
+                endIndent: 10,
+                color: Colors.white,
               ),
             ],
           ),

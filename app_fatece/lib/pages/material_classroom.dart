@@ -14,9 +14,19 @@ class _ClassMaterialState extends State<ClassMaterial> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Material de Classe"),
+        title: const Text("Material de Classe", style: TextStyle(fontWeight: FontWeight.w900),),
         centerTitle: true,
         backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        actions: [
+          const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
+        ],
       ),
       body: SingleChildScrollView(
           child: Column(
@@ -31,7 +41,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
                   Navigator.of(context).pushNamed(AppRoutes.MATEMATICA_PAGE);
                 },
                 child: Card(
-                  color: Colors.yellow.withOpacity(0.7),
+                  color: Colors.yellowAccent.withOpacity(0.7),
                   child: Stack(children: [
                     Positioned(
                       right: 0,
@@ -155,7 +165,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
                   Navigator.of(context).pushNamed(AppRoutes.COMPORTAMENTO_PAGE);
                 },
                 child: Card(
-                  color: Colors.grey.withOpacity(0.7),
+                  color: Colors.pink.withOpacity(0.7),
                   child: Stack(children: [
                     Positioned(
                       right: 0,
@@ -215,7 +225,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
                   Navigator.of(context).pushNamed(AppRoutes.ARQUITETURA_PAGE);
                 },
                 child: Card(
-                  color: Colors.cyan,
+                  color: Colors.greenAccent,
                   child: Stack(children: [
                     Positioned(
                       right: 0,
@@ -412,7 +422,12 @@ class _ClassMaterialState extends State<ClassMaterial> {
                     onPressed: () {
                       Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
                     }),
-                const GButton(icon: Icons.auto_stories_sharp),
+                GButton(
+                  icon: Icons.monetization_on,
+                  onPressed: () {
+                      Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                    }
+                  ),
                 GButton(
                   icon: Icons.timeline_outlined,
                   onPressed: () {

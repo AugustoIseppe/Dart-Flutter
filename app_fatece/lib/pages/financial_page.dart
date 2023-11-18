@@ -47,6 +47,15 @@ class FinancialPageState extends State<FinancialPage> {
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         elevation: 5,
+        actions: [
+          const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(

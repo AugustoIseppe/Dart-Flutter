@@ -28,6 +28,15 @@ class ComportamentoState extends State<Comportamento> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
+        actions: [
+          const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -555,7 +564,11 @@ class ComportamentoState extends State<Comportamento> {
                     onPressed: () {
                       Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
                     }),
-                const GButton(icon: Icons.auto_stories_sharp),
+                GButton(icon: Icons.monetization_on,
+                onPressed: () {
+                    Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                  }
+                ),
                 GButton(
                   icon: Icons.timeline_outlined,
                   onPressed: () {

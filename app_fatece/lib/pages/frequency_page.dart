@@ -26,169 +26,211 @@ class _FrequencyPageState extends State<FrequencyPage> {
       appBar: AppBar(
         title: const Text(
           "Frequência Escolar",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.w900),
         ),
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
+        elevation: 5,
+        actions: [
+          const Padding(
+              padding: EdgeInsets.only(right: 10.0, left: 8),
+              child: CircleAvatar(
+                    backgroundImage: AssetImage("assets/images/profile.png"),
+                    backgroundColor: Colors.white,
+                  ),
+            ),
+        ],
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: List.generate(itemTitles.length, (index) {
-            bool isExpanded = _expandedIndices.contains(index);
-            return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Card(
-                color: Colors.blue[200],
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    ListTile(
-                      title: Text(itemTitles[index]),
-                      trailing: IconButton(
-                          onPressed: () {
-                            setState(() {
-                              if (isExpanded) {
-                                _expandedIndices.remove(index);
-                              } else {
-                                _expandedIndices.add(index);
-                              }
-                            });
-                          },
-                          icon: Icon(isExpanded
-                              ? Icons.expand_less
-                              : Icons.expand_more)),
-                    ),
-                    if (isExpanded)
-                      Card(
-                        color: Colors.blue[100],
-                        elevation: 5,
-                        child: Column(
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white),
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 4, horizontal: 15),
-                              child: const Column(
-                                children: [
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Aula - 05/09/2023"),
-                                      Text(
-                                        "4/4",
-                                        style: TextStyle(
-                                            color: Colors.green,
-                                            fontWeight: FontWeight.w900),
-                                      ),
-                                    ],
-                                  ),
-                                  Divider(
-                                    color: Colors.white,
-                                  ),
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Aula - 12/09/2023"),
-                                      Text(
-                                        "3/4",
-                                        style: TextStyle(
-                                            color: Colors.blue,
-                                            fontWeight: FontWeight.w900),
-                                      ),
-                                    ],
-                                  ),
-                                  Divider(
-                                    color: Colors.white,
-                                  ),
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Aula - 20/09/2023"),
-                                      Text(
-                                        "0/4",
-                                        style: TextStyle(
-                                            color: Colors.red,
-                                            fontWeight: FontWeight.w900),
-                                      ),
-                                    ],
-                                  ),
-                                  Divider(
-                                    color: Colors.white,
-                                  ),
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Aula - 27/09/2023"),
-                                      Text(
-                                        "3/4",
-                                        style: TextStyle(
-                                            color: Colors.blue,
-                                            fontWeight: FontWeight.w900),
-                                      ),
-                                    ],
-                                  ),
-                                  Divider(
-                                    color: Colors.white,
-                                  ),
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Aula - 06/10/2023"),
-                                      Text(
-                                        "4/4",
-                                        style: TextStyle(
-                                            color: Colors.green,
-                                            fontWeight: FontWeight.w900),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ),
-                            const Padding(
-                              padding: EdgeInsets.all(8.0),
-                              child: SizedBox(
-                                height: 50,
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 10),
+          child: Column(
+            children: List.generate(itemTitles.length, (index) {
+              bool isExpanded = _expandedIndices.contains(index);
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Card(
+                  color: Colors.blue[200],
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      ListTile(
+                        title: Text(itemTitles[index], style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
+                        trailing: IconButton(
+                            onPressed: () {
+                              setState(() {
+                                if (isExpanded) {
+                                  _expandedIndices.remove(index);
+                                } else {
+                                  _expandedIndices.add(index);
+                                }
+                              });
+                            },
+                            icon: Icon(isExpanded
+                                ? Icons.expand_less
+                                : Icons.expand_more)),
+                      ),
+                      if (isExpanded)
+                        Card(
+                          color: Colors.blue[100],
+                          elevation: 5,
+                          child: Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 4, horizontal: 15),
+                                child: const Column(
                                   children: [
-                                    Column(
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Presente"),
-                                        Text("52"),
+                                        Text("Aula - 05/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "4/4",
+                                          style: TextStyle(
+                                              color: Color.fromARGB(255, 10, 219, 17),
+                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                        ),
                                       ],
                                     ),
-                                    Chip(
-                                      label: Text("75%"),
+                                    Divider(
+                                      color: Colors.white,
                                     ),
-                                    Column(
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Ausente"),
-                                        Text("4"),
+                                        Text("Aula - 12/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "3/4",
+                                          style: TextStyle(
+                                              color: Colors.blue,
+                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                        ),
                                       ],
-                                    )
+                                    ),
+                                    Divider(
+                                      color: Colors.white,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("Aula - 20/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "0/4",
+                                          style: TextStyle(
+                                              color: Colors.red,
+                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                        ),
+                                      ],
+                                    ),
+                                    Divider(
+                                      color: Colors.white,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("Aula - 27/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "3/4",
+                                          style: TextStyle(
+                                              color: Colors.blue,
+                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                        ),
+                                      ],
+                                    ),
+                                    Divider(
+                                      color: Colors.white,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("Aula - 06/10/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "4/4",
+                                          style: TextStyle(
+                                              color: Color.fromARGB(255, 10, 219, 17),
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 16
+                                              ),
+                                        ),
+                                      ],
+                                    ),
                                   ],
                                 ),
                               ),
-                            )
-                          ],
-                        ),
-                      )
-                  ],
+                              Padding(
+                                padding: EdgeInsets.all(8.0),
+                                child: SizedBox(
+                                  // height: 50,
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                     const Column(
+                                        children: [
+                                          Text("Presente", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Chip(
+                                            label: Text("56", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            elevation: 5,
+                                            backgroundColor: Colors.white,
+                                          ),
+                                        ],
+                                      ),
+                                      const Column(
+                                        children: [
+                                          Text("Ausente", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Chip(
+                                            label: Text("4", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            elevation: 5,
+                                            backgroundColor: Colors.white,
+                                          ),
+                                        ],
+                                      ),
+                                      const Column(
+                                        children: [
+                                          Text("Total de Aulas", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Chip(
+                                            label: Text("60", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            elevation: 5,
+                                            backgroundColor: Colors.white,
+                                          ),
+                                        ],
+                                      ),
+                                      Column(
+                                        children: [
+                                          const Text("Frequência", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Chip(
+                                            label: const Text("75%", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            elevation: 5,
+                                            backgroundColor: Colors.lightGreenAccent.shade400,
+                                          ),
+                                        ],
+                                      ),
+                                      
+                                      
+                                    ],
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        )
+                    ],
+                  ),
                 ),
-              ),
-            );
-          }),
+              );
+            }),
+          ),
         ),
       ),
       bottomNavigationBar: Padding(
@@ -216,9 +258,16 @@ class _FrequencyPageState extends State<FrequencyPage> {
                       onPressed: () {
                         Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
                       }),
-                  const GButton(icon: Icons.auto_stories_sharp),
+                  GButton(icon: Icons.auto_stories_sharp,
+                  onPressed: () {
+                        Navigator.of(context).pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
+                      }
+                  ),
                   // GButton(icon: Icons.timeline_outlined),
-                  const GButton(icon: Icons.monetization_on),
+                  GButton(icon: Icons.monetization_on,
+                  onPressed: () {
+                        Navigator.of(context).pushNamed(AppRoutes.FINANCIAL_PAGE);
+                      }),
                 ]),
           ),
         ),

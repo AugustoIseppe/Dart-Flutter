@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
           style: TextStyle(fontWeight: FontWeight.w900, color: Colors.blue[800]),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.blue[100],
         elevation: 10,
       ),
       drawer: const AppDrawer(),
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Container(
             height: double.maxFinite,
-            decoration: BoxDecoration(color: Colors.blue[200]),
+            decoration: BoxDecoration(color: Colors.blue[100]),
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.only(top: 100),
@@ -47,11 +47,14 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.GRADES_PAGE);
                           },
                           child: Card(
-                            elevation: 15,
+                            elevation: 20,
                             child: Container(
-                              decoration: const BoxDecoration(),
-                              width: 140,
-                              height: 120,
+                              decoration: BoxDecoration(
+                              color: Colors.grey.shade300,
+                              borderRadius: const BorderRadius.only(topLeft: Radius.circular(20))
+                              ),
+                              width: 145,
+                              height: 125,
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -79,11 +82,14 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.FINANCIAL_PAGE);
                           },
                           child: Card(
-                            elevation: 15,
+                            elevation: 20,
                             child: Container(
-                              decoration: const BoxDecoration(),
-                              width: 140,
-                              height: 120,
+                              decoration: BoxDecoration(
+                                color: Colors.grey.shade300,
+                                borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(15))
+                              ),
+                              width: 145,
+                              height: 125,
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -107,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ],
                     ),
-                    Column(
+                                        Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
@@ -116,11 +122,14 @@ class _HomePageState extends State<HomePage> {
                             Navigator.of(context).pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
                           },
                           child: Card(
-                            elevation: 15,
+                            elevation: 20,
                             child: Container(
-                              decoration: const BoxDecoration(),
-                              width: 140,
-                              height: 120,
+                              decoration: BoxDecoration(
+                                color: Colors.grey.shade300,
+                                borderRadius: const BorderRadius.only(topRight: Radius.circular(15))
+                              ),
+                              width: 145,
+                              height: 125,
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -148,11 +157,15 @@ class _HomePageState extends State<HomePage> {
                                 .pushNamed(AppRoutes.FREQUENCY_PAGE);
                           },
                           child: Card(
-                            elevation: 15,
+                            elevation: 20,
                             child: Container(
-                              decoration: const BoxDecoration(),
-                              width: 140,
-                              height: 120,
+                              decoration: BoxDecoration(
+                                color: Colors.grey.shade300,
+                                borderRadius: const BorderRadius.only(bottomRight: Radius.circular(15))
+                          
+                              ),
+                              width: 145,
+                              height: 125,
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -199,7 +212,7 @@ class _HomePageState extends State<HomePage> {
           Container(
             height: 240,
             decoration: BoxDecoration(
-                color: Colors.blue[100],
+                color: Colors.blue[200],
                 borderRadius: const BorderRadius.vertical(
                     bottom: Radius.elliptical(200, 80))),
             child: Row(

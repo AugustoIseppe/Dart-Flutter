@@ -17,23 +17,26 @@ class OrdenacaoState extends State<Ordenacao> {
   bool isExpanded3 = false;
   bool isExpanded4 = false;
 
+  String titleOrdenacao = "Ordenação e Estrutura de Dados";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Ordenação e Estrutura de Dados",
+        title: Text(
+          titleOrdenacao,
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],
@@ -49,14 +52,14 @@ class OrdenacaoState extends State<Ordenacao> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 00",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Selection Sort",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -93,13 +96,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -113,14 +116,16 @@ class OrdenacaoState extends State<Ordenacao> {
                                       Column(
                                         children: [
                                           IconButton(
-                                            onPressed: () {},
-                                            icon: Icon(
+                                            onPressed: () {
+                                              Navigator.of(context).pushNamed(AppRoutes.TESTEPDF_PAGE);
+                                            },
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -148,14 +153,14 @@ class OrdenacaoState extends State<Ordenacao> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 01",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Bubble Sort, Inserction Sort",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -192,13 +197,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -213,13 +218,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -247,14 +252,14 @@ class OrdenacaoState extends State<Ordenacao> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 02",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Busca Binária e Busca Sequencial",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -291,13 +296,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -312,13 +317,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -346,14 +351,14 @@ class OrdenacaoState extends State<Ordenacao> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 03",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Quick Sort",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -390,13 +395,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -411,13 +416,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -445,14 +450,14 @@ class OrdenacaoState extends State<Ordenacao> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 04",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Selection Sort",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -489,13 +494,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -510,13 +515,13 @@ class OrdenacaoState extends State<Ordenacao> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,

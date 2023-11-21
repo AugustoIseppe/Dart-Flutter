@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 class AppRoutes {
-  static const LOGIN_PAGE = "/home";
+  static const LOGIN_PAGE = "/login-page";
   static const HOME_PAGE = "/home-page";
   static const GRADES_PAGE = "/grades-page";
   static const FREQUENCY_PAGE = "/frequency-page";
@@ -15,6 +15,5 @@ class AppRoutes {
   static const INTERFACE_PAGE = "/interface-page";
   static const MATEMATICA_PAGE = "/matematica-page";
   static const ORDENACAO_PAGE = "/ordenacao-page";
-  
-
+  static const TESTEPDF_PAGE = "/testepdf-page";
 }

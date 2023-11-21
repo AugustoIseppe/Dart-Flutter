@@ -31,12 +31,13 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
         ),
         centerTitle: true,
         backgroundColor: Colors.blue,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],
@@ -83,7 +84,9 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
                                 children: [
                                   const Text("Download",style: TextStyle(fontWeight: FontWeight.bold),),
                                   IconButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.of(context).pushNamed(AppRoutes.MATEMATICA_PAGE);
+                                      },
                                       icon: Container(
                                         height: 30,
                                         width: 40,
@@ -106,7 +109,8 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
                                 children: [
                                   const Text("Visualizar",style: TextStyle(fontWeight: FontWeight.bold),),
                                   IconButton(
-                                      onPressed: () {
+                                      onPressed:() {
+                                        Navigator.of(context).pushNamed(AppRoutes.TESTEPDF_PAGE);
                                       },
                                       icon: Container(
                                         height: 30,

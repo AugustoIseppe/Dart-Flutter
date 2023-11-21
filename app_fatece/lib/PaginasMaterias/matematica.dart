@@ -17,23 +17,26 @@ class MatematicaState extends State<Matematica> {
   bool isExpanded3 = false;
   bool isExpanded4 = false;
 
+  String titleMatematica = "Tópicos da Matemática Aplicada";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Tópicos da Matemática Aplicada",
-          style: TextStyle(fontWeight: FontWeight.bold),
+        title: Text(
+          titleMatematica,
+          style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],
@@ -49,14 +52,14 @@ class MatematicaState extends State<Matematica> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 00",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Álgebra Linear",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -93,13 +96,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -114,13 +117,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -148,14 +151,14 @@ class MatematicaState extends State<Matematica> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 01",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Cálculo Diferencial e Integral",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -192,13 +195,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -213,13 +216,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -247,14 +250,14 @@ class MatematicaState extends State<Matematica> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 02",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Teoria dos Números",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -291,13 +294,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -312,13 +315,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -346,14 +349,14 @@ class MatematicaState extends State<Matematica> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 03",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Lógica Matemática",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -390,13 +393,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -411,13 +414,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -445,14 +448,14 @@ class MatematicaState extends State<Matematica> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 04",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Probabilidade e Estatística",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -489,13 +492,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -510,13 +513,13 @@ class MatematicaState extends State<Matematica> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,

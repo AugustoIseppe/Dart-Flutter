@@ -10,6 +10,7 @@ class ClassMaterial extends StatefulWidget {
 }
 
 class _ClassMaterialState extends State<ClassMaterial> {
+  String titleMatematica = "Tópicos de Matemática \nAplicada.2023.2";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,10 +19,11 @@ class _ClassMaterialState extends State<ClassMaterial> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
+                maxRadius: 16,
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
                   ),
@@ -61,20 +63,20 @@ class _ClassMaterialState extends State<ClassMaterial> {
                         ),
                       ),
                     ),
-                    const Padding(
-                      padding: EdgeInsets.only(top: 10, left: 15),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 10, left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Tópicos de Matemática \nAplicada.2023.2",
-                            style: TextStyle(
+                            titleMatematica,
+                            style: const TextStyle(
                                 fontSize: 17,
                                 fontWeight: FontWeight.w900,
                                 color: Colors.black),
                           ),
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(bottom: 10, left: 3),
                             child: Text(
                               "Docente: Julyette Priscila Redling",

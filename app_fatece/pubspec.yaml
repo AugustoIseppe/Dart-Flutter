@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^6.1.0
   google_nav_bar: ^5.0.6
+  syncfusion_flutter_pdfviewer: ^23.2.4
 
 
 dev_dependencies:
@@ -75,7 +76,7 @@ flutter:
     - assets/images/imagem4.jpg
     - assets/images/imagem5.jpg
     - assets/images/imagem6.jpg
-    - assets/pdf/estrutura.pdf
+    - assets/estrutura.pdf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

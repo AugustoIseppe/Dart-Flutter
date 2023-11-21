@@ -23,12 +23,13 @@ class _PersonalDataState extends State<PersonalData> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],

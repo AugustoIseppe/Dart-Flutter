@@ -28,12 +28,13 @@ class EletivaState extends State<Eletiva> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],
@@ -49,14 +50,14 @@ class EletivaState extends State<Eletiva> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 00",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Sistemas de Informação e Gestão do Conhecimento",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -93,13 +94,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -114,13 +115,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -148,14 +149,14 @@ class EletivaState extends State<Eletiva> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 01",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Mineração de Dados e Descoberta de Conhecimento",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -192,13 +193,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -213,13 +214,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -247,14 +248,14 @@ class EletivaState extends State<Eletiva> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 02",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Gestão de Projetos de TI",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -291,13 +292,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -312,13 +313,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -346,14 +347,14 @@ class EletivaState extends State<Eletiva> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 03",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Estratégias de Inovação e Tecnologia",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -390,13 +391,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -411,13 +412,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -445,14 +446,14 @@ class EletivaState extends State<Eletiva> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      title: Text(
+                      title: const Text(
                         "Aula 04",
                         style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w900,
                             color: Colors.white),
                       ),
-                      subtitle: Text(
+                      subtitle: const Text(
                         "Ética em TI e Gestão do Conhecimento",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
@@ -489,13 +490,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.download,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Download",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -510,13 +511,13 @@ class EletivaState extends State<Eletiva> {
                                         children: [
                                           IconButton(
                                             onPressed: () {},
-                                            icon: Icon(
+                                            icon: const Icon(
                                               Icons.visibility,
                                               size: 35,
                                               color: Colors.black,
                                             ),
                                           ),
-                                          Text(
+                                          const Text(
                                             "Visualizar",
                                             style: TextStyle(
                                                 fontSize: 15,

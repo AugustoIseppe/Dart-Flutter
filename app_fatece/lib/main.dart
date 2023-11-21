@@ -1,6 +1,7 @@
 import 'package:app_fatece/pages/content_classroom.dart';
 import 'package:app_fatece/pages/grades_page.dart';
 import 'package:app_fatece/pages/login_page.dart';
+import 'package:app_fatece/pages/testepdf.dart';
 import 'package:app_fatece/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'PaginasMaterias/arquitetura.dart';
@@ -32,7 +33,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const LoginPage(),
+      // initialRoute: AppRoutes.LOGIN_PAGE,
       routes: {
+        AppRoutes.LOGIN_PAGE:(context) => const LoginPage (),
         AppRoutes.HOME_PAGE:(context) => const HomePage(),
         AppRoutes.GRADES_PAGE:(context) => const GradesPage(),
         AppRoutes.FREQUENCY_PAGE:(context) => const FrequencyPage(),
@@ -46,6 +49,7 @@ class MyApp extends StatelessWidget {
         AppRoutes.INTERFACE_PAGE:(context) => const InterfaceHomemMaquina(),
         AppRoutes.MATEMATICA_PAGE:(context) => const Matematica(),
         AppRoutes.ORDENACAO_PAGE:(context) => const Ordenacao(),
+        AppRoutes.TESTEPDF_PAGE:(context) =>  Testepdf(title: "Ordenação e Estrutura de Dados"),
       },
     );
   }

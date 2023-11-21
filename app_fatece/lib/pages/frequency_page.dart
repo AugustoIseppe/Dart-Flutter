@@ -32,12 +32,13 @@ class _FrequencyPageState extends State<FrequencyPage> {
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         elevation: 5,
-        actions: [
-          const Padding(
-              padding: EdgeInsets.only(right: 10.0, left: 8),
+        actions: const [
+          Padding(
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
+                    maxRadius: 16,
                   ),
             ),
         ],
@@ -56,7 +57,7 @@ class _FrequencyPageState extends State<FrequencyPage> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       ListTile(
-                        title: Text(itemTitles[index], style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
+                        title: Text(itemTitles[index], style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
                         trailing: IconButton(
                             onPressed: () {
                               setState(() {
@@ -169,7 +170,7 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                 ),
                               ),
                               Padding(
-                                padding: EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.all(8.0),
                                 child: SizedBox(
                                   // height: 50,
                                   child: Row(

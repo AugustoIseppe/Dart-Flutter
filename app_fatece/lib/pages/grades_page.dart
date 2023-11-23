@@ -1370,7 +1370,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.85",
+                                        "5.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],

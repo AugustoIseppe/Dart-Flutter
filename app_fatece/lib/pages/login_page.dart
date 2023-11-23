@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
           Center(
             child: Container(
               width: 300,
-              height: 300,
+              height: 450,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.blue.withOpacity(0.7),
@@ -60,20 +60,20 @@ class _LoginPageState extends State<LoginPage> {
                                   labelText: "E-mail",
                                 ),
                                 keyboardType: TextInputType.emailAddress,
-                                // validator: (value) {
-                                //   if (value!.isEmpty) {
-                                //     return "Inform seu e-mail!";
-                                //   }
-                                //   if (value != dummyEmail) {
-                                //     return "E-mail inválido";
-                                //   }
-                                //   if (!value.contains("@")) {
-                                //     return "E-mail inválido";
-                                //   }
-                                //   return null;
-                                //   // var dummyPassword = "123456";
-                                //   // var dummyEmail = "teste@teste.com";
-                                // },
+                                validator: (value) {
+                                  if (value!.isEmpty) {
+                                    return "Inform seu e-mail!";
+                                  }
+                                  if (value != dummyEmail) {
+                                    return "E-mail inválido";
+                                  }
+                                  if (!value.contains("@")) {
+                                    return "E-mail inválido";
+                                  }
+                                  return null;
+                                  // var dummyPassword = "123456";
+                                  // var dummyEmail = "teste@teste.com";
+                                },
                               ),
                             ),
                             const SizedBox(
@@ -92,15 +92,15 @@ class _LoginPageState extends State<LoginPage> {
                                   border: OutlineInputBorder(),
                                   labelText: "Senha",
                                 ),
-                                // validator: (value) {
-                                //   if (value!.isEmpty) {
-                                //     return "Informe sua senha!";
-                                //   }
-                                //   if (value != dummyPassword) {
-                                //     return "Senha inválida";
-                                //   }
-                                //   return null;
-                                // },
+                                validator: (value) {
+                                  if (value!.isEmpty) {
+                                    return "Informe sua senha!";
+                                  }
+                                  if (value != dummyPassword) {
+                                    return "Senha inválida";
+                                  }
+                                  return null;
+                                },
                               ),
                             ),
                             const SizedBox(

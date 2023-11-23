@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
           Center(
             child: Container(
               width: 300,
-              height: 450,
+              height: 460,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
                 color: Colors.blue.withOpacity(0.7),

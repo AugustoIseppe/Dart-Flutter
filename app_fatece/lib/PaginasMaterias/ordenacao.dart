@@ -60,7 +60,7 @@ class OrdenacaoState extends State<Ordenacao> {
                             color: Colors.white),
                       ),
                       subtitle: const Text(
-                        "Selection Sort",
+                        "Ordenação e Pesquisa de Dados",
                         style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
                       trailing: IconButton(

@@ -30,7 +30,7 @@ class _GradesPageState extends State<GradesPage> {
               icon: const Icon(Icons.refresh, color: Colors.white),
             ),
             const Padding(
-              padding: EdgeInsets.only(right: 0.0, left: 8),
+              padding: EdgeInsets.only(right: 20.0, left: 8),
               child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/profile.png"),
                     backgroundColor: Colors.white,
@@ -79,7 +79,7 @@ class _GradesPageState extends State<GradesPage> {
                                                         FontWeight.w900),
                                               ),
                                               Text(
-                                                "9.25",
+                                                "3.00",
                                                 style: TextStyle(fontSize: 15),
                                               )
                                             ],
@@ -126,7 +126,7 @@ class _GradesPageState extends State<GradesPage> {
                                                   fontWeight: FontWeight.w900),
                                             ),
                                             Text(
-                                              "7.25",
+                                              "2.65",
                                               style: TextStyle(fontSize: 15),
                                             )
                                           ],
@@ -172,7 +172,7 @@ class _GradesPageState extends State<GradesPage> {
                                                   fontWeight: FontWeight.w900),
                                             ),
                                             Text(
-                                              "1.85",
+                                              "2.00",
                                               style: TextStyle(fontSize: 15),
                                             )
                                           ],
@@ -195,7 +195,7 @@ class _GradesPageState extends State<GradesPage> {
                                                   fontWeight: FontWeight.w900),
                                             ),
                                             Text(
-                                              "6.85",
+                                              "0",
                                               style: TextStyle(fontSize: 15),
                                             )
                                           ],
@@ -218,7 +218,7 @@ class _GradesPageState extends State<GradesPage> {
                                                   fontWeight: FontWeight.w900),
                                             ),
                                             Text(
-                                              "9.85",
+                                              "9.65",
                                               style: TextStyle(fontSize: 15),
                                             )
                                           ],
@@ -241,7 +241,7 @@ class _GradesPageState extends State<GradesPage> {
                                                   fontWeight: FontWeight.w900),
                                             ),
                                             Text(
-                                              "7.85",
+                                              "9.65",
                                               style: TextStyle(fontSize: 15),
                                             )
                                           ],
@@ -308,7 +308,7 @@ class _GradesPageState extends State<GradesPage> {
                                               fontWeight: FontWeight.w900),
                                         ),
                                         Text(
-                                          "9.25",
+                                          "2.65",
                                           style: TextStyle(fontSize: 15),
                                         )
                                       ],
@@ -355,7 +355,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.25",
+                                        "3.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -401,7 +401,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "1.85",
+                                        "2.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -424,7 +424,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "6.85",
+                                        "-",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -447,7 +447,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "9.85",
+                                        "8.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -470,7 +470,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.85",
+                                        "5.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -533,7 +533,7 @@ class _GradesPageState extends State<GradesPage> {
                                               fontWeight: FontWeight.w900),
                                         ),
                                         Text(
-                                          "9.25",
+                                          "1.25",
                                           style: TextStyle(fontSize: 15),
                                         )
                                       ],
@@ -580,7 +580,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.25",
+                                        "1.25",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -626,7 +626,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "1.85",
+                                        "2.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -649,7 +649,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "6.85",
+                                        "7.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -672,7 +672,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "9.85",
+                                        "6.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -695,7 +695,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.85",
+                                        "6.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -758,7 +758,7 @@ class _GradesPageState extends State<GradesPage> {
                                               fontWeight: FontWeight.w900),
                                         ),
                                         Text(
-                                          "9.25",
+                                          "2.65",
                                           style: TextStyle(fontSize: 15),
                                         )
                                       ],
@@ -782,7 +782,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "2.00",
+                                        "1.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -805,7 +805,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.25",
+                                        "2.25",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -851,7 +851,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "1.85",
+                                        "2.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -874,7 +874,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "6.85",
+                                        "-",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -897,7 +897,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "9.85",
+                                        "7.85",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -983,7 +983,7 @@ class _GradesPageState extends State<GradesPage> {
                                               fontWeight: FontWeight.w900),
                                         ),
                                         Text(
-                                          "9.25",
+                                          "2.25",
                                           style: TextStyle(fontSize: 15),
                                         )
                                       ],
@@ -1030,7 +1030,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.25",
+                                        "3.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -1076,7 +1076,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "1.85",
+                                        "2.00",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -1099,7 +1099,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "6.85",
+                                        "-",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -1208,7 +1208,7 @@ class _GradesPageState extends State<GradesPage> {
                                               fontWeight: FontWeight.w900),
                                         ),
                                         Text(
-                                          "9.25",
+                                          "1.25",
                                           style: TextStyle(fontSize: 15),
                                         )
                                       ],
@@ -1226,13 +1226,13 @@ class _GradesPageState extends State<GradesPage> {
                                   const Column(
                                     children: [
                                       Text(
-                                        "T1",
+                                        "ATD1",
                                         style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "2.00",
+                                        "1.5",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -1255,7 +1255,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "7.25",
+                                        "2.25",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],
@@ -1272,7 +1272,7 @@ class _GradesPageState extends State<GradesPage> {
                                   const Column(
                                     children: [
                                       Text(
-                                        "T2",
+                                        "ATD2",
                                         style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.w900),
@@ -1324,7 +1324,7 @@ class _GradesPageState extends State<GradesPage> {
                                             fontWeight: FontWeight.w900),
                                       ),
                                       Text(
-                                        "6.85",
+                                        "-",
                                         style: TextStyle(fontSize: 15),
                                       )
                                     ],

@@ -171,7 +171,8 @@ class _FrequencyPageState extends State<FrequencyPage> {
                               ),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
-                                child: SizedBox(
+                                child: Container(
+                                  width: double.infinity,
                                   // height: 50,
                                   child: Row(
                                     mainAxisAlignment:
@@ -187,6 +188,8 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                           ),
                                         ],
                                       ),
+                                      VerticalDivider(color: Colors.black, width: 2),
+
                                       const Column(
                                         children: [
                                           Text("Ausente", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),

@@ -28,11 +28,11 @@ class Badgee extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               color: color ?? Colors.red
             ),
-            constraints: BoxConstraints(
+            constraints: const BoxConstraints(
               minHeight: 20,
               maxWidth: 20,
             ),
-            child: Text(value, style: TextStyle(fontSize: 13, color: Colors.white, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
+            child: Text(value, style: const TextStyle(fontSize: 13, color: Colors.white, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
           ),
           ),
       ],

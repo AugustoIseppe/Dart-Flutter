@@ -16,15 +16,15 @@ class CartItemWidget extends StatelessWidget {
       confirmDismiss: (_) {
         return showDialog<bool>(context: context, builder: (context) {
           return AlertDialog(
-            title: Text("Deseja realmente remover?"),
-            content: Text("Voce tem certeza que deseja remover?"),
+            title: const Text("Deseja realmente remover?"),
+            content: const Text("Voce tem certeza que deseja remover?"),
             actions: [
               TextButton(onPressed: (){
                 Navigator.of(context).pop(true);
-              }, child: Text("Sim"),),
+              }, child: const Text("Sim"),),
               TextButton(onPressed: (){
                 Navigator.of(context).pop(false);
-              }, child: Text("Não"),),
+              }, child: const Text("Não"),),
             ],
           );
           
@@ -61,7 +61,7 @@ class CartItemWidget extends StatelessWidget {
               child: FittedBox(
                 child: Text(
                   '${cartItem.price}',
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),

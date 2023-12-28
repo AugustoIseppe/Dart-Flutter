@@ -6,6 +6,8 @@ import '../models/product_list.dart';
 import 'product_grid_item.dart';
 
 class ProductGrid extends StatelessWidget {
+  const ProductGrid({super.key});
+
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<ProductList>(context);
@@ -25,7 +27,7 @@ class ProductGrid extends StatelessWidget {
             borderRadius: BorderRadius.circular(8),
             child: Container(
               color: Colors.amber,
-              child: Center(
+              child: const Center(
                 child: ProductGridItem(),
                 ),
             ),

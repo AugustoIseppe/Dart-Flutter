@@ -23,7 +23,7 @@ class ProductDetailPage extends StatelessWidget {
             children: [
               Card(
                 elevation: 10,
-                child: Container(
+                child: SizedBox(
                   height: 300,
                   width: double.infinity,
                   child: ClipRRect(
@@ -37,14 +37,12 @@ class ProductDetailPage extends StatelessWidget {
               ),
               Text(
                 "R\$ ${product.price!}",
-                style: TextStyle(
+                style: const TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
                     fontFamily: "Lato"),
               ),
-              Container(
-                child: Text(product.description!, style: TextStyle(fontSize: 25),textAlign: TextAlign.center,),
-              )
+              Text(product.description!, style: const TextStyle(fontSize: 25),textAlign: TextAlign.center,)
             ],
           ),
         ));

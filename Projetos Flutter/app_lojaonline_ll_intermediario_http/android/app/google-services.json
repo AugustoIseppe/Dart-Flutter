@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451091237273",
+    "project_id": "applojaonline-ll",
+    "storage_bucket": "applojaonline-ll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451091237273:android:53fcb2e63a411c69792b08",
+        "android_client_info": {
+          "package_name": "br.com.app_lojaonline_ll_intermediario_http.app_lojaonline_ll_intermediario_http"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHQ2uguuv5_MHTDP-LzA1_SGoQzeDcScs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,7 +15,7 @@ class ProductItem extends StatelessWidget {
         backgroundImage: NetworkImage(product.imageUrl!),
       ),
       title: Text(product.title!),
-      trailing: Container(
+      trailing: SizedBox(
         width: 100,
         child: Row(
           children: [
@@ -43,7 +43,7 @@ class ProductItem extends StatelessWidget {
                                 .removeProduct(product);
                             Navigator.of(context).pop();
                           },
-                          child: Text("Sim")),
+                          child: const Text("Sim")),
                       TextButton(
                         onPressed: () => Navigator.of(context).pop(),
                         child: const Text("Não"),
@@ -52,7 +52,7 @@ class ProductItem extends StatelessWidget {
                   ),
                 );
               },
-              icon: Icon(
+              icon: const Icon(
                 Icons.delete,
                 color: Colors.redAccent,
               ),

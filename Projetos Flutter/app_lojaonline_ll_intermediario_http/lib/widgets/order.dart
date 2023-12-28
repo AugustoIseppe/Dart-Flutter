@@ -39,7 +39,7 @@ class _OrderWidgetState extends State<OrderWidget> {
                   borderRadius: BorderRadius.circular(10)
                 ),
                 height: (widget.order.products.length * 24.0) +40,
-                padding: EdgeInsets.symmetric(vertical: 4, horizontal: 15),
+                padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 15),
                 child: ListView(
                   children: widget.order.products.map((product) {
                     return Row(
@@ -48,7 +48,7 @@ class _OrderWidgetState extends State<OrderWidget> {
                       children: [
                         Text(
                           product.title,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                               fontFamily: "Lato",),

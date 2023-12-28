@@ -13,36 +13,36 @@ class AppDrawer extends StatelessWidget {
             automaticallyImplyLeading: false,
             foregroundColor: Colors.white,
             backgroundColor: Colors.blueGrey,
-            title: Text(
+            title: const Text(
               "Bem Vindo, Augusto!",
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             ),
           ),
           ListTile(
-            leading: Icon(Icons.shop),
-            title: Text("Loja"),
+            leading: const Icon(Icons.shop),
+            title: const Text("Loja"),
             onTap: () {
               Navigator.of(context).pushReplacementNamed(AppRoutes.HOME);
             },
           ),
-          Divider(),
+          const Divider(),
           ListTile(
-            leading: Icon(Icons.payment),
-            title: Text("Pedidos"),
+            leading: const Icon(Icons.payment),
+            title: const Text("Pedidos"),
             onTap: () {
               Navigator.of(context).pushReplacementNamed(AppRoutes.ORDERS);
             },
           ),
-          Divider(),
+          const Divider(),
           ListTile(
-            leading: Icon(Icons.edit),
-            title: Text("Gerenciar Produtos"),
+            leading: const Icon(Icons.edit),
+            title: const Text("Gerenciar Produtos"),
             onTap: () {
               Navigator.of(context).pushReplacementNamed(AppRoutes.PRODUCTS);
             },
           ),
-          Divider(),
+          const Divider(),
         ],
       ),
     );

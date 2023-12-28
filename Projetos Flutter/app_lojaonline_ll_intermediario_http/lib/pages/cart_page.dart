@@ -41,25 +41,25 @@ class CartPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
+                    const Text(
                       "Total:",
                       style: TextStyle(fontSize: 20),
                     ),
                     Chip(
                       label: Text(
                         "R\$ ${cart.totalAmount.toStringAsFixed(2)}",
-                        style: TextStyle(
+                        style: const TextStyle(
                             color: Colors.black87, fontWeight: FontWeight.bold),
                       ),
                       backgroundColor: Colors.grey[400],
                     ),
                     TextButton(
-                      onPressed: () {
+                      onPressed: cart.itemCount == 0 ? null : () {
                         Provider.of<OrderList>(context, listen: false).addOrder(cart);
                         cart.clear();
                       },
                       style: TextButton.styleFrom(
-                          backgroundColor: Colors.deepOrange),
+                          backgroundColor: cart.itemCount == 0 ? Colors.deepOrange[100] : Colors.deepOrange),
                       child: const Text(
                         "Comprar",
                         style: TextStyle(

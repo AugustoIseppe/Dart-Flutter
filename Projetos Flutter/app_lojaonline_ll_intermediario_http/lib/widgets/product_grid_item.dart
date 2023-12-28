@@ -5,6 +5,8 @@ import '../models/product.dart';
 import '../utils/app_routes.dart';
 
 class ProductGridItem extends StatelessWidget {
+  const ProductGridItem({super.key});
+
   @override
   Widget build(BuildContext context) {
     final product = Provider.of<Product>(context);
@@ -34,7 +36,7 @@ class ProductGridItem extends StatelessWidget {
               );
               cart.addItem(product);
             },
-            icon: Icon(Icons.shopping_cart)),
+            icon: const Icon(Icons.shopping_cart)),
         backgroundColor: Colors.black87,
         title: Text(
           product.title!,

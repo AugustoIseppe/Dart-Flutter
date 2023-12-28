@@ -1,4 +1,3 @@
-
 import 'package:app_lojaonline_ll_intermediario_http/models/cart.dart';
 import 'package:app_lojaonline_ll_intermediario_http/models/product_list.dart';
 import 'package:app_lojaonline_ll_intermediario_http/utils/app_routes.dart';
@@ -14,8 +13,41 @@ enum FilterOptions {
   myCart,
 }
 
-class ProductsOverviewPage extends StatelessWidget {
-  ProductsOverviewPage({super.key});
+class ProductsOverviewPage extends StatefulWidget {
+  const ProductsOverviewPage({super.key});
+
+  @override
+  State<ProductsOverviewPage> createState() => _ProductsOverviewPageState();
+}
+
+bool _isLoading = true;
+
+class _ProductsOverviewPageState extends State<ProductsOverviewPage> {
+  /* O método initState é necessário para poder carregar os itens do firebase */
+
+  Future<void> _refreshProducts(BuildContext context) {
+    return Provider.of<ProductList>(
+      context,
+      listen: false,
+    ).loadProducts();
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<ProductList>(context, listen: false)
+        .loadProducts()
+        .then((value) {
+      setState(() {
+        _isLoading = false;
+      });
+    });
+    // Provider.of<Product>(context, listen: false).toggleFavorite().then((value) {
+    //   setState(() {
+    //     _isFavorite = true;
+    //   });
+    // });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +57,7 @@ class ProductsOverviewPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Minha Loja",
+          "Loja Virtual",
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -42,12 +74,12 @@ class ProductsOverviewPage extends StatelessWidget {
             },
             itemBuilder: (context) => [
               const PopupMenuItem(
-                child: Text("Mostrar todos"),
                 value: FilterOptions.all,
+                child: Text("Mostrar todos"),
               ),
               const PopupMenuItem(
-                child: Text("Meus Favoritos"),
                 value: FilterOptions.favorite,
+                child: Text("Meus Favoritos"),
               ),
             ],
           ),
@@ -58,15 +90,25 @@ class ProductsOverviewPage extends StatelessWidget {
                 onPressed: () {
                   Navigator.of(context).pushNamed(AppRoutes.CART);
                 },
-                icon: Icon(Icons.shopping_cart, color: Colors.white),
+                icon: const Icon(Icons.shopping_cart, color: Colors.white),
               ),
             ),
           ),
         ],
       ),
       /* Widget ProductGrid -> onde é exibido os detalhes dos produtos */
-      body: ProductGrid(),
-      drawer: AppDrawer(),
+      body: _isLoading
+          ? Center(
+              child: CircularProgressIndicator(
+                color: Colors.blue[400],
+                backgroundColor: Colors.blue[600],
+              ),
+            )
+          : RefreshIndicator(
+            onRefresh: () => _refreshProducts(context),
+              child: const ProductGrid(),
+            ),
+      drawer: const AppDrawer(),
     );
   }
 }

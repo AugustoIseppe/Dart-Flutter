@@ -33,6 +33,7 @@ class _BuscardoCepState extends State<BuscardoCep> {
     String gia = retorno["gia"];
     String siafi = retorno["siafi"];
 
+    // ignore: use_build_context_synchronously
     Navigator.push(
         context,
         MaterialPageRoute(

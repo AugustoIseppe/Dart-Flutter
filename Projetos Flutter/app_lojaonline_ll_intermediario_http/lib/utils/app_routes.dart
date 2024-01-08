@@ -2,7 +2,8 @@
 
 /* UTILIZNAOD ROTAS NOMEADAS */
 class AppRoutes {
-  static const HOME = "/home";
+  static const AUTH_PAGE = "/home";
+  static const HOME = "/home-page";
   static const PRODUCT_DETAIL = '/product-detail';
   static const CART = "/cart";
   static const ORDERS = "/orders";

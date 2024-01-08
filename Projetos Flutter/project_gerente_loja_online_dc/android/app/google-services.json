@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434029164576",
+    "project_id": "gerentelojaonlinedc",
+    "storage_bucket": "gerentelojaonlinedc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434029164576:android:4421cf409ee6af29a9e445",
+        "android_client_info": {
+          "package_name": "br.com.gerentelojaonlinedc.project_gerente_loja_online_dc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmAj_GXssB044wXkzO2eJYNJeyHDJUENc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:app_lojaonline_ll_intermediario_http/widgets/auth_form.dart';
 import 'package:flutter/material.dart';
 
 class AuthPage extends StatelessWidget {
@@ -47,7 +48,8 @@ class AuthPage extends StatelessWidget {
                       fontFamily: "Anton",
                     ),
                   ),
-                )
+                ),
+                AuthForm()
               ],
             ),
           )
